@@ -1,0 +1,360 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "display_on_card": false,
+            "text_align": "text-left"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_on_card": false,
+            "show_on_sale_sticker": false,
+            "text_align": "text-left"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "display_on_card": false,
+            "truncate_description": false,
+            "text_align": "text-left"
+          }
+        },
+        "variant-picker": {
+          "type": "variant_picker",
+          "settings": {
+            "display_on_card": false,
+            "option_style": "drop_down",
+            "full_width_buttons": false,
+            "hide_option_labels": true,
+            "enable_color_swatches": false
+          }
+        },
+        "buy-buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "display_on_card": false,
+            "show_price": false,
+            "enable_payment_button": true,
+            "show_pickup_availability": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "display_on_card": false,
+            "uppercase_heading": true,
+            "heading_1": "Ingredients",
+            "content_1": "<p>Dried chili peppers, garlic, onion, sesame oil, soy sauce, sugar, salt, spices.</p>",
+            "page_content_1": "",
+            "heading_2": "Shipping",
+            "content_2": "<p>Dispatches within 24 hours of ordering!</p>",
+            "page_content_2": "",
+            "heading_3": "Wholesale",
+            "content_3": "<p>Looking to stock your shelves or running a restaurant? Get in touch.</p>",
+            "page_content_3": "",
+            "tab_style": "underline",
+            "tab_color": "text"
+          }
+        },
+        "spacer": {
+          "type": "spacer",
+          "settings": {
+            "height": 5
+          }
+        },
+        "dot-rating": {
+          "type": "dot_rating",
+          "settings": {
+            "display_on_card": false,
+            "uppercase_text": true,
+            "dot_color": "text",
+            "title_1": "Sweet",
+            "rating_1": 3,
+            "title_2": "Salty",
+            "rating_2": 3,
+            "title_3": "Sour",
+            "rating_3": 0,
+            "title_4": "Bitter",
+            "rating_4": 4,
+            "title_5": "Umami",
+            "rating_5": 5
+          }
+        },
+        "sticker-main-0": {
+          "type": "sticker",
+          "settings": {
+            "width": 160,
+            "half_width_on_mobile": false,
+            "text": "Extra<br>hot!",
+            "shape": "star_wide",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 11,
+            "vertical_position": 7,
+            "rotate": -34,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
+        "spacer-1": {
+          "type": "spacer",
+          "settings": {
+            "height": 5
+          }
+        },
+        "icon-row": {
+          "type": "icon_row",
+          "settings": {
+            "display_on_card": false,
+            "uppercase_text": true,
+            "icon_alignment": "justify-between",
+            "icon_thickness": 1.5,
+            "background_color": "bg-transparent text-scheme-text",
+            "show_border": true,
+            "icon_size": "h-16 w-16",
+            "icon_1": "low_salt",
+            "text_1": "Low salt",
+            "icon_2": "no_additives",
+            "text_2": "No Bad Stuff",
+            "icon_3": "organic",
+            "text_3": "Organic",
+            "icon_4": "non_gmo",
+            "text_4": "Non-GMO",
+            "icon_5": "antioxidants",
+            "text_5": "Probiotic"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "description",
+        "variant-picker",
+        "buy-buttons",
+        "tabs",
+        "spacer",
+        "dot-rating",
+        "sticker-main-0",
+        "spacer-1",
+        "icon-row"
+      ],
+      "settings": {
+        "crop": "",
+        "image_shape": "default",
+        "desktop_media_width": "lg:col-span-6_lg:col-span-6",
+        "show_slideshow_arrows_on_desktop": false,
+        "enable_image_zoom": false,
+        "enable_video_looping": true,
+        "autoplay_videos_on_desktop": true,
+        "media_mobile_width": "w-full",
+        "thumbnails_position": "under",
+        "thumbnail_crop": "aspect-w-1 aspect-h-1",
+        "thumbnail_shape": "default_ellipse",
+        "thumbnail_size": "large",
+        "show_thumbnails_on_mobile": false,
+        "hide_media_shadow": false,
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
+    },
+    "feature-text": {
+      "type": "feature-text",
+      "blocks": {
+        "shape-divider-feature-text-0": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-1-patterned_1200x20",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        },
+        "shape-divider-feature-text-1": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme3",
+            "style": "waves-1-patterned_1200x20",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape-divider-feature-text-0",
+        "shape-divider-feature-text-1"
+      ],
+      "settings": {
+        "rich_text": "This fiery blend combines the intense heat of ghost peppers with the perfect pinch of salt for a flavor explosion.",
+        "mobile_text_scale": 4,
+        "desktop_text_scale": 10,
+        "display_on_card": false,
+        "apply_effects": false,
+        "content_width_desktop": "lg:w-full",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false
+      }
+    },
+    "featured-testimonials": {
+      "type": "featured-testimonials",
+      "blocks": {
+        "testimonial-0": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "“This hot sauce is the perfect blend of heat and flavor. It's become a kitchen staple, enhancing every dish without overpowering it. Highly recommend to all spice lovers!”",
+            "source": "Auguste Gusteau"
+          }
+        },
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "“Discovering this brand's pantry items has been a game-changer. The variety and quality are unmatched, making it easy to create delicious meals. The hot sauces add just the right kick!”",
+            "source": "Lucy, Pasta Queen"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "rating": "5_stars",
+            "quote": "“This brand has transformed my culinary experience! The pantry essentials and hot sauces are top-notch, adding robust flavors to my dishes. I'm officially hooked!”",
+            "source": "Carmy Berzatto"
+          }
+        }
+      },
+      "block_order": ["testimonial-0", "testimonial-1", "testimonial-2"],
+      "settings": {
+        "display_on_card": false,
+        "title": "",
+        "font": "font-heading",
+        "mobile_text_scale": 2,
+        "desktop_text_scale": 4,
+        "source_font": "font-heading heading-secondary",
+        "max_width": 100,
+        "disable_media_style": false,
+        "crop": "",
+        "image_shape": "default",
+        "color_scheme": "scheme3",
+        "use_gradient_background": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "display_on_card": false,
+        "enable_quick_buy": true,
+        "related_products_heading": "You may also like",
+        "max_products": "3",
+        "product_tiles_aspect_ratio": "",
+        "image_shape": "",
+        "color_scheme": "scheme3",
+        "use_gradient_background": false
+      }
+    },
+    "icon-list": {
+      "type": "icon-list",
+      "blocks": {
+        "icon-0": {
+          "type": "icon",
+          "settings": {
+            "icon": "low_salt",
+            "text": "Low salt"
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon": "no_additives",
+            "text": "No bad stuff"
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon": "organic",
+            "text": "Organic"
+          }
+        },
+        "icon-3": {
+          "type": "icon",
+          "settings": {
+            "icon": "non_gmo",
+            "text": "Non-GMO"
+          }
+        },
+        "icon-4": {
+          "type": "icon",
+          "settings": {
+            "icon": "no_artificial_colors",
+            "text": "No fake stuff"
+          }
+        },
+        "icon-5": {
+          "type": "icon",
+          "settings": {
+            "icon": "low_carb",
+            "text": "Low carb"
+          }
+        },
+        "shape-divider-icon-list-0": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-1-patterned_1200x20",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2",
+        "icon-3",
+        "icon-4",
+        "icon-5",
+        "shape-divider-icon-list-0"
+      ],
+      "settings": {
+        "title": "",
+        "max_width": 100,
+        "text_style": "body",
+        "uppercase_text": true,
+        "layout_on_mobile": "wrap",
+        "icon_alignment_on_desktop": "md:justify-center",
+        "icon_thickness": 2.5,
+        "background_color": "bg-transparent text-scheme-text",
+        "show_border": true,
+        "color_scheme": "scheme3",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "feature-text",
+    "featured-testimonials",
+    "related-products",
+    "icon-list"
+  ]
+}

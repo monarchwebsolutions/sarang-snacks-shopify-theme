@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #a137d8;
+  --primary-light: #e6c6fa;
+  --primary-dark: #7209b7;
+  --accent-color: #2ed3c0;
+  --sarang-white: #ffffff;
+  --sarang-grey: #f2f2f2;
+  --sarang-black: #1e1e1e;
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --comparison-radius: 8px;
+}

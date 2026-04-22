@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+h2{
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+.push-btn__surface{
+  font-size:20px;
+}
+.cta-pop:hover{
+  top: -2px;
+  left: -2px;
+  position: relative;
+  box-shadow: 6px 6px 0, 6px 6px 0;
+}
+
+.cta-click{
+  top:0;
+  left:0;
+  transition: top 0.1s ease, left 0.1s ease;
+}
+.cta-click:hover{
+  top: 2px;
+  left: 2px;
+  position: relative;
+  box-shadow: none;
+  transition: top 0.1s ease, left 0.1s ease, box-shadow 0.1s ease;
+}
+.sarang-icon{
+  padding: 4px;
+  padding-top: 11px;
+}
