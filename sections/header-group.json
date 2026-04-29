@@ -41,7 +41,7 @@
         "font_size_mobile": 14,
         "font_size_desktop": 16,
         "auto_rotate": true,
-        "auto_rotate_interval": 12
+        "auto_rotate_interval": 6
       }
     },
     "header": {
