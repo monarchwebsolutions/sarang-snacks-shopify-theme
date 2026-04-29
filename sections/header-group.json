@@ -17,8 +17,8 @@
         "feature-desktop-link": {
           "type": "feature_desktop_link",
           "settings": {
-            "button_link": "",
-            "button_label": "Shop",
+            "button_link": "shopify://products/test-product",
+            "button_label": "Subscribe & Save",
             "position": "right_of_cart",
             "button_color": "bg-scheme-accent-2 text-scheme-accent-2-contrast",
             "hide_button_shadow": false
@@ -30,7 +30,7 @@
       ],
       "custom_css": [
         "#headerBorderWrap {background: var(--sarang-brand-blue);}",
-        ".h-full {/* display: none; */}"
+        ".push-btn span{font-size: 16px;}"
       ],
       "settings": {
         "logo": "shopify://shop_images/Sarang_White.png",
