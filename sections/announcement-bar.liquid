@@ -19,6 +19,9 @@
       --announcement-bar-font-weight: {{ section.settings.font_weight }};
       --announcement-bar-height-mobile: {{ section.settings.bar_height_mobile }}px;
       --announcement-bar-height-desktop: {{ section.settings.bar_height_desktop }}px;
+      --announcement-bar-arrow-weight: {{ section.settings.arrow_weight }};
+      --announcement-bar-arrow-size-mobile: {{ section.settings.arrow_size_mobile }}px;
+      --announcement-bar-arrow-size-desktop: {{ section.settings.arrow_size_desktop }}px;
     "
   >
     {%- if show_arrows -%}
@@ -34,8 +37,8 @@
             >
               <span class="sr-only">Previous announcement</span>
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M20 12H6" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M11 5L4 12L11 19" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20 12H6" stroke="currentColor" stroke-width="{{ section.settings.arrow_weight }}" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11 5L4 12L11 19" stroke="currentColor" stroke-width="{{ section.settings.arrow_weight }}" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </button>
           </div>
@@ -62,8 +65,8 @@
             >
               <span class="sr-only">Next announcement</span>
               <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                <path d="M4 12H18" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M13 5L20 12L13 19" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 12H18" stroke="currentColor" stroke-width="{{ section.settings.arrow_weight }}" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13 5L20 12L13 19" stroke="currentColor" stroke-width="{{ section.settings.arrow_weight }}" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
             </button>
           </div>
@@ -177,8 +180,8 @@
     }
 
     #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__arrow svg {
-      width: 16px;
-      height: 16px;
+      width: var(--announcement-bar-arrow-size-mobile);
+      height: var(--announcement-bar-arrow-size-mobile);
     }
 
     @media (min-width: 990px) {
@@ -190,6 +193,11 @@
 
       #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__content {
         font-size: var(--announcement-bar-font-size-desktop);
+      }
+
+      #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__arrow svg {
+        width: var(--announcement-bar-arrow-size-desktop);
+        height: var(--announcement-bar-arrow-size-desktop);
       }
     }
   </style>
@@ -230,6 +238,35 @@
       "id": "foreground_color",
       "label": "Text and arrow color",
       "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "arrow_weight",
+      "min": 2,
+      "max": 8,
+      "step": 1,
+      "label": "Arrow weight",
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "arrow_size_mobile",
+      "min": 10,
+      "max": 30,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile arrow size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "arrow_size_desktop",
+      "min": 10,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Desktop arrow size",
+      "default": 16
     },
     {
       "type": "select",
