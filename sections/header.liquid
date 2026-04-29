@@ -747,9 +747,18 @@
               <div class="z-10 flex items-center">{{ menu_icon }}</div>
             {% endif %}
             {% if layout contains 'logo_left' %}
-              <div class="w-auto">
-                {{ logo }}
-              </div>
+              {% if layout == 'logo_left_navigation_center' %}
+                <div class="w-auto lg:hidden">
+                  {{ logo }}
+                </div>
+                <div class="hidden lg:block">
+                  {{ navigation }}
+                </div>
+              {% else %}
+                <div class="w-auto">
+                  {{ logo }}
+                </div>
+              {% endif %}
             {% endif %}
             {% if layout contains 'navigation_left' %}
               <div class="hidden lg:block">
@@ -761,7 +770,7 @@
           {% comment %} Center {% endcomment %}
           <div class="{{ header_center_group_classes }} text-center">
             {% if layout == 'logo_left_navigation_center' %}
-              {{ navigation }}
+              {{ logo }}
             {% else %}
               {{ logo }}
             {% endif %}
@@ -830,10 +839,6 @@
               </div>
             {% endunless %}
 
-            <div class="flex h-full items-center justify-end">
-              {{ cart_button }}
-            </div>
-
             {% if has_feature_desktop_button
               and feature_desktop_link_position == 'right_of_cart'
             %}
@@ -843,6 +848,10 @@
                 </div>
               </div>
             {% endif %}
+
+            <div class="flex h-full items-center justify-end">
+              {{ cart_button }}
+            </div>
           </div>
         </div>
       </div>
