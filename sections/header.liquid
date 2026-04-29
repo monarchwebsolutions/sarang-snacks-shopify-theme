@@ -881,6 +881,12 @@
       margin: auto;
       max-width: {{ section.settings.logo_max_width }}px;
     }
+
+    @media (min-width: 990px) {
+      #shopify-section-{{ section.id }} [data-utility-links] {
+        column-gap: 0 !important;
+      }
+    }
   </style>
 {% endif %}
 {%- if enable_overlay -%}
