@@ -13,7 +13,7 @@
       "type": "image-with-text",
       "custom_css": [
         "h2 {font-family: \"Nicko\";}",
-        "p {font-family: 'Manrope';}"
+        "p {font-family: \"Manrope\";}"
       ],
       "name": "t:sections.image_with_text.name",
       "settings": {
