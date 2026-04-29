@@ -778,9 +778,11 @@
               </div>
             {% endif %}
 
-            <div class="hidden h-full lg:block">
-              {{ accounts }}
-            </div>
+            {% comment %}
+              <div class="hidden h-full lg:block">
+                {{ accounts }}
+              </div>
+            {% endcomment %}
 
             {% unless section.settings.header_show_search == false %}
               <a
@@ -834,9 +836,11 @@
               </div>
             {% endunless %}
 
-            <div class="flex h-full items-center justify-end">
-              {{ cart_button }}
-            </div>
+            {% comment %}
+              <div class="flex h-full items-center justify-end">
+                {{ cart_button }}
+              </div>
+            {% endcomment %}
 
             {% if has_feature_desktop_button
               and feature_desktop_link_position == 'right_of_cart'
