@@ -778,7 +778,7 @@
 
           {% comment %} Right {% endcomment %}
           <div
-            class="{{ header_right_group_classes }} flex flex-wrap items-center justify-end lg:flex-nowrap{% if show_icons %} gap-x-3{% endif %}"
+            class="{{ header_right_group_classes }} flex flex-wrap items-center justify-end lg:flex-nowrap{% if show_icons %} gap-x-3 lg:gap-x-0{% endif %}"
             data-utility-links
           >
             {% if layout contains 'logo_left' %}
@@ -842,14 +842,14 @@
             {% if has_feature_desktop_button
               and feature_desktop_link_position == 'right_of_cart'
             %}
-              <div class="relative z-10 hidden items-center {% if show_icons %}py-2.5{% else %}py-2{% endif %} lg:ml-[24px] lg:flex">
+              <div class="relative z-10 hidden items-center {% if show_icons %}py-2.5{% else %}py-2{% endif %} lg:flex">
                 <div class="{% unless hide_button_shadow %}{% if settings.button_shadow_direction contains 'top' %}pt-button-shadow{% else %}pb-button-shadow{% endif %}{% endunless %}">
                   {{ feature_desktop_link }}
                 </div>
               </div>
             {% endif %}
 
-            <div class="flex h-full items-center justify-end">
+            <div class="flex h-full items-center justify-end lg:ml-[24px]">
               {{ cart_button }}
             </div>
           </div>
