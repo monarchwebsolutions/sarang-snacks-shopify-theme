@@ -778,7 +778,7 @@
 
           {% comment %} Right {% endcomment %}
           <div
-            class="{{ header_right_group_classes }} flex flex-wrap items-center justify-end lg:flex-nowrap{% if show_icons %} gap-x-3 lg:gap-x-0{% endif %}"
+            class="header-utility-links--cta-cart-gap {{ header_right_group_classes }} flex flex-wrap items-center justify-end lg:flex-nowrap{% if show_icons %} gap-x-3{% endif %}"
             data-utility-links
           >
             {% if layout contains 'logo_left' %}
@@ -849,7 +849,7 @@
               </div>
             {% endif %}
 
-            <div class="flex h-full items-center justify-end lg:ml-[24px]">
+            <div class="flex h-full items-center justify-end">
               {{ cart_button }}
             </div>
           </div>
@@ -883,8 +883,8 @@
     }
 
     @media (min-width: 990px) {
-      #shopify-section-{{ section.id }} [data-utility-links] {
-        column-gap: 0 !important;
+      #shopify-section-{{ section.id }} .header-utility-links--cta-cart-gap {
+        column-gap: 24px !important;
       }
     }
   </style>
