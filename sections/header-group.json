@@ -34,7 +34,7 @@
       ],
       "settings": {
         "logo": "shopify://shop_images/Sarang_White.png",
-        "logo_max_width": 160,
+        "logo_max_width": 180,
         "main_linklist": "customer-account-main-menu",
         "nested_nav_style": "mega_menu",
         "showcase_top_level_collections": true,
