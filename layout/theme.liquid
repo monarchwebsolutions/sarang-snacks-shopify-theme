@@ -69,7 +69,7 @@
     {{ content_for_header }}
 
     {{ 'base.bundle.css' | asset_url | stylesheet_tag: preload: true }}
-    {{ 'custom-fonts.css.liquid' | asset_url | stylesheet_tag }}
+    {{ 'custom-fonts.css' | asset_url | stylesheet_tag }}
     {{ 'global-variables.css' | asset_url | stylesheet_tag }}
     {{ 'global-custom.css' | asset_url | stylesheet_tag }}
 
