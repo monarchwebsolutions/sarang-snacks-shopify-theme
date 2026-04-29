@@ -30,7 +30,8 @@
       ],
       "custom_css": [
         "#headerBorderWrap {background: var(--sarang-brand-blue);}",
-        ".push-btn span {font-size: 16px;}"
+        ".push-btn span {font-size: 16px;}",
+        ".logo-image{top:2px; position: relative;}"
       ],
       "settings": {
         "logo": "shopify://shop_images/Sarang_White.png",
