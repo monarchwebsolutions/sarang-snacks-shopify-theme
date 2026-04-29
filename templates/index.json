@@ -12,7 +12,7 @@
     "image_with_text_99arxM": {
       "type": "image-with-text",
       "custom_css": [
-        "h2 {font-family: 'Nicko';}"
+        "h2 {font-family: \"Nicko\";}"
       ],
       "name": "t:sections.image_with_text.name",
       "settings": {
@@ -26,7 +26,7 @@
         "disable_media_style": false,
         "title": "Image with text",
         "heading_size": "heading-feature",
-        "richtext": "",
+        "richtext": "<p>Subheading</p>",
         "text_alignment": "text-left",
         "button_link": "",
         "button_label": "Shop Now",
