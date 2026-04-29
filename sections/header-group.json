@@ -22,6 +22,7 @@
         },
         "slide_GYGNer": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "content": "<p>Free Shipping On All Orders!</p>"
           }
