@@ -836,11 +836,9 @@
               </div>
             {% endunless %}
 
-            {% comment %}
-              <div class="flex h-full items-center justify-end">
-                {{ cart_button }}
-              </div>
-            {% endcomment %}
+            <div class="flex h-full items-center justify-end">
+              {{ cart_button }}
+            </div>
 
             {% if has_feature_desktop_button
               and feature_desktop_link_position == 'right_of_cart'
