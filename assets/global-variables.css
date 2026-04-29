@@ -1,4 +1,11 @@
 :root {
+  /* Sarang Snacks brand palette */
+  --sarang-brand-red: #ff312f;
+  --sarang-brand-blue: #7ddcf8;
+  --sarang-brand-pink: #ffcafa;
+  --sarang-brand-cream: #fbf9f6;
+  --sarang-brand-charcoal: #353b44;
+
   --primary-color: #a137d8;
   --primary-light: #e6c6fa;
   --primary-dark: #7209b7;
