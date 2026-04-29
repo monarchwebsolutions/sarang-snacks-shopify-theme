@@ -35,6 +35,9 @@
       "settings": {
         "background_color": "#ff312f",
         "foreground_color": "#fbf9f6",
+        "arrow_weight": 3,
+        "arrow_size_mobile": 16,
+        "arrow_size_desktop": 20,
         "font_weight": "600",
         "bar_height_mobile": 32,
         "bar_height_desktop": 32,
