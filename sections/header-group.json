@@ -30,12 +30,12 @@
       ],
       "custom_css": [
         "#headerBorderWrap {background: var(--sarang-brand-blue);}",
-        ".h-full{display:none;}"
+        ".h-full {/* display: none; */}"
       ],
       "settings": {
         "logo": "shopify://shop_images/Sarang_White.png",
         "logo_max_width": 160,
-        "main_linklist": "",
+        "main_linklist": "customer-account-main-menu",
         "nested_nav_style": "mega_menu",
         "showcase_top_level_collections": true,
         "show_all_navigation_links": false,
