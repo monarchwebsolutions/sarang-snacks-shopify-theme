@@ -17,6 +17,8 @@
       --announcement-bar-font-size-mobile: {{ section.settings.font_size_mobile }}px;
       --announcement-bar-font-size-desktop: {{ section.settings.font_size_desktop }}px;
       --announcement-bar-font-weight: {{ section.settings.font_weight }};
+      --announcement-bar-height-mobile: {{ section.settings.bar_height_mobile }}px;
+      --announcement-bar-height-desktop: {{ section.settings.bar_height_desktop }}px;
     "
   >
     {%- if show_arrows -%}
@@ -25,16 +27,18 @@
         class="splide [&:not(.is-initialized)]:visible announcement-bar__slider"
       >
         <div class="announcement-bar__inner">
-          <button
-            class="splide__arrow splide__arrow--prev announcement-bar__arrow"
-            type="button"
-          >
-            <span class="sr-only">Previous announcement</span>
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M2 24H46.972" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M25.972 46L2.686 25.502C2.47319 25.3143 2.30275 25.0835 2.186 24.8249C2.06925 24.5663 2.00888 24.2858 2.00888 24.002C2.00888 23.7182 2.06925 23.4377 2.186 23.1791C2.30275 22.9205 2.47319 22.6897 2.686 22.502L25.972 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
+          <div class="splide__arrows announcement-bar__arrows">
+            <button
+              class="splide__arrow splide__arrow--prev announcement-bar__arrow"
+              type="button"
+            >
+              <span class="sr-only">Previous announcement</span>
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M2 24H46.972" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M25.972 46L2.686 25.502C2.47319 25.3143 2.30275 25.0835 2.186 24.8249C2.06925 24.5663 2.00888 24.2858 2.00888 24.002C2.00888 23.7182 2.06925 23.4377 2.186 23.1791C2.30275 22.9205 2.47319 22.6897 2.686 22.502L25.972 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
 
           <div class="splide__track announcement-bar__track">
             <ul class="splide__list">
@@ -51,16 +55,18 @@
             </ul>
           </div>
 
-          <button
-            class="splide__arrow splide__arrow--next announcement-bar__arrow"
-            type="button"
-          >
-            <span class="sr-only">Next announcement</span>
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M46.972 24H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M23 46L46.286 25.502C46.4988 25.3143 46.6693 25.0835 46.786 24.8249C46.9027 24.5663 46.9631 24.2858 46.9631 24.002C46.9631 23.7182 46.9027 23.4377 46.786 23.1791C46.6693 22.9205 46.4988 22.6897 46.286 22.502L23 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </button>
+          <div class="splide__arrows announcement-bar__arrows">
+            <button
+              class="splide__arrow splide__arrow--next announcement-bar__arrow"
+              type="button"
+            >
+              <span class="sr-only">Next announcement</span>
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M46.972 24H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M23 46L46.286 25.502C46.4988 25.3143 46.6693 25.0835 46.786 24.8249C46.9027 24.5663 46.9631 24.2858 46.9631 24.002C46.9631 23.7182 46.9027 23.4377 46.786 23.1791C46.6693 22.9205 46.4988 22.6897 46.286 22.502L23 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
         </div>
 
         <script class="slideshow-options" type="application/json">
@@ -69,13 +75,19 @@
             "type": "slide",
             "perPage": 1,
             "perMove": 1,
+            "autoWidth": false,
             "pagination": false,
             "arrows": true,
             "rewind": true,
             "drag": true,
             "speed": 500,
             "gap": "0px",
-            "autoHeight": true
+            "autoHeight": true,
+            "autoplay": {{ section.settings.auto_rotate | json }},
+            "interval": {{ section.settings.auto_rotate_interval | times: 1000 }},
+            "pauseOnHover": true,
+            "pauseOnFocus": true,
+            "resetProgress": false
           }
         </script>
       </div>
@@ -99,7 +111,7 @@
       display: flex;
       align-items: center;
       gap: 12px;
-      min-height: 44px;
+      min-height: var(--announcement-bar-height-mobile);
       padding: 8px 16px;
     }
 
@@ -110,6 +122,12 @@
     #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__track {
       flex: 1 1 auto;
       min-width: 0;
+    }
+
+    #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__arrows {
+      display: flex;
+      align-items: center;
+      flex: 0 0 auto;
     }
 
     #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__slide {
@@ -166,7 +184,7 @@
     @media (min-width: 990px) {
       #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__inner {
         gap: 16px;
-        min-height: 48px;
+        min-height: var(--announcement-bar-height-desktop);
         padding: 8px 24px;
       }
 
@@ -228,6 +246,26 @@
     },
     {
       "type": "range",
+      "id": "bar_height_mobile",
+      "min": 32,
+      "max": 80,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile bar height",
+      "default": 44
+    },
+    {
+      "type": "range",
+      "id": "bar_height_desktop",
+      "min": 32,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Desktop bar height",
+      "default": 48
+    },
+    {
+      "type": "range",
       "id": "font_size_mobile",
       "min": 10,
       "max": 24,
@@ -245,6 +283,22 @@
       "unit": "px",
       "label": "Desktop font size",
       "default": 16
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_rotate",
+      "label": "Auto slide announcements",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "auto_rotate_interval",
+      "min": 2,
+      "max": 12,
+      "step": 1,
+      "unit": "s",
+      "label": "Seconds between auto slides",
+      "default": 4
     }
   ],
   "blocks": [
