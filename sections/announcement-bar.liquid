@@ -22,7 +22,7 @@
     {%- if show_arrows -%}
       <div
         id="announcement-bar-slider-{{ section.id }}"
-        class="splide announcement-bar__slider"
+        class="splide [&:not(.is-initialized)]:visible announcement-bar__slider"
       >
         <div class="announcement-bar__inner">
           <button
@@ -175,6 +175,25 @@
       }
     }
   </style>
+
+  {%- if show_arrows -%}
+    <script>
+      window.switchOnDOMContentLoaded(() => {
+        const announcementBarSlider = document.getElementById('announcement-bar-slider-{{ section.id }}');
+        if (announcementBarSlider) {
+          window.makeSlideshow(announcementBarSlider);
+        }
+      });
+
+      if (Shopify.designMode) {
+        document.addEventListener('shopify:section:load', (event) => {
+          if (event.target.querySelector('#announcement-bar-slider-{{ section.id }}')) {
+            window.discoverNewSlideshows(event.target);
+          }
+        });
+      }
+    </script>
+  {%- endif -%}
 {%- endif -%}
 
 {% schema %}
