@@ -36,8 +36,12 @@
         "background_color": "#ff312f",
         "foreground_color": "#fbf9f6",
         "font_weight": "600",
+        "bar_height_mobile": 32,
+        "bar_height_desktop": 32,
         "font_size_mobile": 14,
-        "font_size_desktop": 16
+        "font_size_desktop": 16,
+        "auto_rotate": true,
+        "auto_rotate_interval": 12
       }
     },
     "header": {
