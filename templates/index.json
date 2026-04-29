@@ -12,7 +12,8 @@
     "image_with_text_99arxM": {
       "type": "image-with-text",
       "custom_css": [
-        "h2 {font-family: \"Nicko\";}"
+        "h2 {font-family: \"Nicko\";}",
+        "{font-family: 'Manrope';}"
       ],
       "name": "t:sections.image_with_text.name",
       "settings": {
