@@ -30,6 +30,7 @@
   endif
 
   assign predictive_search_enabled = settings.predictive_search_enabled
+  assign cart_icon_scale = section.settings.cart_icon_stroke_width | minus: 2 | times: 0.08 | plus: 1
 
   assign nested_nav_style = section.settings.nested_nav_style
   if nested_nav_style == 'mega_menu'
@@ -562,7 +563,10 @@
 {%- capture cart_icon %}
   {%- if show_icons -%}
     <div class="pointer-events-none relative my-auto align-middle">
-      <span class="inline-block h-7 w-7 fill-current align-top">
+      <span
+        class="inline-block h-7 w-7 fill-current align-top"
+        style="transform: scale({{ cart_icon_scale }}); transform-origin: center;"
+      >
         {%- if settings.cart_icon == 'cart' -%}
           {%- render 'icon-cart', stroke_width: section.settings.cart_icon_stroke_width -%}
         {%- else -%}
