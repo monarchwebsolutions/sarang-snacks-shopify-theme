@@ -29,7 +29,8 @@
         "feature-desktop-link"
       ],
       "custom_css": [
-        "#headerBorderWrap{background:var(--sarang-brand-blue)}"
+        "#headerBorderWrap {background: var(--sarang-brand-blue);}",
+        ".h-full{display:none;}"
       ],
       "settings": {
         "logo": "shopify://shop_images/Sarang_White.png",
@@ -47,7 +48,7 @@
         "enable_overlay_on_homepage": true,
         "enable_overlay_on_collection_pages": true,
         "enable_overlay_on_product_pages": true,
-        "overlay_color_scheme": "scheme-2e9ad064-4664-4798-a820-22744228d263",
+        "overlay_color_scheme": "scheme2",
         "transparent_when_overlaid_and_stuck": true,
         "overlay_show_separator_border": false,
         "overlay_first_section_padding_top_desktop": 3,
