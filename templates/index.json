@@ -324,6 +324,7 @@
             "option_style": "drop_down",
             "full_width_buttons": false,
             "hide_option_labels": true,
+            "dropdown_background_color": "#fbf9f6",
             "enable_color_swatches": false
           }
         },
@@ -343,6 +344,9 @@
         "price_y69UL6",
         "variant_picker_jwLVN4",
         "buy_buttons_ePVkiU"
+      ],
+      "custom_css": [
+        ".add-to-cart-btn .push-btn__surface {background: var(--sarang-brand-red);}"
       ],
       "name": "t:sections.featured_product.name",
       "settings": {
