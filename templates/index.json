@@ -350,7 +350,7 @@
       ],
       "name": "t:sections.featured_product.name",
       "settings": {
-        "title": "",
+        "title": "Pre-Order Now",
         "product": "sarang-chips",
         "crop": "aspect-w-1 aspect-h-1",
         "image_shape": "default",
