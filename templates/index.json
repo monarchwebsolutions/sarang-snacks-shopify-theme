@@ -69,7 +69,7 @@
           "type": "shape_divider",
           "settings": {
             "target_section": "below",
-            "target_section_color_scheme": "scheme4",
+            "target_section_color_scheme": "scheme2",
             "style": "waves-3-patterned_1200x84",
             "flip_horizontal": false,
             "enable_animation": true,
@@ -113,30 +113,20 @@
         "use_gradient_background": false
       }
     },
-    "image_with_text_99arxM": {
-      "type": "image-with-text",
+    "homepage_hero_b66YBF": {
+      "type": "homepage-hero",
       "blocks": {
-        "shape_divider_BjEwKn": {
-          "type": "shape_divider",
-          "disabled": true,
+        "extra_text_QTPgNg": {
+          "type": "extra_text",
           "settings": {
-            "target_section": "above",
-            "target_section_color_scheme": "scheme-2e9ad064-4664-4798-a820-22744228d263",
-            "style": "waves-3-patterned_1200x84",
-            "flip_horizontal": false,
-            "enable_animation": true,
-            "animation_direction": ""
+            "content": "<p>Sarang is a Korean inspired corn chip made with bold, savory flavor and real ingredients you can recognize. We use spices like gochugaru to bring actual heat, not artificial powders or fake flavoring.</p><p>“Sarang” means love in Korean. For us, that means making snacks with care, choosing better ingredients, and giving back in ways that matter.</p><p>The result is a chip that is crunchy, satisfying, and full of real flavor from the first bite to the last.</p>"
           }
         }
       },
       "block_order": [
-        "shape_divider_BjEwKn"
+        "extra_text_QTPgNg"
       ],
-      "custom_css": [
-        "h2 {font-family: \"Nicko\";}",
-        "p {font-family: \"Manrope\";}"
-      ],
-      "name": "t:sections.image_with_text.name",
+      "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
         "crop": "",
@@ -146,52 +136,22 @@
         "image_position": "right",
         "image_size": "half",
         "disable_media_style": false,
-        "title": "Image with text",
-        "heading_size": "heading-feature",
-        "richtext": "<p>Subheading</p>",
+        "title": "What Is Sarang?",
+        "heading_size_mobile": 44,
+        "heading_size_desktop": 72,
+        "richtext": "Real Korean ingredients. No artificial flavors. Just seriously good chips.",
+        "subheading_size_mobile": 16,
+        "subheading_size_desktop": 24,
         "text_alignment": "text-left",
-        "button_link": "shopify://products/test-product",
-        "button_label": "Shop Now",
-        "color_scheme": "",
-        "use_gradient_background": false
-      }
-    },
-    "rich_text_mLgEx9": {
-      "type": "rich-text",
-      "blocks": {
-        "shape_divider_R7cezN": {
-          "type": "shape_divider",
-          "disabled": true,
-          "settings": {
-            "target_section": "above",
-            "target_section_color_scheme": "scheme-2e9ad064-4664-4798-a820-22744228d263",
-            "style": "zig-zag-2-patterned_1200x37",
-            "flip_horizontal": false,
-            "enable_animation": false,
-            "animation_direction": ""
-          }
-        }
-      },
-      "block_order": [
-        "shape_divider_R7cezN"
-      ],
-      "name": "t:sections.rich_text.name",
-      "settings": {
-        "title": "Heading",
-        "heading_size": "heading-standard",
-        "rich_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-        "display_on_card": false,
-        "content_width_desktop": "lg:w-2/3",
         "button_link": "",
         "button_label": "Shop Now",
-        "color_scheme": "",
+        "color_scheme": "scheme2",
         "use_gradient_background": false
       }
     }
   },
   "order": [
     "homepage_hero_LRzPqD",
-    "image_with_text_99arxM",
-    "rich_text_mLgEx9"
+    "homepage_hero_b66YBF"
   ]
 }

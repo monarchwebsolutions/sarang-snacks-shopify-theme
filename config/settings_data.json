@@ -145,9 +145,9 @@
       },
       "scheme2": {
         "settings": {
-          "text": "#fbf9f6",
+          "text": "#353b44",
           "text_contrast": "#ffffff",
-          "background": "#fbf9f6",
+          "background": "#7ddcf8",
           "gradient": "",
           "accent_1": "#ff312f",
           "accent_1_contrast": "#ffffff",
