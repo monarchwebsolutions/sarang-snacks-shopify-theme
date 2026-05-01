@@ -85,10 +85,7 @@
         "sticker_B7k6cj",
         "shape_divider_GiXbTw"
       ],
-      "custom_css": [
-        "h2 {font-family: \"Nicko\";}",
-        "p {font-family: \"Manrope\";}"
-      ],
+      "custom_css": [],
       "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
