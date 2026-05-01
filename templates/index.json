@@ -47,8 +47,9 @@
       "name": "Homepage hero",
       "settings": {
         "display_on_card": false,
+        "image": "shopify://shop_images/AdobeStock_459989806_Preview.jpg",
         "crop": "",
-        "image_shape": "default",
+        "image_shape": "squircle",
         "blob_type": 1,
         "rotate_image": 0,
         "image_position": "right",
@@ -63,7 +64,7 @@
         "text_alignment": "text-left",
         "button_link": "shopify://products/test-product",
         "button_label": "Shop Now",
-        "color_scheme": "",
+        "color_scheme": "scheme1",
         "use_gradient_background": false
       }
     },

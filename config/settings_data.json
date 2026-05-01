@@ -131,9 +131,9 @@
     "color_schemes": {
       "scheme1": {
         "settings": {
-          "text": "#1e1e1e",
+          "text": "#353b44",
           "text_contrast": "#ffffff",
-          "background": "#ffffff",
+          "background": "#fbf9f6",
           "gradient": "",
           "accent_1": "#ffcafa",
           "accent_1_contrast": "#1e1e1e",
