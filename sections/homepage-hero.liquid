@@ -124,14 +124,6 @@
                   {{ section.settings.richtext | newline_to_br }}
                 </div>
 
-                {%- if section.settings.button_link != blank and section.settings.button_label != blank -%}
-                  <div class="mt-5">
-                    <a href="{{ section.settings.button_link }}" class="push-btn inline-block">
-                      <span class="push-btn__surface">{{ section.settings.button_label }}</span>
-                    </a>
-                  </div>
-                {%- endif -%}
-
                 {%- assign has_extra_content = false -%}
                 {%- for block in section.blocks -%}
                   {%- if block.type == 'extra_text' or block.type == 'extra_image' -%}
@@ -174,6 +166,14 @@
                           {%- endif -%}
                       {%- endcase -%}
                     {%- endfor -%}
+                  </div>
+                {%- endif -%}
+
+                {%- if section.settings.button_link != blank and section.settings.button_label != blank -%}
+                  <div class="mt-5">
+                    <a href="{{ section.settings.button_link }}" class="push-btn inline-block">
+                      <span class="push-btn__surface">{{ section.settings.button_label }}</span>
+                    </a>
                   </div>
                 {%- endif -%}
               </div>
