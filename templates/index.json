@@ -110,6 +110,7 @@
         "button_link": "shopify://products/test-product",
         "button_label": "Try It For Yourself",
         "color_scheme": "scheme1",
+        "text_color_override": "rgba(0,0,0,0)",
         "use_gradient_background": false
       }
     },
@@ -150,7 +151,8 @@
         "button_link": "",
         "button_label": "Shop Now",
         "color_scheme": "scheme2",
-        "use_gradient_background": false
+        "text_color_override": "#353b44",
+        "use_gradient_background": true
       }
     }
   },
