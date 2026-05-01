@@ -120,9 +120,9 @@
         "extra_text_QTPgNg": {
           "type": "extra_text",
           "settings": {
-            "content": "<p>Sarang is a Korean inspired corn chip made with bold, savory flavor and real ingredients you can recognize. We use spices like gochugaru to bring actual heat, not artificial powders or fake flavoring.</p><p>“Sarang” means love in Korean. For us, that means making snacks with care, choosing better ingredients, and giving back in ways that matter.</p><p>The result is a chip that is crunchy, satisfying, and full of real flavor from the first bite to the last.</p>",
+            "content": "<p>Sarang is a Korean inspired corn chip made with bold, savory flavor and real ingredients you can recognize. We use spices like gochugaru to bring actual heat, not artificial powders or fake flavoring.</p><p></p><p>“Sarang” means love in Korean. For us, that means making snacks with care, choosing better ingredients, and giving back in ways that matter.</p><p></p><p>The result is a chip that is crunchy, satisfying, and full of real flavor from the first bite to the last.</p>",
             "font_size_mobile": 16,
-            "font_size_desktop": 18,
+            "font_size_desktop": 16,
             "font_weight": "400"
           }
         }
@@ -146,7 +146,7 @@
         "heading_size_desktop": 64,
         "richtext": "Real Korean ingredients. No artificial flavors. Just seriously good chips.",
         "subheading_size_mobile": 16,
-        "subheading_size_desktop": 24,
+        "subheading_size_desktop": 22,
         "text_alignment": "text-left",
         "button_link": "",
         "button_label": "Shop Now",
