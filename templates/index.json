@@ -18,7 +18,7 @@
             "type": "chevrons_1",
             "color": "accent-1",
             "size": 80,
-            "opacity": 15,
+            "opacity": 10,
             "enable_parallax": false,
             "parallax_speed": 3
           }
@@ -64,6 +64,17 @@
             "color_scheme": "scheme3",
             "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
           }
+        },
+        "shape_divider_GiXbTw": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme4",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
         }
       },
       "block_order": [
@@ -71,7 +82,8 @@
         "extra_image_MfXE9W",
         "extra_image_XJCCqt",
         "extra_text_K9QA4i",
-        "sticker_B7k6cj"
+        "sticker_B7k6cj",
+        "shape_divider_GiXbTw"
       ],
       "custom_css": [
         "h2 {font-family: \"Nicko\";}",
@@ -106,12 +118,13 @@
       "blocks": {
         "shape_divider_BjEwKn": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "above",
-            "target_section_color_scheme": "scheme1",
-            "style": "waves-1-patterned_1200x20",
+            "target_section_color_scheme": "scheme-2e9ad064-4664-4798-a820-22744228d263",
+            "style": "waves-3-patterned_1200x84",
             "flip_horizontal": false,
-            "enable_animation": false,
+            "enable_animation": true,
             "animation_direction": ""
           }
         }
@@ -145,6 +158,23 @@
     },
     "rich_text_mLgEx9": {
       "type": "rich-text",
+      "blocks": {
+        "shape_divider_R7cezN": {
+          "type": "shape_divider",
+          "disabled": true,
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme-2e9ad064-4664-4798-a820-22744228d263",
+            "style": "zig-zag-2-patterned_1200x37",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_R7cezN"
+      ],
       "name": "t:sections.rich_text.name",
       "settings": {
         "title": "Heading",
