@@ -29,7 +29,7 @@
         "heading_size": "heading-feature",
         "richtext": "<p>Subheading</p>",
         "text_alignment": "text-left",
-        "button_link": "",
+        "button_link": "shopify://products/test-product",
         "button_label": "Shop Now",
         "color_scheme": "",
         "use_gradient_background": false
