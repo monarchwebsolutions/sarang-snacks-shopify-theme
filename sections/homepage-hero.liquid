@@ -144,7 +144,15 @@
                     {%- for block in section.blocks -%}
                       {%- case block.type -%}
                         {%- when 'extra_text' -%}
-                          <div class="homepage-hero__extra-text rte" {{ block.shopify_attributes }}>
+                          <div
+                            class="homepage-hero__extra-text rte"
+                            style="
+                              --homepage-hero-extra-text-size-mobile: {{ block.settings.font_size_mobile }}px;
+                              --homepage-hero-extra-text-size-desktop: {{ block.settings.font_size_desktop }}px;
+                              --homepage-hero-extra-text-weight: {{ block.settings.font_weight }};
+                            "
+                            {{ block.shopify_attributes }}
+                          >
                             {{ block.settings.content }}
                           </div>
                         {%- when 'extra_image' -%}
@@ -204,8 +212,7 @@
     line-height: 1;
   }
 
-  #shopify-section-{{ section.id }} .homepage-hero__subheading,
-  #shopify-section-{{ section.id }} .homepage-hero__extra-text {
+  #shopify-section-{{ section.id }} .homepage-hero__subheading {
     font-size: var(--homepage-hero-subheading-size-mobile);
     line-height: 1.4;
   }
@@ -219,6 +226,12 @@
   #shopify-section-{{ section.id }} .homepage-hero__extra-text p:first-child,
   #shopify-section-{{ section.id }} .homepage-hero__extra-text p:last-child {
     margin-block: 0;
+  }
+
+  #shopify-section-{{ section.id }} .homepage-hero__extra-text {
+    font-size: var(--homepage-hero-extra-text-size-mobile);
+    font-weight: var(--homepage-hero-extra-text-weight);
+    line-height: 1.4;
   }
 
   #shopify-section-{{ section.id }} .homepage-hero__extra-image-tag {
@@ -240,9 +253,12 @@
       font-size: var(--homepage-hero-heading-size-desktop);
     }
 
-    #shopify-section-{{ section.id }} .homepage-hero__subheading,
-    #shopify-section-{{ section.id }} .homepage-hero__extra-text {
+    #shopify-section-{{ section.id }} .homepage-hero__subheading {
       font-size: var(--homepage-hero-subheading-size-desktop);
+    }
+
+    #shopify-section-{{ section.id }} .homepage-hero__extra-text {
+      font-size: var(--homepage-hero-extra-text-size-desktop);
     }
 
     #shopify-section-{{ section.id }} .homepage-hero__extra-image-tag {
@@ -849,6 +865,39 @@
           "id": "content",
           "label": "Content",
           "default": "<p>Add extra text below the CTA.</p>"
+        },
+        {
+          "type": "range",
+          "id": "font_size_mobile",
+          "min": 10,
+          "max": 48,
+          "step": 1,
+          "unit": "px",
+          "label": "Mobile font size",
+          "default": 16
+        },
+        {
+          "type": "range",
+          "id": "font_size_desktop",
+          "min": 12,
+          "max": 64,
+          "step": 1,
+          "unit": "px",
+          "label": "Desktop font size",
+          "default": 20
+        },
+        {
+          "type": "select",
+          "id": "font_weight",
+          "label": "Font weight",
+          "default": "400",
+          "options": [
+            { "value": "400", "label": "Regular 400" },
+            { "value": "500", "label": "Medium 500" },
+            { "value": "600", "label": "Semibold 600" },
+            { "value": "700", "label": "Bold 700" },
+            { "value": "800", "label": "Extra bold 800" }
+          ]
         }
       ]
     },
