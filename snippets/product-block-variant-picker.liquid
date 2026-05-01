@@ -39,6 +39,9 @@
               class="single-option-selector font-body input mt-2.5 w-full appearance-none text-base lg:mt-0 "
               data-single-option-selector
               data-position="{{ option.position }}"
+              {% if block.settings.dropdown_background_color != blank %}
+                style="background-color: {{ block.settings.dropdown_background_color }};"
+              {% endif %}
             >
               {% for value in option.values %}
                 <option
