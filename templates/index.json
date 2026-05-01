@@ -286,11 +286,76 @@
         "color_scheme": "scheme1",
         "use_gradient_background": false
       }
+    },
+    "featured_product_NVKRFF": {
+      "type": "featured-product",
+      "blocks": {
+        "title_EXjVpr": {
+          "type": "title",
+          "settings": {
+            "display_on_card": false,
+            "text_align": "text-left"
+          }
+        },
+        "price_y69UL6": {
+          "type": "price",
+          "settings": {
+            "display_on_card": false,
+            "show_on_sale_sticker": false,
+            "text_align": "text-left"
+          }
+        },
+        "variant_picker_jwLVN4": {
+          "type": "variant_picker",
+          "settings": {
+            "display_on_card": false,
+            "option_style": "drop_down",
+            "full_width_buttons": false,
+            "hide_option_labels": true,
+            "enable_color_swatches": false
+          }
+        },
+        "buy_buttons_ePVkiU": {
+          "type": "buy_buttons",
+          "settings": {
+            "display_on_card": false,
+            "show_price": false,
+            "enable_payment_button": true,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "title_EXjVpr",
+        "price_y69UL6",
+        "variant_picker_jwLVN4",
+        "buy_buttons_ePVkiU"
+      ],
+      "name": "t:sections.featured_product.name",
+      "settings": {
+        "title": "",
+        "product": "sarang-chips",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "default",
+        "media_mobile_width": "w-full",
+        "desktop_media_width": "lg:col-span-6_lg:col-span-6",
+        "enable_video_looping": true,
+        "thumbnails_position": "left",
+        "thumbnail_crop": "aspect-w-1 aspect-h-1",
+        "thumbnail_shape": "default",
+        "hide_media_shadow": false,
+        "thumbnail_size": "standard",
+        "show_thumbnails_on_mobile": false,
+        "color_scheme": "scheme3",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
     "homepage_hero_LRzPqD",
     "homepage_hero_b66YBF",
-    "image_with_highlights_XqaKyf"
+    "image_with_highlights_XqaKyf",
+    "featured_product_NVKRFF"
   ]
 }
