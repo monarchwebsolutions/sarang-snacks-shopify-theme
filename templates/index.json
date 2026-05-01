@@ -103,6 +103,22 @@
     },
     "image_with_text_99arxM": {
       "type": "image-with-text",
+      "blocks": {
+        "shape_divider_BjEwKn": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-1-patterned_1200x20",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_BjEwKn"
+      ],
       "custom_css": [
         "h2 {font-family: \"Nicko\";}",
         "p {font-family: \"Manrope\";}"
