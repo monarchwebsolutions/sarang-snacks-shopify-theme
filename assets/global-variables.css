@@ -13,7 +13,50 @@
   --sarang-white: #ffffff;
   --sarang-grey: #f2f2f2;
   --sarang-black: #1e1e1e;
-  --font-heading: 'Outfit', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Nicko', sans-serif;
+  --font-subheading: 'Outfit', sans-serif;
+  --font-body: 'Manrope', sans-serif;
+  --font-accent: 'Brush Script MT', 'Snell Roundhand', cursive;
   --comparison-radius: 8px;
+  --heading-font-stack: var(--font-heading);
+  --heading-font-weight: 400;
+  --heading-font-style: normal;
+  --main-font-stack: var(--font-body);
+  --main-font-style: normal;
+}
+
+body,
+.font-main {
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading,
+.heading-style {
+  font-family: var(--font-heading);
+  font-weight: var(--heading-font-weight);
+}
+
+.font-subheading,
+.heading-secondary,
+.inline-heading-rte + .rte,
+.inline-heading-rte + .inline-rte,
+.font-heading + .rte,
+.font-heading + .inline-rte,
+.heading-style + .rte,
+.heading-style + .inline-rte,
+.homepage-hero__subheading {
+  font-family: var(--font-subheading);
+}
+
+.font-accent,
+.sticker__text,
+.sticker__fit-to-text,
+.sticker--fit-to-test {
+  font-family: var(--font-accent) !important;
 }
