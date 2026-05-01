@@ -366,12 +366,119 @@
         "color_scheme": "scheme3",
         "use_gradient_background": false
       }
+    },
+    "featured_reviews_c3Ecx4": {
+      "type": "featured-reviews",
+      "blocks": {
+        "background_pattern_bXg4ct": {
+          "type": "background_pattern",
+          "settings": {
+            "type": "chevrons_1",
+            "color": "accent-1",
+            "size": 80,
+            "opacity": 13,
+            "enable_parallax": false,
+            "parallax_speed": 3
+          }
+        },
+        "review_DdTtpz": {
+          "type": "review",
+          "settings": {
+            "reviewer_photo": "shopify://shop_images/AdobeStock_270381930_Preview.jpg",
+            "review_date": "April 2026",
+            "review_stars": 5,
+            "review_title": "Best snack ever",
+            "review_text": "<p>Share what this customer loved about the product, flavor, or overall experience.</p>"
+          }
+        },
+        "review_LBWLPV": {
+          "type": "review",
+          "settings": {
+            "reviewer_photo": "shopify://shop_images/AdobeStock_362501638_Preview.jpg",
+            "review_date": "April 2026",
+            "review_stars": 5,
+            "review_title": "Best snack ever",
+            "review_text": "<p>Share what this customer loved about the product, flavor, or overall experience.</p>"
+          }
+        },
+        "review_anJRiH": {
+          "type": "review",
+          "settings": {
+            "reviewer_photo": "shopify://shop_images/AdobeStock_464874339_Preview.jpg",
+            "review_date": "April 2026",
+            "review_stars": 5,
+            "review_title": "Best snack ever",
+            "review_text": "<p>Share what this customer loved about the product, flavor, or overall experience.</p>"
+          }
+        },
+        "review_cGhzRD": {
+          "type": "review",
+          "settings": {
+            "reviewer_photo": "shopify://shop_images/AdobeStock_566753012_Preview.jpg",
+            "review_date": "April 2026",
+            "review_stars": 5,
+            "review_title": "Best snack ever",
+            "review_text": "<p>Share what this customer loved about the product, flavor, or overall experience.</p>"
+          }
+        },
+        "review_B4xrUc": {
+          "type": "review",
+          "settings": {
+            "reviewer_photo": "shopify://shop_images/AdobeStock_1924035011_Preview.jpg",
+            "review_date": "April 2026",
+            "review_stars": 5,
+            "review_title": "Best snack ever",
+            "review_text": "<p>Share what this customer loved about the product, flavor, or overall experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "background_pattern_bXg4ct",
+        "review_DdTtpz",
+        "review_LBWLPV",
+        "review_anJRiH",
+        "review_cGhzRD",
+        "review_B4xrUc"
+      ],
+      "name": "Featured reviews",
+      "settings": {
+        "title": "What Snackers Are Saying",
+        "heading_size": "heading-standard",
+        "rich_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "review_layout": "carousel",
+        "desktop_columns": "2",
+        "carousel_autoplay": true,
+        "carousel_rotation_speed": 5,
+        "auto_slider_speed": 2,
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "star_color": "#7ddcf8",
+        "enable_review_card_text_override": true,
+        "review_card_text_color": "#353b44",
+        "enable_review_card_background_override": false,
+        "review_card_background_color": "#fbf9f6",
+        "photo_size_mobile": 72,
+        "photo_size_desktop": 88,
+        "date_size_mobile": 14,
+        "date_size_desktop": 15,
+        "star_size_mobile": 18,
+        "star_size_desktop": 20,
+        "review_title_size_mobile": 22,
+        "review_title_size_desktop": 24,
+        "review_text_size_mobile": 16,
+        "review_text_size_desktop": 18,
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
     "homepage_hero_LRzPqD",
     "homepage_hero_b66YBF",
     "image_with_highlights_XqaKyf",
-    "featured_product_NVKRFF"
+    "featured_product_NVKRFF",
+    "featured_reviews_c3Ecx4"
   ]
 }
