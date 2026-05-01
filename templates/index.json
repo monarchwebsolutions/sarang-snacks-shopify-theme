@@ -15,9 +15,17 @@
         "extra_image_MfXE9W": {
           "type": "extra_image",
           "settings": {
-            "image": "shopify://shop_images/Sarang.png",
+            "image": "shopify://shop_images/hero-badges-small-min_1024x_1.webp",
             "width_mobile": 160,
-            "width_desktop": 220
+            "width_desktop": 340
+          }
+        },
+        "extra_image_XJCCqt": {
+          "type": "extra_image",
+          "settings": {
+            "image": "shopify://shop_images/stars_1.svg",
+            "width_mobile": 160,
+            "width_desktop": 120
           }
         },
         "extra_text_K9QA4i": {
@@ -29,6 +37,7 @@
       },
       "block_order": [
         "extra_image_MfXE9W",
+        "extra_image_XJCCqt",
         "extra_text_K9QA4i"
       ],
       "custom_css": [
@@ -48,7 +57,7 @@
         "title": "Homepage hero",
         "heading_size_mobile": 44,
         "heading_size_desktop": 72,
-        "richtext": "",
+        "richtext": "<p><strong>Subheading</strong></p>",
         "subheading_size_mobile": 16,
         "subheading_size_desktop": 20,
         "text_alignment": "text-left",
