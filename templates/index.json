@@ -44,7 +44,7 @@
         "h2 {font-family: \"Nicko\";}",
         "p {font-family: \"Manrope\";}"
       ],
-      "name": "custom-image-with-text",
+      "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
         "image": "shopify://shop_images/AdobeStock_459989806_Preview.jpg",
