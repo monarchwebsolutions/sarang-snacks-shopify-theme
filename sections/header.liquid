@@ -568,9 +568,9 @@
         style="transform: scale({{ cart_icon_scale }}); transform-origin: center;"
       >
         {%- if settings.cart_icon == 'cart' -%}
-          {%- render 'icon-cart', stroke_width: section.settings.cart_icon_stroke_width -%}
+          {%- render 'icon-cart', stroke_width: section.settings.cart_icon_weight -%}
         {%- else -%}
-          {%- render 'icon-bag', stroke_width: section.settings.cart_icon_stroke_width -%}
+          {%- render 'icon-bag', stroke_width: section.settings.cart_icon_weight -%}
         {%- endif -%}
         <span class="visually-hidden">{{ 'layout.cart.title' | t }} </span>
       </span>
@@ -1115,6 +1115,15 @@
     {
       "type": "range",
       "id": "cart_icon_stroke_width",
+      "min": 1,
+      "max": 6,
+      "step": 0.5,
+      "label": "Cart icon size",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "cart_icon_weight",
       "min": 1,
       "max": 6,
       "step": 0.5,
