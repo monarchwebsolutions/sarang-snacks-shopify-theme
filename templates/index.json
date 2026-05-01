@@ -194,8 +194,8 @@
         "highlight_mPXdMH": {
           "type": "highlight",
           "settings": {
-            "title": "",
-            "text": "Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.",
+            "title": "Bold Korean Flavor",
+            "text": "We use ingredients like gochugaru to bring authentic Korean heat, not artificial flavoring or surface-level spice.",
             "cta_link": "",
             "cta_text": "",
             "override_section_color_scheme": false,
@@ -205,8 +205,8 @@
         "highlight_xgaYpU": {
           "type": "highlight",
           "settings": {
-            "title": "",
-            "text": "Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.",
+            "title": "Clean Ingredients",
+            "text": "No artificial colors, no weird additives. Just simple ingredients that let the flavor speak for itself.",
             "cta_link": "",
             "cta_text": "",
             "override_section_color_scheme": false,
@@ -216,8 +216,8 @@
         "highlight_Pwt99F": {
           "type": "highlight",
           "settings": {
-            "title": "",
-            "text": "Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.",
+            "title": "Satisfying Crunch",
+            "text": "Light texture, bold flavor, and a bite that keeps you coming back.",
             "cta_link": "",
             "cta_text": "",
             "override_section_color_scheme": false,
@@ -227,8 +227,8 @@
         "highlight_Hwd84y": {
           "type": "highlight",
           "settings": {
-            "title": "",
-            "text": "Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.",
+            "title": "Crafted With Intention",
+            "text": "From ingredients to impact, everything we do is rooted in care, intention, and giving back.",
             "cta_link": "",
             "cta_text": "",
             "override_section_color_scheme": false,
@@ -272,7 +272,7 @@
       "name": "t:sections.image_with_highlights.name",
       "settings": {
         "title": "",
-        "block_alignment_on_desktop": "justify-center",
+        "block_alignment_on_desktop": "justify-between",
         "display_on_card": true,
         "slideshow_on_mobile": true,
         "slideshow_focus": "center",
