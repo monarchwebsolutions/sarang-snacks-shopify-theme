@@ -50,13 +50,7 @@
               <div class="{% if enable_slider %}splide__track overflow-visible{% endif %}">
                 <ul class="{% if enable_slider %}splide__list{% else %}grid grid-cols-1 gap-5 lg:gap-8 {{ desktop_columns_class }}{% endif %}">
                   {%- for block in review_blocks -%}
-                    {%- liquid
-                      assign reviewer_photo_sizes = '(min-width: 990px) '
-                        | append: section.settings.photo_size_desktop
-                        | append: 'px, '
-                        | append: section.settings.photo_size_mobile
-                        | append: 'px'
-                    -%}
+                    {%- capture reviewer_photo_sizes -%}(min-width: 990px) {{ section.settings.photo_size_desktop }}px, {{ section.settings.photo_size_mobile }}px{%- endcapture -%}
                     <li
                       class="{% if enable_slider %}splide__slide w-full {% if settings.card_shadow_direction contains 'top' %}pt-card-shadow{% else %}pb-card-shadow{% endif %}{% endif %}"
                       {{ block.shopify_attributes }}
