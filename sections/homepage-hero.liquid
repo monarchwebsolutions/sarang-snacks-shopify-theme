@@ -213,7 +213,7 @@
     line-height: 1;
   }
 
-  {% if section.settings.enable_text_color_override %}
+  {% if section.settings.text_color_override != blank and section.settings.text_color_override != 'rgba(0,0,0,0)' %}
     #shopify-section-{{ section.id }} .homepage-hero__heading,
     #shopify-section-{{ section.id }} .homepage-hero__heading span,
     #shopify-section-{{ section.id }} .homepage-hero__heading strong,
@@ -233,7 +233,7 @@
     #shopify-section-{{ section.id }} .homepage-hero__extra-text em,
     #shopify-section-{{ section.id }} .homepage-hero__extra-text a,
     #shopify-section-{{ section.id }} .homepage-hero__extra-text li {
-      color: var(--homepage-hero-text-color-override);
+      color: var(--homepage-hero-text-color-override) !important;
     }
   {% endif %}
 
@@ -875,16 +875,10 @@
       "label": "t:common.settings.color_scheme.label"
     },
     {
-      "type": "checkbox",
-      "id": "enable_text_color_override",
-      "label": "Enable text color override",
-      "default": false
-    },
-    {
       "type": "color",
       "id": "text_color_override",
       "label": "Text color override",
-      "default": "#353b44"
+      "default": "rgba(0,0,0,0)"
     },
     {
       "type": "checkbox",
