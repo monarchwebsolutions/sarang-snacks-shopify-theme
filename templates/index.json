@@ -9,6 +9,55 @@
  */
 {
   "sections": {
+    "homepage_hero_LRzPqD": {
+      "type": "homepage-hero",
+      "blocks": {
+        "extra_image_MfXE9W": {
+          "type": "extra_image",
+          "settings": {
+            "image": "shopify://shop_images/Sarang.png",
+            "width_mobile": 160,
+            "width_desktop": 220
+          }
+        },
+        "extra_text_K9QA4i": {
+          "type": "extra_text",
+          "settings": {
+            "content": "<p>Add extra text below the CTA.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "extra_image_MfXE9W",
+        "extra_text_K9QA4i"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Nicko\";}",
+        "p {font-family: \"Manrope\";}"
+      ],
+      "name": "Homepage hero",
+      "settings": {
+        "display_on_card": false,
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Homepage hero",
+        "heading_size_mobile": 44,
+        "heading_size_desktop": 72,
+        "richtext": "",
+        "subheading_size_mobile": 16,
+        "subheading_size_desktop": 20,
+        "text_alignment": "text-left",
+        "button_link": "shopify://products/test-product",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
     "image_with_text_99arxM": {
       "type": "image-with-text",
       "custom_css": [
@@ -52,6 +101,7 @@
     }
   },
   "order": [
+    "homepage_hero_LRzPqD",
     "image_with_text_99arxM",
     "rich_text_mLgEx9"
   ]
