@@ -12,6 +12,17 @@
     "homepage_hero_LRzPqD": {
       "type": "homepage-hero",
       "blocks": {
+        "background_pattern_BRDbdG": {
+          "type": "background_pattern",
+          "settings": {
+            "type": "chevrons_1",
+            "color": "accent-1",
+            "size": 80,
+            "opacity": 15,
+            "enable_parallax": false,
+            "parallax_speed": 3
+          }
+        },
         "extra_image_MfXE9W": {
           "type": "extra_image",
           "settings": {
@@ -33,12 +44,34 @@
           "settings": {
             "content": "<p>Add extra text below the CTA.</p>"
           }
+        },
+        "sticker_B7k6cj": {
+          "type": "sticker",
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": false,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.953rem",
+            "horizontal_position": 50,
+            "vertical_position": 22,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": false,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme3",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
         }
       },
       "block_order": [
+        "background_pattern_BRDbdG",
         "extra_image_MfXE9W",
         "extra_image_XJCCqt",
-        "extra_text_K9QA4i"
+        "extra_text_K9QA4i",
+        "sticker_B7k6cj"
       ],
       "custom_css": [
         "h2 {font-family: \"Nicko\";}",
@@ -63,7 +96,7 @@
         "subheading_size_desktop": 20,
         "text_alignment": "text-left",
         "button_link": "shopify://products/test-product",
-        "button_label": "Shop Now",
+        "button_label": "Try It For Yourself",
         "color_scheme": "scheme1",
         "use_gradient_background": false
       }
