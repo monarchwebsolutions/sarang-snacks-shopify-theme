@@ -76,6 +76,7 @@
     --homepage-hero-heading-size-desktop: {{ section.settings.heading_size_desktop }}px;
     --homepage-hero-subheading-size-mobile: {{ section.settings.subheading_size_mobile }}px;
     --homepage-hero-subheading-size-desktop: {{ section.settings.subheading_size_desktop }}px;
+    --homepage-hero-text-color-override: {{ section.settings.text_color_override }};
   "
 >
   <div class="section-content relative z-10 py-section-vertical-spacing">
@@ -211,6 +212,30 @@
     font-size: var(--homepage-hero-heading-size-mobile);
     line-height: 1;
   }
+
+  {% if section.settings.enable_text_color_override %}
+    #shopify-section-{{ section.id }} .homepage-hero__heading,
+    #shopify-section-{{ section.id }} .homepage-hero__heading span,
+    #shopify-section-{{ section.id }} .homepage-hero__heading strong,
+    #shopify-section-{{ section.id }} .homepage-hero__heading em,
+    #shopify-section-{{ section.id }} .homepage-hero__heading a,
+    #shopify-section-{{ section.id }} .homepage-hero__subheading,
+    #shopify-section-{{ section.id }} .homepage-hero__subheading p,
+    #shopify-section-{{ section.id }} .homepage-hero__subheading span,
+    #shopify-section-{{ section.id }} .homepage-hero__subheading strong,
+    #shopify-section-{{ section.id }} .homepage-hero__subheading em,
+    #shopify-section-{{ section.id }} .homepage-hero__subheading a,
+    #shopify-section-{{ section.id }} .homepage-hero__subheading li,
+    #shopify-section-{{ section.id }} .homepage-hero__extra-text,
+    #shopify-section-{{ section.id }} .homepage-hero__extra-text p,
+    #shopify-section-{{ section.id }} .homepage-hero__extra-text span,
+    #shopify-section-{{ section.id }} .homepage-hero__extra-text strong,
+    #shopify-section-{{ section.id }} .homepage-hero__extra-text em,
+    #shopify-section-{{ section.id }} .homepage-hero__extra-text a,
+    #shopify-section-{{ section.id }} .homepage-hero__extra-text li {
+      color: var(--homepage-hero-text-color-override);
+    }
+  {% endif %}
 
   #shopify-section-{{ section.id }} .homepage-hero__subheading {
     font-size: var(--homepage-hero-subheading-size-mobile);
@@ -848,6 +873,18 @@
       "id": "color_scheme",
       "default": "scheme1",
       "label": "t:common.settings.color_scheme.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_text_color_override",
+      "label": "Enable text color override",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "text_color_override",
+      "label": "Text color override",
+      "default": "#353b44"
     },
     {
       "type": "checkbox",
