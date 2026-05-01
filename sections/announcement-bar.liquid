@@ -51,7 +51,25 @@
                   {{ block.shopify_attributes }}
                 >
                   <div class="announcement-bar__content rte">
-                    {{ block.settings.content }}
+                    <div class="announcement-bar__content-inner">
+                      <div class="announcement-bar__text">
+                        {{ block.settings.content }}
+                      </div>
+                      {%- if block.settings.icon_svg != blank -%}
+                        <span
+                          class="announcement-bar__icon{% if block.settings.hide_icon_mobile %} announcement-bar__icon--hidden-mobile{% endif %}"
+                          style="
+                            --announcement-bar-icon-gap-mobile: {{ block.settings.icon_spacing_mobile }}px;
+                            --announcement-bar-icon-gap-desktop: {{ block.settings.icon_spacing_desktop }}px;
+                            --announcement-bar-icon-size-mobile: {{ block.settings.icon_size_mobile }}px;
+                            --announcement-bar-icon-size-desktop: {{ block.settings.icon_size_desktop }}px;
+                          "
+                          aria-hidden="true"
+                        >
+                          {{ block.settings.icon_svg }}
+                        </span>
+                      {%- endif -%}
+                    </div>
                   </div>
                 </li>
               {%- endfor -%}
@@ -97,7 +115,25 @@
     {%- else -%}
       <div class="announcement-bar__inner announcement-bar__inner--single">
         <div class="announcement-bar__content rte">
-          {{ section.blocks.first.settings.content }}
+          <div class="announcement-bar__content-inner">
+            <div class="announcement-bar__text">
+              {{ section.blocks.first.settings.content }}
+            </div>
+            {%- if section.blocks.first.settings.icon_svg != blank -%}
+              <span
+                class="announcement-bar__icon{% if section.blocks.first.settings.hide_icon_mobile %} announcement-bar__icon--hidden-mobile{% endif %}"
+                style="
+                  --announcement-bar-icon-gap-mobile: {{ section.blocks.first.settings.icon_spacing_mobile }}px;
+                  --announcement-bar-icon-gap-desktop: {{ section.blocks.first.settings.icon_spacing_desktop }}px;
+                  --announcement-bar-icon-size-mobile: {{ section.blocks.first.settings.icon_size_mobile }}px;
+                  --announcement-bar-icon-size-desktop: {{ section.blocks.first.settings.icon_size_desktop }}px;
+                "
+                aria-hidden="true"
+              >
+                {{ section.blocks.first.settings.icon_svg }}
+              </span>
+            {%- endif -%}
+          </div>
         </div>
       </div>
     {%- endif -%}
@@ -156,6 +192,17 @@
       color: inherit;
     }
 
+    #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__content-inner {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+    }
+
+    #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__text {
+      max-width: 100%;
+    }
+
     #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__content p {
       margin: 0;
     }
@@ -163,6 +210,24 @@
     #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__content a {
       text-decoration: underline;
       text-underline-offset: 2px;
+    }
+
+    #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex: 0 0 auto;
+      margin-left: var(--announcement-bar-icon-gap-mobile);
+    }
+
+    #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__icon svg {
+      display: block;
+      width: var(--announcement-bar-icon-size-mobile);
+      height: var(--announcement-bar-icon-size-mobile);
+    }
+
+    #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__icon--hidden-mobile {
+      display: none;
     }
 
     #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__arrow {
@@ -193,6 +258,19 @@
 
       #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__content {
         font-size: var(--announcement-bar-font-size-desktop);
+      }
+
+      #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__icon {
+        margin-left: var(--announcement-bar-icon-gap-desktop);
+      }
+
+      #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__icon svg {
+        width: var(--announcement-bar-icon-size-desktop);
+        height: var(--announcement-bar-icon-size-desktop);
+      }
+
+      #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__icon--hidden-mobile {
+        display: inline-flex;
       }
 
       #shopify-section-{{ section.id }}-announcement-bar .announcement-bar__arrow svg {
@@ -348,6 +426,58 @@
           "id": "content",
           "label": "Content",
           "default": "<p>Add announcement text here.</p>"
+        },
+        {
+          "type": "textarea",
+          "id": "icon_svg",
+          "label": "SVG icon code",
+          "info": "Optional. Paste full SVG code to show an icon after the text."
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_icon_mobile",
+          "label": "Hide icon on mobile",
+          "default": false
+        },
+        {
+          "type": "range",
+          "id": "icon_spacing_mobile",
+          "min": 0,
+          "max": 40,
+          "step": 1,
+          "unit": "px",
+          "label": "Mobile icon spacing",
+          "default": 8
+        },
+        {
+          "type": "range",
+          "id": "icon_spacing_desktop",
+          "min": 0,
+          "max": 48,
+          "step": 1,
+          "unit": "px",
+          "label": "Desktop icon spacing",
+          "default": 10
+        },
+        {
+          "type": "range",
+          "id": "icon_size_mobile",
+          "min": 8,
+          "max": 40,
+          "step": 1,
+          "unit": "px",
+          "label": "Mobile icon size",
+          "default": 14
+        },
+        {
+          "type": "range",
+          "id": "icon_size_desktop",
+          "min": 8,
+          "max": 56,
+          "step": 1,
+          "unit": "px",
+          "label": "Desktop icon size",
+          "default": 16
         }
       ]
     }
