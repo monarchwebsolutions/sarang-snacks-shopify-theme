@@ -115,12 +115,12 @@
               <div class="{{ section.settings.text_alignment }} w-full">
                 {% if section.settings.title != blank %}
                   <h2 class="homepage-hero__heading inline-heading-rte font-heading heading-style {{ settings.heading_drop_shadow_style }} break-words">
-                    {{ section.settings.title }}
+                    {{ section.settings.title | newline_to_br }}
                   </h2>
                 {% endif %}
 
-                <div class="homepage-hero__subheading rte mt-5 max-w-2xl {% if section.settings.text_alignment contains 'center' %}mx-auto{% elsif section.settings.text_alignment contains 'right' %}ml-auto{% endif %}">
-                  {{ section.settings.richtext }}
+                <div class="homepage-hero__subheading mt-5 max-w-2xl {% if section.settings.text_alignment contains 'center' %}mx-auto{% elsif section.settings.text_alignment contains 'right' %}ml-auto{% endif %}">
+                  {{ section.settings.richtext | newline_to_br }}
                 </div>
 
                 {%- if section.settings.button_link != blank and section.settings.button_label != blank -%}
@@ -208,6 +208,12 @@
   #shopify-section-{{ section.id }} .homepage-hero__extra-text {
     font-size: var(--homepage-hero-subheading-size-mobile);
     line-height: 1.4;
+  }
+
+  #shopify-section-{{ section.id }} .homepage-hero__subheading a,
+  #shopify-section-{{ section.id }} .homepage-hero__extra-text a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
 
   #shopify-section-{{ section.id }} .homepage-hero__extra-text p:first-child,
@@ -732,7 +738,7 @@
       "content": "t:common.settings.header_content"
     },
     {
-      "type": "inline_richtext",
+      "type": "textarea",
       "id": "title",
       "label": "Heading",
       "default": "Homepage hero"
@@ -758,7 +764,7 @@
       "default": 72
     },
     {
-      "type": "richtext",
+      "type": "textarea",
       "id": "richtext",
       "label": "Subheading"
     },
