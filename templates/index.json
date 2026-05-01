@@ -119,6 +119,17 @@
     "homepage_hero_b66YBF": {
       "type": "homepage-hero",
       "blocks": {
+        "shape_divider_6Ni4iR": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
+        },
         "extra_text_QTPgNg": {
           "type": "extra_text",
           "settings": {
@@ -130,6 +141,7 @@
         }
       },
       "block_order": [
+        "shape_divider_6Ni4iR",
         "extra_text_QTPgNg"
       ],
       "name": "Custom image with text",
@@ -158,10 +170,127 @@
         "text_color_override": "rgba(0,0,0,0)",
         "use_gradient_background": false
       }
+    },
+    "image_with_highlights_XqaKyf": {
+      "type": "image-with-highlights",
+      "blocks": {
+        "background_shape_k9948A": {
+          "type": "background_shape",
+          "settings": {
+            "shape": "abstract_star_1",
+            "blob_type": 1,
+            "size": 125,
+            "opacity": 100,
+            "blur": 0,
+            "horizontal_position": 50,
+            "vertical_position": 50,
+            "rotate": 0,
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "accent-1"
+          }
+        },
+        "highlight_mPXdMH": {
+          "type": "highlight",
+          "settings": {
+            "title": "",
+            "text": "Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight_xgaYpU": {
+          "type": "highlight",
+          "settings": {
+            "title": "",
+            "text": "Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight_Pwt99F": {
+          "type": "highlight",
+          "settings": {
+            "title": "",
+            "text": "Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight_Hwd84y": {
+          "type": "highlight",
+          "settings": {
+            "title": "",
+            "text": "Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight_R9cHE3": {
+          "type": "highlight",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        },
+        "highlight_JFYw9G": {
+          "type": "highlight",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "text": "Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.",
+            "cta_link": "",
+            "cta_text": "",
+            "override_section_color_scheme": false,
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "background_shape_k9948A",
+        "highlight_mPXdMH",
+        "highlight_xgaYpU",
+        "highlight_Pwt99F",
+        "highlight_Hwd84y",
+        "highlight_R9cHE3",
+        "highlight_JFYw9G"
+      ],
+      "name": "t:sections.image_with_highlights.name",
+      "settings": {
+        "title": "",
+        "block_alignment_on_desktop": "justify-center",
+        "display_on_card": true,
+        "slideshow_on_mobile": true,
+        "slideshow_focus": "center",
+        "image": "shopify://shop_images/AdobeStock_2000988454_Preview.png",
+        "max_width": 500,
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "disable_media_style": true,
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
     "homepage_hero_LRzPqD",
-    "homepage_hero_b66YBF"
+    "homepage_hero_b66YBF",
+    "image_with_highlights_XqaKyf"
   ]
 }
