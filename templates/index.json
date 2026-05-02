@@ -312,7 +312,7 @@
             "shape": "ellipse",
             "sticker_font_size": "1.563rem",
             "horizontal_position": 88,
-            "vertical_position": 16,
+            "vertical_position": 12,
             "rotate": 14,
             "show_sticker_on_mobile": false,
             "show_sticker_on_desktop": true,
