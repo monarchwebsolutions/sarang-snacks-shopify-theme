@@ -34,10 +34,10 @@
         "extra_text_K9QA4i": {
           "type": "extra_text",
           "settings": {
-            "content": "<p><strong>5 stars all around from our first customers</strong></p>",
+            "content": "<p>5 STARS FROM ALL OUR CUSTOMERS</p>",
             "font_size_mobile": 16,
-            "font_size_desktop": 18,
-            "font_weight": "400"
+            "font_size_desktop": 16,
+            "font_weight": "800"
           }
         },
         "extra_image_XJCCqt": {
