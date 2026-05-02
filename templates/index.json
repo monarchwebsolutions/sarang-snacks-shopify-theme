@@ -368,7 +368,8 @@
         "buy_buttons_ePVkiU"
       ],
       "custom_css": [
-        ".add-to-cart-btn .push-btn__surface {background: var(--sarang-brand-red);}"
+        ".add-to-cart-btn .push-btn__surface {background: var(--sarang-brand-red);}",
+        ".sticker__text{font-family: var(--font-subheading)}"
       ],
       "name": "t:sections.featured_product.name",
       "settings": {
