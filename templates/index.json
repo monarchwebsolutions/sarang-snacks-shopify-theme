@@ -122,6 +122,7 @@
       "blocks": {
         "shape_divider_6Ni4iR": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "below",
             "target_section_color_scheme": "scheme1",
@@ -175,6 +176,28 @@
     "image_with_highlights_XqaKyf": {
       "type": "image-with-highlights",
       "blocks": {
+        "shape_divider_ErBXWU": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
+        },
+        "background_pattern_VtAq4y": {
+          "type": "background_pattern",
+          "settings": {
+            "type": "chevrons_1",
+            "color": "accent-1",
+            "size": 80,
+            "opacity": 13,
+            "enable_parallax": false,
+            "parallax_speed": 3
+          }
+        },
         "shape_divider_KYPfAQ": {
           "type": "shape_divider",
           "settings": {
@@ -273,6 +296,8 @@
         }
       },
       "block_order": [
+        "shape_divider_ErBXWU",
+        "background_pattern_VtAq4y",
         "shape_divider_KYPfAQ",
         "background_shape_k9948A",
         "highlight_mPXdMH",
