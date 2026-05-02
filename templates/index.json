@@ -467,7 +467,7 @@
             "type": "chevrons_1",
             "color": "accent-1",
             "size": 80,
-            "opacity": 20,
+            "opacity": 18,
             "enable_parallax": false,
             "parallax_speed": 8
           }
