@@ -515,6 +515,7 @@
         "review_card_text_color": "#353b44",
         "enable_review_card_background_override": false,
         "review_card_background_color": "#fbf9f6",
+        "slider_button_background_color": "#ff312f",
         "photo_size_mobile": 72,
         "photo_size_desktop": 88,
         "date_size_mobile": 14,
