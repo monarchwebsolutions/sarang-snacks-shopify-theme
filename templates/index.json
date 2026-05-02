@@ -414,6 +414,17 @@
     "featured_reviews_c3Ecx4": {
       "type": "featured-reviews",
       "blocks": {
+        "shape_divider_TatniF": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        },
         "shape_divider_GkQntr": {
           "type": "shape_divider",
           "settings": {
@@ -488,6 +499,7 @@
         }
       },
       "block_order": [
+        "shape_divider_TatniF",
         "shape_divider_GkQntr",
         "background_pattern_bXg4ct",
         "review_DdTtpz",
@@ -535,6 +547,7 @@
       "blocks": {
         "shape_divider_de4R4C": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "above",
             "target_section_color_scheme": "scheme6",
