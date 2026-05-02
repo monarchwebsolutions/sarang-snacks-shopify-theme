@@ -326,13 +326,13 @@
         "sticker_JxUJHA": {
           "type": "sticker",
           "settings": {
-            "width": 150,
+            "width": 140,
             "half_width_on_mobile": false,
             "text": "Get 50% Off Now!",
             "shape": "ellipse",
             "sticker_font_size": "1.563rem",
             "horizontal_position": 22,
-            "vertical_position": 50,
+            "vertical_position": 51,
             "rotate": 20,
             "show_sticker_on_mobile": true,
             "show_sticker_on_desktop": false,
