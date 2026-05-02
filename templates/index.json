@@ -510,7 +510,7 @@
         "content_width_desktop": "lg:w-2/3",
         "button_link": "",
         "button_label": "Shop Now",
-        "star_color": "#ff312f",
+        "star_color": "#ffcafa",
         "enable_review_card_text_override": false,
         "review_card_text_color": "#353b44",
         "enable_review_card_background_override": false,
