@@ -309,7 +309,7 @@
       ],
       "name": "t:sections.image_with_highlights.name",
       "settings": {
-        "title": "",
+        "title": "Not Your Average Chip",
         "block_alignment_on_desktop": "justify-between",
         "display_on_card": true,
         "slideshow_on_mobile": true,
