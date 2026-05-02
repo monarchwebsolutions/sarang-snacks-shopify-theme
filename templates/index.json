@@ -314,7 +314,7 @@
             "horizontal_position": 88,
             "vertical_position": 16,
             "rotate": 14,
-            "show_sticker_on_mobile": true,
+            "show_sticker_on_mobile": false,
             "show_sticker_on_desktop": true,
             "rotation_animation": "none",
             "enable_parallax": false,
