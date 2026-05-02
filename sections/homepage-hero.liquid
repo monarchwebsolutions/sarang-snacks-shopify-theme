@@ -104,7 +104,23 @@
           <div class="grid grid-flow-row-dense grid-cols-1 gap-10 lg:grid-cols-12">
             <div class="{{ image_width_desktop }} flex {{ image_vertical_alignment_class }}">
               <div class="w-full">
-                {%- if section.settings.image != blank -%}
+                {%- if section.settings.video != blank -%}
+                  {%- render 'media-video',
+                    media: section.settings.video,
+                    mode: section.settings.mode,
+                    playback: section.settings.playback,
+                    shape_id: section.id,
+                    shape: section.settings.image_shape,
+                    crop: section.settings.crop,
+                    rotate: section.settings.rotate_image,
+                    is_card: section.settings.display_on_card,
+                    container_id: section.id,
+                    disable_media_style: section.settings.disable_media_style,
+                    preload: preload,
+                    loading: loading,
+                    sizes: sizes
+                  -%}
+                {%- elsif section.settings.image != blank -%}
                   {%- render 'media-image',
                     media: section.settings.image,
                     shape_id: section.id,
@@ -329,6 +345,49 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:common.settings.image.label"
+    },
+    {
+      "type": "header",
+      "content": "t:common.settings.header_video"
+    },
+    {
+      "id": "video",
+      "type": "video",
+      "label": "t:sections.video.settings.video.label"
+    },
+    {
+      "type": "select",
+      "id": "mode",
+      "label": "Mode",
+      "options": [
+        {
+          "value": "preview",
+          "label": "t:sections.video.settings.mode.options.preview.label"
+        },
+        {
+          "value": "autoplay",
+          "label": "t:sections.video.settings.mode.options.autoplay.label"
+        }
+      ],
+      "default": "preview",
+      "info": "t:sections.video.settings.mode.info"
+    },
+    {
+      "type": "select",
+      "id": "playback",
+      "label": "t:sections.video.settings.playback.label",
+      "options": [
+        {
+          "value": "inline",
+          "label": "t:sections.video.settings.playback.options.inline.label"
+        },
+        {
+          "value": "modal",
+          "label": "t:sections.video.settings.playback.options.modal.label"
+        }
+      ],
+      "default": "inline",
+      "info": "t:sections.video.settings.playback.info"
     },
     {
       "type": "select",
