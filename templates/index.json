@@ -18,7 +18,7 @@
             "type": "chevrons_1",
             "color": "accent-1",
             "size": 80,
-            "opacity": 18,
+            "opacity": 15,
             "enable_parallax": true,
             "parallax_speed": 8
           }
@@ -193,7 +193,7 @@
             "type": "chevrons_1",
             "color": "accent-1",
             "size": 80,
-            "opacity": 18,
+            "opacity": 17,
             "enable_parallax": true,
             "parallax_speed": 8
           }
@@ -467,7 +467,7 @@
             "type": "chevrons_1",
             "color": "accent-1",
             "size": 80,
-            "opacity": 18,
+            "opacity": 15,
             "enable_parallax": true,
             "parallax_speed": 8
           }
