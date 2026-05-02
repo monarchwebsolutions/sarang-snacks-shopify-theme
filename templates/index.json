@@ -116,6 +116,8 @@
       "settings": {
         "display_on_card": false,
         "image": "shopify://shop_images/AdobeStock_459989806_Preview.jpg",
+        "mode": "preview",
+        "playback": "inline",
         "crop": "",
         "image_shape": "squircle",
         "blob_type": 1,
@@ -172,6 +174,8 @@
       "settings": {
         "display_on_card": false,
         "image": "shopify://shop_images/AdobeStock_210948659.jpg",
+        "mode": "preview",
+        "playback": "inline",
         "crop": "aspect-w-1 aspect-h-1",
         "image_shape": "default",
         "blob_type": 1,
@@ -695,6 +699,50 @@
         "color_scheme": "scheme2",
         "use_gradient_background": true
       }
+    },
+    "homepage_hero_LxGbKD": {
+      "type": "homepage-hero",
+      "blocks": {
+        "extra_text_LWmqM9": {
+          "type": "extra_text",
+          "settings": {
+            "content": "<p>Add extra text below the CTA.</p>",
+            "font_size_mobile": 16,
+            "font_size_desktop": 20,
+            "font_weight": "400"
+          }
+        }
+      },
+      "block_order": [
+        "extra_text_LWmqM9"
+      ],
+      "name": "Custom image with text",
+      "settings": {
+        "display_on_card": false,
+        "mode": "preview",
+        "playback": "inline",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Custom image with text",
+        "heading_size_mobile": 44,
+        "heading_size_desktop": 72,
+        "richtext": "",
+        "subheading_size_mobile": 16,
+        "subheading_size_desktop": 20,
+        "text_alignment": "text-left",
+        "image_vertical_alignment": "top",
+        "content_vertical_alignment": "center",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "text_color_override": "rgba(0,0,0,0)",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
@@ -703,6 +751,7 @@
     "image_with_highlights_XqaKyf",
     "featured_product_NVKRFF",
     "featured_reviews_c3Ecx4",
-    "vertical_video_embeds_home_f8Wm2K"
+    "vertical_video_embeds_home_f8Wm2K",
+    "homepage_hero_LxGbKD"
   ]
 }
