@@ -306,7 +306,7 @@
         "sticker_nVWfKU": {
           "type": "sticker",
           "settings": {
-            "width": 150,
+            "width": 170,
             "half_width_on_mobile": false,
             "text": "Get 50% Off Now!",
             "shape": "ellipse",
@@ -369,7 +369,7 @@
       ],
       "custom_css": [
         ".add-to-cart-btn .push-btn__surface {background: var(--sarang-brand-red);}",
-        ".sticker__text{font-family: var(--font-subheading)}"
+        ".sticker__text {font-family: var(--font-subheading);}"
       ],
       "name": "t:sections.featured_product.name",
       "settings": {
