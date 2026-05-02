@@ -323,6 +323,26 @@
             "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
           }
         },
+        "sticker_JxUJHA": {
+          "type": "sticker",
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": false,
+            "text": "Get 50% Off Now!",
+            "shape": "ellipse",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 22,
+            "vertical_position": 50,
+            "rotate": 20,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": false,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme3",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
         "title_EXjVpr": {
           "type": "title",
           "settings": {
@@ -362,6 +382,7 @@
       },
       "block_order": [
         "sticker_nVWfKU",
+        "sticker_JxUJHA",
         "title_EXjVpr",
         "price_y69UL6",
         "variant_picker_jwLVN4",
