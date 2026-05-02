@@ -468,7 +468,7 @@
             "color": "accent-1",
             "size": 80,
             "opacity": 18,
-            "enable_parallax": false,
+            "enable_parallax": true,
             "parallax_speed": 8
           }
         },
