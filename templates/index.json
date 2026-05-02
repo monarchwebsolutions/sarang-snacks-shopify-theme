@@ -12,6 +12,27 @@
     "homepage_hero_LRzPqD": {
       "type": "homepage-hero",
       "blocks": {
+        "sticker_4VP3gw": {
+          "type": "sticker",
+          "settings": {
+            "width": 180,
+            "half_width_on_mobile": false,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "image": "shopify://shop_images/chip.png",
+            "horizontal_position": 92,
+            "vertical_position": 92,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
         "background_pattern_BRDbdG": {
           "type": "background_pattern",
           "settings": {
@@ -82,6 +103,7 @@
         }
       },
       "block_order": [
+        "sticker_4VP3gw",
         "background_pattern_BRDbdG",
         "extra_image_MfXE9W",
         "extra_text_K9QA4i",
