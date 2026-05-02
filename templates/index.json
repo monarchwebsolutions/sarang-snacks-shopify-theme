@@ -50,11 +50,12 @@
         },
         "sticker_B7k6cj": {
           "type": "sticker",
+          "disabled": true,
           "settings": {
             "width": 150,
             "half_width_on_mobile": false,
             "text": "Sticker",
-            "shape": "star_1",
+            "shape": "rounded_pentagon",
             "sticker_font_size": "1.953rem",
             "horizontal_position": 50,
             "vertical_position": 22,
@@ -302,6 +303,26 @@
     "featured_product_NVKRFF": {
       "type": "featured-product",
       "blocks": {
+        "sticker_nVWfKU": {
+          "type": "sticker",
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": false,
+            "text": "Get 50% Off Now!",
+            "shape": "ellipse",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 88,
+            "vertical_position": 16,
+            "rotate": 14,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme3",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
         "title_EXjVpr": {
           "type": "title",
           "settings": {
@@ -340,6 +361,7 @@
         }
       },
       "block_order": [
+        "sticker_nVWfKU",
         "title_EXjVpr",
         "price_y69UL6",
         "variant_picker_jwLVN4",
