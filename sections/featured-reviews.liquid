@@ -199,6 +199,12 @@
       }
     {% endif %}
 
+    {% if section.settings.slider_button_background_color != blank %}
+      #shopify-section-{{ section.id }} .controls .push-btn__surface {
+        background-color: {{ section.settings.slider_button_background_color }} !important;
+      }
+    {% endif %}
+
     @media (min-width: 990px) {
       #shopify-section-{{ section.id }} .featured-reviews__photo {
         width: {{ section.settings.photo_size_desktop }}px;
@@ -426,6 +432,12 @@
       "type": "color",
       "id": "review_card_background_color",
       "label": "Review card background color",
+      "default": "#FBF9F6"
+    },
+    {
+      "type": "color",
+      "id": "slider_button_background_color",
+      "label": "Slider button background color",
       "default": "#FBF9F6"
     },
     {
