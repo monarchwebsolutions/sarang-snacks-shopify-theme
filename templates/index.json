@@ -31,21 +31,21 @@
             "width_desktop": 340
           }
         },
+        "extra_text_K9QA4i": {
+          "type": "extra_text",
+          "settings": {
+            "content": "<p><strong>5 stars all around from our first customers</strong></p>",
+            "font_size_mobile": 16,
+            "font_size_desktop": 18,
+            "font_weight": "400"
+          }
+        },
         "extra_image_XJCCqt": {
           "type": "extra_image",
           "settings": {
             "image": "shopify://shop_images/stars_red_93e3a397-6c9d-4dea-91a6-50aecae335c3.svg",
             "width_mobile": 160,
             "width_desktop": 130
-          }
-        },
-        "extra_text_K9QA4i": {
-          "type": "extra_text",
-          "settings": {
-            "content": "<p>Add extra text below the CTA.</p>",
-            "font_size_mobile": 16,
-            "font_size_desktop": 20,
-            "font_weight": "400"
           }
         },
         "sticker_B7k6cj": {
@@ -84,8 +84,8 @@
       "block_order": [
         "background_pattern_BRDbdG",
         "extra_image_MfXE9W",
-        "extra_image_XJCCqt",
         "extra_text_K9QA4i",
+        "extra_image_XJCCqt",
         "sticker_B7k6cj",
         "shape_divider_GiXbTw"
       ],
