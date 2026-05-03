@@ -844,7 +844,7 @@
         "text_alignment": "text-center",
         "button_link": "#lander-final-subscribe",
         "button_label": "Join The Mission",
-        "color_scheme": "scheme2",
+        "color_scheme": "scheme1",
         "use_gradient_background": false
       }
     }
