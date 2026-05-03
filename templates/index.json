@@ -740,7 +740,7 @@
         "content_vertical_alignment": "center",
         "button_link": "",
         "button_label": "Shop Now",
-        "color_scheme": "",
+        "color_scheme": "scheme1",
         "text_color_override": "rgba(0,0,0,0)",
         "use_gradient_background": false
       }
