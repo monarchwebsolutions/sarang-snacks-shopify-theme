@@ -26,7 +26,7 @@
           "settings": {
             "show_menu_headings": false,
             "linklist_1": "main-menu",
-            "linklist_2": "footer",
+            "linklist_2": "",
             "linklist_3": ""
           }
         },
@@ -35,12 +35,24 @@
           "settings": {
             "newsletter_heading": "Sign up to our newsletter"
           }
+        },
+        "shape_divider_BrdAzy": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme3",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
         }
       },
       "block_order": [
         "tagline-and-social-links",
         "menus",
-        "newsletter"
+        "newsletter",
+        "shape_divider_BrdAzy"
       ],
       "settings": {
         "show_payment_icons": true,
