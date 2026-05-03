@@ -88,6 +88,22 @@
         x-intersect:leave="stickyAddToCartShown = true"
       {% endif %}
     >
+      {% if enable_payment_buttons %}
+        <script>
+          const addToCartBtnEl = document.querySelector('.add-to-cart-btn');
+
+          if (addToCartBtnEl) {
+            document.documentElement.style.setProperty(
+              '--payment-button-height',
+              `${addToCartBtnEl.getBoundingClientRect().height}px`
+            );
+          }
+        </script>
+        <div class="dynamic-payment-buttons mb-2.5 {% if settings.button_drop_shadow_size > 0 %}{{ settings.button_shadow_direction | replace: '_', ' ' }}{% endif %} min-h-[calc(var(--payment-button-height)_+_1.9em)]">
+          {{ form | payment_button }}
+        </div>
+      {% endif %}
+
       <div class="w-full">
         <button
           class="
@@ -142,22 +158,6 @@
           </span>
         </button>
       </div>
-
-      {% if enable_payment_buttons %}
-        <script>
-          const addToCartBtnEl = document.querySelector('.add-to-cart-btn');
-
-          if (addToCartBtnEl) {
-            document.documentElement.style.setProperty(
-              '--payment-button-height',
-              `${addToCartBtnEl.getBoundingClientRect().height}px`
-            );
-          }
-        </script>
-        <div class="dynamic-payment-buttons mt-2.5 {% if settings.button_drop_shadow_size > 0 %}{{ settings.button_shadow_direction | replace: '_', ' ' }}{% endif %} min-h-[calc(var(--payment-button-height)_+_1.9em)]">
-          {{ form | payment_button }}
-        </div>
-      {% endif %}
     </div>
 
     {%- if settings.cart_type == 'page'
