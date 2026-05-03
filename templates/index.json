@@ -966,11 +966,14 @@
     },
     "rich_text_RtkJ3Q": {
       "type": "rich-text",
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
       "name": "t:sections.rich_text.name",
       "settings": {
-        "title": "Heading",
+        "title": "Ready to Munch?",
         "heading_size": "heading-standard",
-        "rich_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "rich_text": "<p><strong>Pre-Order now and save 50%</strong></p>",
         "display_on_card": true,
         "content_width_desktop": "lg:w-2/3",
         "background_image_fit": "cover",
@@ -982,7 +985,7 @@
         "background_image_enable_parallax": false,
         "background_image_parallax_speed": 3,
         "button_link": "shopify://products/sarang-chips",
-        "button_label": "Shop Now",
+        "button_label": "Try Sarang",
         "color_scheme": "scheme5",
         "use_gradient_background": false
       }
