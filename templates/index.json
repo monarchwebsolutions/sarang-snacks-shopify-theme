@@ -122,7 +122,7 @@
         "background_image_repeat": "repeat",
         "background_image_opacity": 10,
         "background_image_enable_parallax": true,
-        "background_image_parallax_speed": 5,
+        "background_image_parallax_speed": 4,
         "mode": "preview",
         "playback": "inline",
         "crop": "",
