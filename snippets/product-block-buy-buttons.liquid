@@ -99,7 +99,10 @@
             );
           }
         </script>
-        <div class="dynamic-payment-buttons mb-2.5 {% if settings.button_drop_shadow_size > 0 %}{{ settings.button_shadow_direction | replace: '_', ' ' }}{% endif %}">
+        <div
+          class="dynamic-payment-buttons mb-2.5 {% if settings.button_drop_shadow_size > 0 %}{{ settings.button_shadow_direction | replace: '_', ' ' }}{% endif %}"
+          style="min-height: 0 !important;"
+        >
           {{ form | payment_button }}
         </div>
       {% endif %}
