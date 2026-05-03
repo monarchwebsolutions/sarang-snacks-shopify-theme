@@ -185,6 +185,17 @@
           "settings": {
             "height": 5
           }
+        },
+        "shape_divider_CWNN7R": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
         }
       },
       "block_order": [
@@ -201,7 +212,8 @@
         "tabs",
         "spacer",
         "dot-rating",
-        "spacer-1"
+        "spacer-1",
+        "shape_divider_CWNN7R"
       ],
       "settings": {
         "crop": "aspect-w-1 aspect-h-1",
