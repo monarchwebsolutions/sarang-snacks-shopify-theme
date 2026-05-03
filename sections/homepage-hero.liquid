@@ -79,6 +79,16 @@
   if section.index <= 3
     assign loading = 'eager'
   endif
+
+  assign video_crop = ''
+  case section.settings.video_aspect_ratio
+    when 'square'
+      assign video_crop = 'aspect-w-1 aspect-h-1'
+    when 'landscape'
+      assign video_crop = 'aspect-w-16 aspect-h-9'
+    when 'portrait'
+      assign video_crop = 'aspect-w-9 aspect-h-16'
+  endcase
 -%}
 
 {%- render 'shape-defs',
@@ -133,7 +143,7 @@
                     playback: section.settings.playback,
                     shape_id: section.id,
                     shape: section.settings.image_shape,
-                    crop: section.settings.crop,
+                    crop: video_crop,
                     rotate: section.settings.rotate_image,
                     is_card: section.settings.display_on_card,
                     container_id: section.id,
@@ -546,6 +556,30 @@
       ],
       "default": "inline",
       "info": "t:sections.video.settings.playback.info"
+    },
+    {
+      "type": "select",
+      "id": "video_aspect_ratio",
+      "label": "Video aspect ratio",
+      "default": "original",
+      "options": [
+        {
+          "value": "original",
+          "label": "Original"
+        },
+        {
+          "value": "square",
+          "label": "Square"
+        },
+        {
+          "value": "landscape",
+          "label": "16:9"
+        },
+        {
+          "value": "portrait",
+          "label": "9:16"
+        }
+      ]
     },
     {
       "type": "select",
