@@ -99,7 +99,7 @@
             );
           }
         </script>
-        <div class="dynamic-payment-buttons mb-2.5 {% if settings.button_drop_shadow_size > 0 %}{{ settings.button_shadow_direction | replace: '_', ' ' }}{% endif %} min-h-[calc(var(--payment-button-height)_+_1.9em)]">
+        <div class="dynamic-payment-buttons mb-2.5 {% if settings.button_drop_shadow_size > 0 %}{{ settings.button_shadow_direction | replace: '_', ' ' }}{% endif %}">
           {{ form | payment_button }}
         </div>
       {% endif %}
