@@ -175,7 +175,7 @@
         "settings": {
           "text": "#353b44",
           "text_contrast": "#ffffff",
-          "background": "#d92826",
+          "background": "#fbf9f6",
           "gradient": "linear-gradient(136deg, rgba(92, 15, 143, 1) 3%, rgba(162, 20, 255, 1) 99%)",
           "accent_1": "#e6c6fa",
           "accent_1_contrast": "#1e1e1e",

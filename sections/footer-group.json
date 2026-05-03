@@ -46,8 +46,8 @@
         "show_payment_icons": true,
         "show_country_selector": true,
         "show_locale_selector": true,
-        "color_scheme": "scheme1",
-        "use_gradient_background": true
+        "color_scheme": "scheme4",
+        "use_gradient_background": false
       }
     },
     "hero-logo": {
