@@ -943,6 +943,17 @@
             "title": "Frequently asked question",
             "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
           }
+        },
+        "shape_divider_HbbcFe": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme3",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
         }
       },
       "block_order": [
@@ -953,7 +964,8 @@
         "question_XEhRN6",
         "question_zEFheU",
         "question_gjPyJ6",
-        "question_HMdNAm"
+        "question_HMdNAm",
+        "shape_divider_HbbcFe"
       ],
       "name": "t:sections.faq.name",
       "settings": {
