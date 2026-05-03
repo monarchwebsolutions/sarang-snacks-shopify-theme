@@ -117,10 +117,10 @@
       "settings": {
         "display_on_card": false,
         "image": "shopify://shop_images/AdobeStock_459989806_Preview.jpg",
-        "background_image": "shopify://shop_images/sarang-bg-2.png",
+        "background_image": "shopify://shop_images/sarang-bg-2-60.png",
         "background_image_fit": "auto",
         "background_image_repeat": "repeat",
-        "background_image_opacity": 13,
+        "background_image_opacity": 10,
         "background_image_enable_parallax": true,
         "background_image_parallax_speed": 5,
         "mode": "preview",
