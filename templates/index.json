@@ -816,6 +816,37 @@
         "text_color_override": "rgba(0,0,0,0)",
         "use_gradient_background": false
       }
+    },
+    "giving_back_home_Q8x7Pn": {
+      "type": "giving-back",
+      "custom_css": [
+        ".card__surface {background-color: #2ed3c0;}",
+        "h2 {max-width: 500px; margin: auto;}",
+        "h3 {text-align: center; margin-top: 12px; font-size: 13px; font-weight: bold; text-transform: uppercase; font-family: \"Outfit\"; color: white;}",
+        ".trust-badge-container {display: flex; gap: 4px; max-width: 400px; margin: auto; padding: 24px 0 12px;}",
+        ".badge-img {padding: 0 10px;}",
+        "@media screen and (max-width: 679px) {h3 {font-size: 8px; } .trust-badge-container {gap: 2px; }}"
+      ],
+      "name": "Lander - Giving Back",
+      "settings": {
+        "display_on_card": true,
+        "image": "shopify://shop_images/photomania-81383d1f14271632d4855039263520d9.jpg",
+        "crop": "aspect-w-1 aspect-h-1",
+        "image_shape": "default",
+        "blob_type": 4,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Giving Back With Every Bite",
+        "heading_size": "heading-standard",
+        "richtext": "<p>Last year, nearly <strong>47 million Americans</strong> — including <strong>14 million children</strong> — faced food insecurity. Over <strong>50 million</strong> people turned to food banks for help.<br/><br/>We’re proud to support food access in communities that need it the most, because snacks with soul should mean everyone eats.</p>",
+        "text_alignment": "text-center",
+        "button_link": "#lander-final-subscribe",
+        "button_label": "Join The Mission",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
@@ -825,6 +856,7 @@
     "featured_product_NVKRFF",
     "featured_reviews_c3Ecx4",
     "vertical_video_embeds_home_f8Wm2K",
-    "homepage_hero_LxGbKD"
+    "homepage_hero_LxGbKD",
+    "giving_back_home_Q8x7Pn"
   ]
 }
