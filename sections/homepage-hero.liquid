@@ -110,9 +110,13 @@
         {% if section.settings.background_image_enable_parallax %}
           data-parallax-element
         {% endif %}
-        class="homepage-hero__background-image h-full w-full"
+        class="homepage-hero__background-image relative h-full w-full"
         style="background-image: url('{{ section.settings.background_image | image_url: width: 2400 }}');"
-      ></div>
+      >
+        {% if section.settings.background_image_opacity_mode == 'directional' %}
+          <div class="homepage-hero__background-opacity-overlay absolute inset-0"></div>
+        {% endif %}
+      </div>
     </div>
   {%- endif -%}
   <div class="section-content relative z-10 py-section-vertical-spacing">
@@ -297,10 +301,19 @@
   }
 
   #shopify-section-{{ section.id }} .homepage-hero__background-image {
-    opacity: {{ section.settings.background_image_opacity | divided_by: 100.0 }};
+    opacity: {% if section.settings.background_image_opacity_mode == 'directional' %}1{% else %}{{ section.settings.background_image_opacity | divided_by: 100.0 }}{% endif %};
+    position: relative;
     background-position: center;
     background-repeat: {{ section.settings.background_image_repeat }};
     background-size: {{ section.settings.background_image_fit }};
+  }
+
+  #shopify-section-{{ section.id }} .homepage-hero__background-opacity-overlay {
+    background: linear-gradient(
+      90deg,
+      rgba(var(--color-scheme-background), {{ 100 | minus: section.settings.background_image_opacity_left | divided_by: 100.0 }}) 0%,
+      rgba(var(--color-scheme-background), {{ 100 | minus: section.settings.background_image_opacity_right | divided_by: 100.0 }}) 100%
+    );
   }
 
   #shopify-section-{{ section.id }} .homepage-hero__subheading a,
@@ -431,9 +444,45 @@
       ]
     },
     {
+      "type": "select",
+      "id": "background_image_opacity_mode",
+      "label": "Background image opacity mode",
+      "default": "single",
+      "options": [
+        {
+          "value": "single",
+          "label": "Single"
+        },
+        {
+          "value": "directional",
+          "label": "Directional"
+        }
+      ]
+    },
+    {
       "type": "range",
       "id": "background_image_opacity",
       "label": "Background image opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "background_image_opacity_left",
+      "label": "Background image opacity left side",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "background_image_opacity_right",
+      "label": "Background image opacity right side",
       "min": 0,
       "max": 100,
       "step": 1,
