@@ -87,14 +87,22 @@
             "dot_color": "text",
             "title_1": "Sweet",
             "rating_1": 3,
+            "dynamic_rating_1": "",
             "title_2": "Salty",
             "rating_2": 3,
+            "dynamic_rating_2": "",
             "title_3": "Sour",
             "rating_3": 0,
+            "dynamic_rating_3": "",
             "title_4": "Bitter",
             "rating_4": 4,
+            "dynamic_rating_4": "",
             "title_5": "Umami",
-            "rating_5": 5
+            "rating_5": 5,
+            "dynamic_rating_5": "",
+            "title_6": "",
+            "rating_6": 5,
+            "dynamic_rating_6": ""
           }
         },
         "sticker-main-0": {
@@ -160,7 +168,7 @@
         "icon-row"
       ],
       "settings": {
-        "crop": "",
+        "crop": "aspect-w-1 aspect-h-1",
         "image_shape": "default",
         "desktop_media_width": "lg:col-span-6_lg:col-span-6",
         "show_slideshow_arrows_on_desktop": false,
