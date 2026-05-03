@@ -249,7 +249,7 @@
           "type": "shape_divider",
           "settings": {
             "target_section": "below",
-            "target_section_color_scheme": "scheme3",
+            "target_section_color_scheme": "scheme4",
             "style": "waves-3-patterned_1200x84",
             "flip_horizontal": false,
             "enable_animation": true,
@@ -462,7 +462,7 @@
         "buy_buttons_ePVkiU"
       ],
       "custom_css": [
-        ".add-to-cart-btn .push-btn__surface {background: var(--sarang-brand-red);}",
+        ".add-to-cart-btn .push-btn__surface {background: var(--sarang-brand-blue);}",
         ".sticker__text {font-family: var(--font-subheading);}"
       ],
       "name": "t:sections.featured_product.name",
@@ -480,13 +480,24 @@
         "hide_media_shadow": false,
         "thumbnail_size": "standard",
         "show_thumbnails_on_mobile": false,
-        "color_scheme": "scheme3",
+        "color_scheme": "scheme4",
         "use_gradient_background": false
       }
     },
     "featured_reviews_c3Ecx4": {
       "type": "featured-reviews",
       "blocks": {
+        "shape_divider_GkQntr": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme4",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
+        },
         "shape_divider_TatniF": {
           "type": "shape_divider",
           "settings": {
@@ -496,17 +507,6 @@
             "flip_horizontal": false,
             "enable_animation": true,
             "animation_direction": ""
-          }
-        },
-        "shape_divider_GkQntr": {
-          "type": "shape_divider",
-          "settings": {
-            "target_section": "above",
-            "target_section_color_scheme": "scheme3",
-            "style": "waves-3-patterned_1200x84",
-            "flip_horizontal": false,
-            "enable_animation": true,
-            "animation_direction": "reverse"
           }
         },
         "background_pattern_bXg4ct": {
@@ -572,8 +572,8 @@
         }
       },
       "block_order": [
-        "shape_divider_TatniF",
         "shape_divider_GkQntr",
+        "shape_divider_TatniF",
         "background_pattern_bXg4ct",
         "review_DdTtpz",
         "review_LBWLPV",
