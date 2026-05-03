@@ -332,7 +332,7 @@
           "settings": {
             "target_section": "below",
             "target_section_color_scheme": "scheme3",
-            "style": "waves-3-patterned_1200x84",
+            "style": "waves-2-patterned_1200x43",
             "flip_horizontal": false,
             "enable_animation": true,
             "animation_direction": ""
@@ -517,15 +517,15 @@
     "featured_reviews_c3Ecx4": {
       "type": "featured-reviews",
       "blocks": {
-        "shape_divider_TatniF": {
+        "shape_divider_GkQntr": {
           "type": "shape_divider",
           "settings": {
-            "target_section": "below",
-            "target_section_color_scheme": "scheme2",
-            "style": "waves-3-patterned_1200x84",
+            "target_section": "above",
+            "target_section_color_scheme": "scheme3",
+            "style": "waves-2-patterned_1200x43",
             "flip_horizontal": false,
             "enable_animation": true,
-            "animation_direction": ""
+            "animation_direction": "reverse"
           }
         },
         "background_pattern_bXg4ct": {
@@ -590,27 +590,27 @@
             "review_text": "<p>Share what this customer loved about the product, flavor, or overall experience.</p>"
           }
         },
-        "shape_divider_GkQntr": {
+        "shape_divider_TatniF": {
           "type": "shape_divider",
           "settings": {
-            "target_section": "above",
-            "target_section_color_scheme": "scheme3",
+            "target_section": "below",
+            "target_section_color_scheme": "scheme2",
             "style": "waves-3-patterned_1200x84",
             "flip_horizontal": false,
             "enable_animation": true,
-            "animation_direction": "reverse"
+            "animation_direction": ""
           }
         }
       },
       "block_order": [
-        "shape_divider_TatniF",
+        "shape_divider_GkQntr",
         "background_pattern_bXg4ct",
         "review_DdTtpz",
         "review_LBWLPV",
         "review_anJRiH",
         "review_cGhzRD",
         "review_B4xrUc",
-        "shape_divider_GkQntr"
+        "shape_divider_TatniF"
       ],
       "name": "Featured reviews",
       "settings": {
@@ -751,6 +751,17 @@
     "homepage_hero_LxGbKD": {
       "type": "homepage-hero",
       "blocks": {
+        "shape_divider_aQPL86": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
+        },
         "extra_text_LWmqM9": {
           "type": "extra_text",
           "settings": {
@@ -762,6 +773,7 @@
         }
       },
       "block_order": [
+        "shape_divider_aQPL86",
         "extra_text_LWmqM9"
       ],
       "name": "Custom image with text",
