@@ -245,17 +245,6 @@
             "parallax_speed": 8
           }
         },
-        "shape_divider_KYPfAQ": {
-          "type": "shape_divider",
-          "settings": {
-            "target_section": "below",
-            "target_section_color_scheme": "scheme4",
-            "style": "waves-3-patterned_1200x84",
-            "flip_horizontal": false,
-            "enable_animation": true,
-            "animation_direction": ""
-          }
-        },
         "background_shape_k9948A": {
           "type": "background_shape",
           "settings": {
@@ -317,6 +306,17 @@
             "color_scheme": ""
           }
         },
+        "shape_divider_KYPfAQ": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme3",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        },
         "highlight_R9cHE3": {
           "type": "highlight",
           "disabled": true,
@@ -346,12 +346,12 @@
         "sticker_8wkegc",
         "shape_divider_ErBXWU",
         "background_pattern_VtAq4y",
-        "shape_divider_KYPfAQ",
         "background_shape_k9948A",
         "highlight_mPXdMH",
         "highlight_xgaYpU",
         "highlight_Pwt99F",
         "highlight_Hwd84y",
+        "shape_divider_KYPfAQ",
         "highlight_R9cHE3",
         "highlight_JFYw9G"
       ],
@@ -462,7 +462,7 @@
         "buy_buttons_ePVkiU"
       ],
       "custom_css": [
-        ".add-to-cart-btn .push-btn__surface {background: var(--sarang-brand-blue);}",
+        ".add-to-cart-btn .push-btn__surface {background: var(--sarang-brand-red);}",
         ".sticker__text {font-family: var(--font-subheading);}"
       ],
       "name": "t:sections.featured_product.name",
@@ -480,24 +480,13 @@
         "hide_media_shadow": false,
         "thumbnail_size": "standard",
         "show_thumbnails_on_mobile": false,
-        "color_scheme": "scheme4",
+        "color_scheme": "scheme3",
         "use_gradient_background": false
       }
     },
     "featured_reviews_c3Ecx4": {
       "type": "featured-reviews",
       "blocks": {
-        "shape_divider_GkQntr": {
-          "type": "shape_divider",
-          "settings": {
-            "target_section": "above",
-            "target_section_color_scheme": "scheme4",
-            "style": "waves-3-patterned_1200x84",
-            "flip_horizontal": false,
-            "enable_animation": true,
-            "animation_direction": "reverse"
-          }
-        },
         "shape_divider_TatniF": {
           "type": "shape_divider",
           "settings": {
@@ -569,17 +558,28 @@
             "review_title": "Best snack ever",
             "review_text": "<p>Share what this customer loved about the product, flavor, or overall experience.</p>"
           }
+        },
+        "shape_divider_GkQntr": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme3",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
         }
       },
       "block_order": [
-        "shape_divider_GkQntr",
         "shape_divider_TatniF",
         "background_pattern_bXg4ct",
         "review_DdTtpz",
         "review_LBWLPV",
         "review_anJRiH",
         "review_cGhzRD",
-        "review_B4xrUc"
+        "review_B4xrUc",
+        "shape_divider_GkQntr"
       ],
       "name": "Featured reviews",
       "settings": {
