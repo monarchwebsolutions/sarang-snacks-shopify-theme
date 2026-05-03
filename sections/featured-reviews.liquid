@@ -26,6 +26,28 @@
   class="relative overflow-hidden bg-scheme-background text-scheme-text {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %}"
   data-color-scheme="{{ section.settings.color_scheme }}"
 >
+  {%- if section.settings.background_image != blank -%}
+    <div
+      class="section-background-image pointer-events-none absolute inset-0 z-0"
+      {% if section.settings.background_image_enable_parallax %}
+        data-parallax-container
+        data-parallax-speed="-{{ section.settings.background_image_parallax_speed }}"
+        data-parallax-id="{{ section.id }}-background-image"
+      {% endif %}
+    >
+      <div
+        {% if section.settings.background_image_enable_parallax %}
+          data-parallax-element
+        {% endif %}
+        class="section-background-image__image relative h-full w-full"
+        style="background-image: url('{{ section.settings.background_image | image_url: width: 2400 }}');"
+      >
+        {% if section.settings.background_image_opacity_mode == 'directional' %}
+          <div class="section-background-image__opacity-overlay absolute inset-0"></div>
+        {% endif %}
+      </div>
+    </div>
+  {%- endif -%}
   <div class="section-content px-section py-section-vertical-spacing">
     <div class="mx-auto max-w-site {{ section.settings.content_width_desktop }} {% if section.settings.display_on_card %}card{% endif %}">
       <div class="{% if section.settings.display_on_card %}card__surface p-5 lg:p-10{% endif %} relative z-shape-divider mx-auto text-center">
@@ -156,6 +178,22 @@
   </div>
 
   <style>
+    #shopify-section-{{ section.id }} .section-background-image__image {
+      opacity: {% if section.settings.background_image_opacity_mode == 'directional' %}1{% else %}{{ section.settings.background_image_opacity | divided_by: 100.0 }}{% endif %};
+      position: relative;
+      background-position: center;
+      background-repeat: {{ section.settings.background_image_repeat }};
+      background-size: {{ section.settings.background_image_fit }};
+    }
+
+    #shopify-section-{{ section.id }} .section-background-image__opacity-overlay {
+      background: linear-gradient(
+        90deg,
+        rgba(var(--color-scheme-background), {{ 100 | minus: section.settings.background_image_opacity_left | divided_by: 100.0 }}) 0%,
+        rgba(var(--color-scheme-background), {{ 100 | minus: section.settings.background_image_opacity_right | divided_by: 100.0 }}) 100%
+      );
+    }
+
     #shopify-section-{{ section.id }} .featured-reviews__photo {
       width: {{ section.settings.photo_size_mobile }}px;
       height: {{ section.settings.photo_size_mobile }}px;
@@ -229,6 +267,12 @@
       }
     }
   </style>
+
+  {% unless request.design_mode %}
+    {% if section.settings.background_image_enable_parallax %}
+      <script src="{{ 'shapes-animations.js' | asset_url }}" defer></script>
+    {% endif %}
+  {%- endunless -%}
 
   {%- liquid
     for block in section.blocks
@@ -386,6 +430,93 @@
           "label": "t:common.options.full_width.label"
         }
       ]
+    },
+    {
+      "type": "header",
+      "content": "Background image"
+    },
+    {
+      "id": "background_image",
+      "type": "image_picker",
+      "label": "t:common.settings.background_image.label"
+    },
+    {
+      "type": "select",
+      "id": "background_image_fit",
+      "label": "Background image fit",
+      "default": "cover",
+      "options": [
+        { "value": "cover", "label": "Cover" },
+        { "value": "contain", "label": "Contain" },
+        { "value": "auto", "label": "Auto" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "background_image_repeat",
+      "label": "Background repeat",
+      "default": "no-repeat",
+      "options": [
+        { "value": "no-repeat", "label": "No repeat" },
+        { "value": "repeat", "label": "Repeat" },
+        { "value": "repeat-x", "label": "Repeat x" },
+        { "value": "repeat-y", "label": "Repeat y" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "background_image_opacity_mode",
+      "label": "Background image opacity mode",
+      "default": "single",
+      "options": [
+        { "value": "single", "label": "Single" },
+        { "value": "directional", "label": "Directional" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "background_image_opacity",
+      "label": "Background image opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "background_image_opacity_left",
+      "label": "Background image opacity left side",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "background_image_opacity_right",
+      "label": "Background image opacity right side",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "checkbox",
+      "id": "background_image_enable_parallax",
+      "label": "Enable background image parallax",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "background_image_parallax_speed",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "label": "Background image parallax speed",
+      "default": 3
     },
     {
       "type": "header",
