@@ -110,13 +110,9 @@
         {% if section.settings.background_image_enable_parallax %}
           data-parallax-element
         {% endif %}
-        class="homepage-hero__background-image h-full w-full relative"
+        class="homepage-hero__background-image h-full w-full"
         style="background-image: url('{{ section.settings.background_image | image_url: width: 2400 }}');"
-      >
-        {% if section.settings.enable_background_gradient_overlay %}
-          <div class="homepage-hero__background-overlay absolute inset-0"></div>
-        {% endif %}
-      </div>
+      ></div>
     </div>
   {%- endif -%}
   <div class="section-content relative z-10 py-section-vertical-spacing">
@@ -307,10 +303,6 @@
     background-size: {{ section.settings.background_image_fit }};
   }
 
-  #shopify-section-{{ section.id }} .homepage-hero__background-overlay {
-    background: linear-gradient({{ section.settings.background_gradient_direction }}, {{ section.settings.background_gradient_color_start }}, {{ section.settings.background_gradient_color_end }});
-  }
-
   #shopify-section-{{ section.id }} .homepage-hero__subheading a,
   #shopify-section-{{ section.id }} .homepage-hero__extra-text a {
     text-decoration: underline;
@@ -447,56 +439,6 @@
       "step": 1,
       "unit": "%",
       "default": 100
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_background_gradient_overlay",
-      "label": "Enable background gradient overlay",
-      "default": false
-    },
-    {
-      "type": "select",
-      "id": "background_gradient_direction",
-      "label": "Background gradient direction",
-      "default": "180deg",
-      "options": [
-        {
-          "value": "180deg",
-          "label": "Top to bottom"
-        },
-        {
-          "value": "0deg",
-          "label": "Bottom to top"
-        },
-        {
-          "value": "90deg",
-          "label": "Left to right"
-        },
-        {
-          "value": "270deg",
-          "label": "Right to left"
-        },
-        {
-          "value": "135deg",
-          "label": "Top left to bottom right"
-        },
-        {
-          "value": "225deg",
-          "label": "Top right to bottom left"
-        }
-      ]
-    },
-    {
-      "type": "color",
-      "id": "background_gradient_color_start",
-      "label": "Background gradient start color",
-      "default": "#000000"
-    },
-    {
-      "type": "color",
-      "id": "background_gradient_color_end",
-      "label": "Background gradient end color",
-      "default": "#00000000"
     },
     {
       "type": "checkbox",
