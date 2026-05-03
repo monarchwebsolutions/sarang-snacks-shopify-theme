@@ -113,7 +113,9 @@
         "sticker_B7k6cj",
         "shape_divider_GiXbTw"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".homepage-hero__extra-image{margin-top: 6px}"
+      ],
       "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
