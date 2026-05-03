@@ -970,6 +970,9 @@
         "question_HMdNAm",
         "shape_divider_HbbcFe"
       ],
+      "custom_css": [
+        ".font-main {font-size: 18px;}"
+      ],
       "name": "t:sections.faq.name",
       "settings": {
         "display_on_card": true,
@@ -984,7 +987,7 @@
     "rich_text_RtkJ3Q": {
       "type": "rich-text",
       "custom_css": [
-        "p {font-size: 20px; /* color: white; */}"
+        "p {font-size: 20px;}"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
