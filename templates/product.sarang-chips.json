@@ -299,6 +299,17 @@
     "homepage_hero_XPT6Gx": {
       "type": "homepage-hero",
       "blocks": {
+        "shape_divider_jkeMgR": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        },
         "extra_text_pg9fEU": {
           "type": "extra_text",
           "settings": {
@@ -310,6 +321,7 @@
         }
       },
       "block_order": [
+        "shape_divider_jkeMgR",
         "extra_text_pg9fEU"
       ],
       "name": "Custom image with text",
