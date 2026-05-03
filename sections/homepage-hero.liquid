@@ -298,7 +298,7 @@
 
   #shopify-section-{{ section.id }} .homepage-hero__background-image {
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: {{ section.settings.background_image_repeat }};
     background-size: {{ section.settings.background_image_fit }};
   }
 
@@ -402,6 +402,30 @@
         {
           "value": "auto",
           "label": "Auto"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "background_image_repeat",
+      "label": "Background repeat",
+      "default": "no-repeat",
+      "options": [
+        {
+          "value": "no-repeat",
+          "label": "No repeat"
+        },
+        {
+          "value": "repeat",
+          "label": "Repeat"
+        },
+        {
+          "value": "repeat-x",
+          "label": "Repeat x"
+        },
+        {
+          "value": "repeat-y",
+          "label": "Repeat y"
         }
       ]
     },
