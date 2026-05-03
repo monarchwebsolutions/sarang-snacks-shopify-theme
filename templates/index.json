@@ -963,6 +963,29 @@
         "color_scheme": "scheme2",
         "use_gradient_background": false
       }
+    },
+    "rich_text_RtkJ3Q": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "Heading",
+        "heading_size": "heading-standard",
+        "rich_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "display_on_card": true,
+        "content_width_desktop": "lg:w-2/3",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
+        "button_link": "shopify://products/sarang-chips",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
@@ -974,6 +997,7 @@
     "vertical_video_embeds_home_f8Wm2K",
     "homepage_hero_LxGbKD",
     "giving_back_home_Q8x7Pn",
-    "faq_8UDX3q"
+    "faq_8UDX3q",
+    "rich_text_RtkJ3Q"
   ]
 }
