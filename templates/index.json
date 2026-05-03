@@ -828,6 +828,10 @@
       "name": "Lander - Giving Back",
       "settings": {
         "display_on_card": true,
+        "trust_badge_image_1": "shopify://shop_images/food-access-badge-red.png",
+        "trust_badge_image_2": "shopify://shop_images/clean-label-badge-red.png",
+        "trust_badge_image_3": "shopify://shop_images/purpose-driven-badge-red.png",
+        "trust_badge_image_4": "shopify://shop_images/friendship-badge-red.png",
         "image": "shopify://shop_images/photomania-81383d1f14271632d4855039263520d9.jpg",
         "background_image": "shopify://shop_images/sarang-bg-2-60.png",
         "background_image_fit": "auto",
