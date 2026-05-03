@@ -202,15 +202,15 @@
       "scheme6": {
         "settings": {
           "text": "#1e1e1e",
-          "text_contrast": "#ffffff",
-          "background": "#e6c6fa",
+          "text_contrast": "#fbf9f6",
+          "background": "#fbf9f6",
           "gradient": "linear-gradient(135deg, rgba(246, 230, 255, 1), rgba(208, 135, 250, 1) 100%)",
-          "accent_1": "#ffffff",
+          "accent_1": "#ff312f",
           "accent_1_contrast": "#1e1e1e",
-          "accent_2": "#ffffff",
+          "accent_2": "#fbf9f6",
           "accent_2_contrast": "#1e1e1e",
           "card_text": "#1e1e1e",
-          "card": "#a137d8"
+          "card": "#ffcafa"
         }
       },
       "scheme-2e9ad064-4664-4798-a820-22744228d263": {
