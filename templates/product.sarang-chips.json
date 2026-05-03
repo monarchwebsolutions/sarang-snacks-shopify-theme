@@ -315,8 +315,9 @@
       "name": "Custom image with text",
       "settings": {
         "display_on_card": true,
-        "background_image_fit": "cover",
-        "background_image_repeat": "no-repeat",
+        "background_image": "shopify://shop_images/BrandPattern_Large_1.jpg",
+        "background_image_fit": "contain",
+        "background_image_repeat": "repeat",
         "background_image_opacity_mode": "single",
         "background_image_opacity": 100,
         "background_image_opacity_left": 100,
@@ -344,7 +345,7 @@
         "content_vertical_alignment": "center",
         "button_link": "",
         "button_label": "Shop Now",
-        "color_scheme": "",
+        "color_scheme": "scheme6",
         "text_color_override": "rgba(0,0,0,0)",
         "use_gradient_background": false
       }
