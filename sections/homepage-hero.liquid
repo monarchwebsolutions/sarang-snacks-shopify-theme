@@ -97,6 +97,24 @@
     --homepage-hero-text-color-override: {{ section.settings.text_color_override }};
   "
 >
+  {%- if section.settings.background_image != blank -%}
+    <div
+      class="homepage-hero__background pointer-events-none absolute inset-0 z-0"
+      {% if section.settings.background_image_enable_parallax %}
+        data-parallax-container
+        data-parallax-speed="-{{ section.settings.background_image_parallax_speed }}"
+        data-parallax-id="{{ section.id }}-background-image"
+      {% endif %}
+    >
+      <div
+        {% if section.settings.background_image_enable_parallax %}
+          data-parallax-element
+        {% endif %}
+        class="homepage-hero__background-image h-full w-full"
+        style="background-image: url('{{ section.settings.background_image | image_url: width: 2400 }}');"
+      ></div>
+    </div>
+  {%- endif -%}
   <div class="section-content relative z-10 py-section-vertical-spacing">
     <div class="relative z-10 mx-auto max-w-site px-section">
       <div class="{% if section.settings.display_on_card %}card{% endif %}">
@@ -278,6 +296,12 @@
     line-height: 1.4;
   }
 
+  #shopify-section-{{ section.id }} .homepage-hero__background-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: {{ section.settings.background_image_fit }};
+  }
+
   #shopify-section-{{ section.id }} .homepage-hero__subheading a,
   #shopify-section-{{ section.id }} .homepage-hero__extra-text a {
     text-decoration: underline;
@@ -328,6 +352,12 @@
   }
 </style>
 
+{% unless request.design_mode %}
+  {% if section.settings.background_image_enable_parallax %}
+    <script src="{{ 'shapes-animations.js' | asset_url }}" defer></script>
+  {% endif %}
+{%- endunless -%}
+
 {% schema %}
 {
   "name": "Custom image with text",
@@ -345,6 +375,50 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:common.settings.image.label"
+    },
+    {
+      "type": "header",
+      "content": "Background image"
+    },
+    {
+      "id": "background_image",
+      "type": "image_picker",
+      "label": "t:common.settings.background_image.label"
+    },
+    {
+      "type": "select",
+      "id": "background_image_fit",
+      "label": "Background image fit",
+      "default": "cover",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cover"
+        },
+        {
+          "value": "contain",
+          "label": "Contain"
+        },
+        {
+          "value": "auto",
+          "label": "Auto"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "background_image_enable_parallax",
+      "label": "Enable background image parallax",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "background_image_parallax_speed",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "label": "Background image parallax speed",
+      "default": 3
     },
     {
       "type": "header",
