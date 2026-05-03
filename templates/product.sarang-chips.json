@@ -323,8 +323,8 @@
         "background_image_opacity_right": 100,
         "background_image_enable_parallax": false,
         "background_image_parallax_speed": 3,
-        "button_link": "shopify://products/sarang-chips",
-        "button_label": "Shop now",
+        "button_link": "",
+        "button_label": "",
         "color_scheme": "scheme2",
         "use_gradient_background": true
       }
