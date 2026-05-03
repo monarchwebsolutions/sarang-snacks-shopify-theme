@@ -187,7 +187,7 @@
       },
       "scheme5": {
         "settings": {
-          "text": "#353b44",
+          "text": "#fbf9f6",
           "text_contrast": "#fbf9f6",
           "background": "#ffcafa",
           "gradient": "",
@@ -215,16 +215,16 @@
       },
       "scheme-2e9ad064-4664-4798-a820-22744228d263": {
         "settings": {
-          "text": "#ffffff",
+          "text": "#353b44",
           "text_contrast": "#1e1e1e",
-          "background": "#7209b7",
+          "background": "#ffcafa",
           "gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-          "accent_1": "#e6c6fa",
+          "accent_1": "#7ddcf8",
           "accent_1_contrast": "#1e1e1e",
           "accent_2": "#e6c6fa",
           "accent_2_contrast": "#1e1e1e",
-          "card_text": "#1e1e1e",
-          "card": "#ffffff"
+          "card_text": "#353b44",
+          "card": "#ff312f"
         }
       },
       "scheme-3db00ab1-bac0-430a-a9bb-0991f3e9ee16": {

@@ -104,7 +104,7 @@
         "overlay_first_section_padding_top_desktop": 3,
         "overlay_first_section_padding_top_mobile": 3,
         "color_scheme": "scheme2",
-        "active_color_scheme": "",
+        "active_color_scheme": "scheme1",
         "mobile_main_linklist": "",
         "sidebar_menu_font_size": "heading-secondary",
         "sidebar_show_footer_menu": false,
