@@ -819,6 +819,22 @@
     },
     "giving_back_home_Q8x7Pn": {
       "type": "giving-back",
+      "blocks": {
+        "shape_divider_jCjHG8": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_jCjHG8"
+      ],
       "custom_css": [
         "h3 {text-align: center; margin-top: 12px; font-size: 13px; font-weight: bold; text-transform: uppercase; font-family: \"Outfit\";}",
         ".trust-badge-container {display: flex; gap: 4px; max-width: 400px; margin: auto; padding: 24px 0 12px;}",
@@ -858,6 +874,95 @@
         "color_scheme": "scheme1",
         "use_gradient_background": false
       }
+    },
+    "faq_8UDX3q": {
+      "type": "faq",
+      "blocks": {
+        "question_4QCpjF": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_B4T98d": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_C6MQtY": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_x4gfWC": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_XEhRN6": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_zEFheU": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_gjPyJ6": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_HMdNAm": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_4QCpjF",
+        "question_B4T98d",
+        "question_C6MQtY",
+        "question_x4gfWC",
+        "question_XEhRN6",
+        "question_zEFheU",
+        "question_gjPyJ6",
+        "question_HMdNAm"
+      ],
+      "name": "t:sections.faq.name",
+      "settings": {
+        "display_on_card": true,
+        "heading_text_style": "heading",
+        "two_columns_desktop": true,
+        "title": "FAQ",
+        "richtext": "Find the most frequently asked questions below.",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false
+      }
     }
   },
   "order": [
@@ -868,6 +973,7 @@
     "featured_reviews_c3Ecx4",
     "vertical_video_embeds_home_f8Wm2K",
     "homepage_hero_LxGbKD",
-    "giving_back_home_Q8x7Pn"
+    "giving_back_home_Q8x7Pn",
+    "faq_8UDX3q"
   ]
 }
