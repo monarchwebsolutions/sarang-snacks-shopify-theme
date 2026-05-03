@@ -114,7 +114,7 @@
         "shape_divider_GiXbTw"
       ],
       "custom_css": [
-        ".homepage-hero__extra-image{margin-top: 6px}"
+        ".homepage-hero__extra-image {margin-top: 6px;}"
       ],
       "name": "Custom image with text",
       "settings": {
@@ -856,10 +856,10 @@
       "name": "Lander - Giving Back",
       "settings": {
         "display_on_card": true,
-        "trust_badge_image_1": "shopify://shop_images/food-access-badge-red.png",
-        "trust_badge_image_2": "shopify://shop_images/clean-label-badge-red.png",
-        "trust_badge_image_3": "shopify://shop_images/purpose-driven-badge-red.png",
-        "trust_badge_image_4": "shopify://shop_images/friendship-badge-red.png",
+        "trust_badge_image_1": "shopify://shop_images/food-access-badge-sarang-red_642af4a5-b1c1-4d24-84fb-c7ee8a53e159.png",
+        "trust_badge_image_2": "shopify://shop_images/clean-label-badge-sarang-red_e081cd94-8e75-4aa4-b72e-cdb25ba178f0.png",
+        "trust_badge_image_3": "shopify://shop_images/purpose-driven-badge-sarang-red_7c68db47-eefb-459a-920a-d881b54b3898.png",
+        "trust_badge_image_4": "shopify://shop_images/friendship-badge-sarang-red_4062d77c-9039-4f25-b64a-d6a5e50e81cb.png",
         "image": "shopify://shop_images/photomania-81383d1f14271632d4855039263520d9.jpg",
         "background_image": "shopify://shop_images/sarang-bg-2-60.png",
         "background_image_fit": "auto",
