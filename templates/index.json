@@ -746,6 +746,8 @@
         "background_image_opacity_right": 100,
         "background_image_enable_parallax": false,
         "background_image_parallax_speed": 3,
+        "button_link": "",
+        "button_label": "Shop now",
         "color_scheme": "scheme2",
         "use_gradient_background": true
       }
@@ -871,7 +873,7 @@
         "text_alignment": "text-center",
         "button_link": "#lander-final-subscribe",
         "button_label": "",
-        "color_scheme": "scheme1",
+        "color_scheme": "scheme-9a85251c-aafc-48e9-8e04-83b404504832",
         "use_gradient_background": false
       }
     },
