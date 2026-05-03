@@ -994,6 +994,22 @@
     },
     "rich_text_RtkJ3Q": {
       "type": "rich-text",
+      "blocks": {
+        "shape_divider_dGfWTA": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_dGfWTA"
+      ],
       "custom_css": [
         "p {font-size: 20px;}"
       ],
