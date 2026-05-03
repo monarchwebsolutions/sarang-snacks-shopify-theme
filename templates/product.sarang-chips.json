@@ -296,6 +296,59 @@
         "use_gradient_background": true
       }
     },
+    "homepage_hero_XPT6Gx": {
+      "type": "homepage-hero",
+      "blocks": {
+        "extra_text_pg9fEU": {
+          "type": "extra_text",
+          "settings": {
+            "content": "<p>Add extra text below the CTA.</p>",
+            "font_size_mobile": 16,
+            "font_size_desktop": 20,
+            "font_weight": "400"
+          }
+        }
+      },
+      "block_order": [
+        "extra_text_pg9fEU"
+      ],
+      "name": "Custom image with text",
+      "settings": {
+        "display_on_card": true,
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
+        "mode": "preview",
+        "playback": "inline",
+        "video_aspect_ratio": "original",
+        "crop": "",
+        "image_shape": "default",
+        "blob_type": 1,
+        "rotate_image": 0,
+        "image_position": "right",
+        "image_size": "half",
+        "disable_media_style": false,
+        "title": "Custom image with text",
+        "heading_size_mobile": 44,
+        "heading_size_desktop": 72,
+        "richtext": "",
+        "subheading_size_mobile": 16,
+        "subheading_size_desktop": 20,
+        "text_alignment": "text-left",
+        "image_vertical_alignment": "top",
+        "content_vertical_alignment": "center",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "text_color_override": "rgba(0,0,0,0)",
+        "use_gradient_background": false
+      }
+    },
     "1777785961a14ae200": {
       "type": "apps",
       "blocks": {
@@ -325,6 +378,7 @@
   "order": [
     "main",
     "vertical_video_embeds_home_f8Wm2K",
+    "homepage_hero_XPT6Gx",
     "1777785961a14ae200"
   ]
 }
