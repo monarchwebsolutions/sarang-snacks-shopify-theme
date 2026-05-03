@@ -1,1 +1,75 @@
-{"type":"footer","name":"Footer","sections":{"footer":{"type":"footer","blocks":{"tagline-and-social-links":{"type":"tagline_and_social_links","settings":{"tagline":"This is a demo store.","show_social_icons":true}},"menus":{"type":"menus","settings":{"show_menu_headings":false,"linklist_1":"main-menu","linklist_2":"footer","linklist_3":""}},"newsletter":{"type":"newsletter","settings":{"newsletter_heading":"Sign up to our newsletter"}}},"block_order":["tagline-and-social-links","menus","newsletter"],"disabled":true,"settings":{"show_payment_icons":true,"show_country_selector":true,"show_locale_selector":true,"color_scheme":"scheme-3db00ab1-bac0-430a-a9bb-0991f3e9ee16","use_gradient_background":true}},"hero-logo":{"type":"hero-logo","settings":{"home_page_only":false,"mobile_text_scale":6,"desktop_text_scale":10,"logo":"shopify:\/\/shop_images\/Sarang.png","alignment":"center","logo_max_width":60,"disable_vertical_spacing":false,"enable_overlay":false,"overlay_offset":225,"color_scheme":"scheme-3db00ab1-bac0-430a-a9bb-0991f3e9ee16","use_gradient_background":true}}},"order":["footer","hero-logo"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "tagline-and-social-links": {
+          "type": "tagline_and_social_links",
+          "settings": {
+            "tagline": "This is a demo store.",
+            "show_social_icons": true
+          }
+        },
+        "menus": {
+          "type": "menus",
+          "settings": {
+            "show_menu_headings": false,
+            "linklist_1": "main-menu",
+            "linklist_2": "footer",
+            "linklist_3": ""
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_heading": "Sign up to our newsletter"
+          }
+        }
+      },
+      "block_order": [
+        "tagline-and-social-links",
+        "menus",
+        "newsletter"
+      ],
+      "settings": {
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_locale_selector": true,
+        "color_scheme": "scheme1",
+        "use_gradient_background": true
+      }
+    },
+    "hero-logo": {
+      "type": "hero-logo",
+      "disabled": true,
+      "settings": {
+        "home_page_only": false,
+        "mobile_text_scale": 6,
+        "desktop_text_scale": 10,
+        "logo": "shopify://shop_images/Sarang.png",
+        "alignment": "center",
+        "logo_max_width": 60,
+        "disable_vertical_spacing": false,
+        "enable_overlay": false,
+        "overlay_offset": 225,
+        "color_scheme": "scheme-3db00ab1-bac0-430a-a9bb-0991f3e9ee16",
+        "use_gradient_background": true
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "hero-logo"
+  ]
+}
