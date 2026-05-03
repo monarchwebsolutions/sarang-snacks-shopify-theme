@@ -89,6 +89,14 @@
       {% endif %}
     >
       {% if enable_payment_buttons %}
+        <style>
+          .dynamic-payment-buttons .shopify-payment-button__button,
+          .dynamic-payment-buttons .shopify-payment-button__button--branded div[role='button'],
+          .dynamic-payment-buttons shopify-buy-it-now-button button {
+            font-size: var(--font-size-base) !important;
+            line-height: var(--base-line-height) !important;
+          }
+        </style>
         <script>
           const addToCartBtnEl = document.querySelector('.add-to-cart-btn');
 
