@@ -60,6 +60,16 @@
       collection: collection,
       image_shape: image_shape
     -%}
+
+    {%- if section.settings.button_link != blank and section.settings.button_label != '' -%}
+      <div class="mt-5 text-center">
+        <a href="{{ section.settings.button_link }}" class="push-btn inline-block">
+          <span class="push-btn__surface">
+            {{- section.settings.button_label -}}
+          </span>
+        </a>
+      </div>
+    {%- endif -%}
   </div>
 
   <style>
@@ -247,6 +257,17 @@
       "step": 1,
       "label": "Background image parallax speed",
       "default": 3
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:common.settings.button_link.label"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "t:common.settings.button_label.label",
+      "default": "Shop now"
     },
     {
       "type": "header",
