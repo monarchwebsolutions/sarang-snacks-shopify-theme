@@ -706,9 +706,9 @@
         "extra_text_LWmqM9": {
           "type": "extra_text",
           "settings": {
-            "content": "<p>Add extra text below the CTA.</p>",
+            "content": "<p>Sarang means love in Korean. It’s the standard we hold ourselves to, from the ingredients we choose to the impact we make.</p><p></p><p>We set out to create snacks that hit on flavor, stay clean on ingredients, and give back from day one. Every purchase helps support food access and community programs.</p><p></p><p>Good snacks should taste good. They should also do something good.</p>",
             "font_size_mobile": 16,
-            "font_size_desktop": 20,
+            "font_size_desktop": 16,
             "font_weight": "400"
           }
         }
@@ -719,6 +719,7 @@
       "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
+        "video": "shopify://files/videos/AdobeStock_408758334_Video_HD_Preview.mov",
         "mode": "preview",
         "playback": "inline",
         "crop": "",
@@ -728,9 +729,9 @@
         "image_position": "right",
         "image_size": "half",
         "disable_media_style": false,
-        "title": "Custom image with text",
+        "title": "Snacks with Seoul",
         "heading_size_mobile": 44,
-        "heading_size_desktop": 72,
+        "heading_size_desktop": 48,
         "richtext": "",
         "subheading_size_mobile": 16,
         "subheading_size_desktop": 20,
