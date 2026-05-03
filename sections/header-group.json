@@ -23,7 +23,7 @@
             "icon_spacing_mobile": 10,
             "icon_spacing_desktop": 12,
             "icon_size_mobile": 16,
-            "icon_size_desktop": 20
+            "icon_size_desktop": 24
           }
         },
         "slide_GYGNer": {
@@ -35,7 +35,7 @@
             "icon_spacing_mobile": 8,
             "icon_spacing_desktop": 10,
             "icon_size_mobile": 16,
-            "icon_size_desktop": 20
+            "icon_size_desktop": 22
           }
         }
       },
