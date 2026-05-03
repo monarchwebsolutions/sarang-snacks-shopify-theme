@@ -120,7 +120,7 @@
         "background_image": "shopify://shop_images/sarang-bg-2-60.png",
         "background_image_fit": "auto",
         "background_image_repeat": "repeat",
-        "background_image_opacity": 8,
+        "background_image_opacity": 5,
         "background_image_enable_parallax": true,
         "background_image_parallax_speed": 4,
         "mode": "preview",
