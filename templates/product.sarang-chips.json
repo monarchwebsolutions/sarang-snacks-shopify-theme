@@ -12,6 +12,26 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "sticker_XJY7NM": {
+          "type": "sticker",
+          "settings": {
+            "width": 180,
+            "half_width_on_mobile": false,
+            "text": "50% OFF LIMITED TIME",
+            "shape": "ellipse",
+            "sticker_font_size": "1.563rem",
+            "horizontal_position": 9,
+            "vertical_position": 10,
+            "rotate": -30,
+            "show_sticker_on_mobile": true,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -78,7 +98,7 @@
             "icon_2": "truck",
             "text_2": "FAST SHIPPING",
             "icon_3": "return",
-            "text_3": "EASY RETURNS",
+            "text_3": "FREE RETURNS",
             "icon_4": "heart",
             "text_4": "",
             "icon_5": "ruler",
@@ -160,26 +180,6 @@
             "dynamic_rating_6": ""
           }
         },
-        "sticker-main-0": {
-          "type": "sticker",
-          "settings": {
-            "width": 160,
-            "half_width_on_mobile": false,
-            "text": "Extra<br>hot!",
-            "shape": "star_wide",
-            "sticker_font_size": "1.563rem",
-            "horizontal_position": 11,
-            "vertical_position": 7,
-            "rotate": -34,
-            "show_sticker_on_mobile": true,
-            "show_sticker_on_desktop": true,
-            "rotation_animation": "none",
-            "enable_parallax": false,
-            "parallax_speed": 3,
-            "color_scheme": "scheme1",
-            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
-          }
-        },
         "spacer-1": {
           "type": "spacer",
           "settings": {
@@ -188,6 +188,7 @@
         }
       },
       "block_order": [
+        "sticker_XJY7NM",
         "title",
         "price",
         "judge_me_reviews_preview_badge_Vfd6RY",
@@ -200,7 +201,6 @@
         "tabs",
         "spacer",
         "dot-rating",
-        "sticker-main-0",
         "spacer-1"
       ],
       "settings": {
