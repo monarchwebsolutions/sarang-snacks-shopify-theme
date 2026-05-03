@@ -996,7 +996,7 @@
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
-        "title": "Ready to Munch?",
+        "title": "Ready to Crunch?",
         "heading_size": "heading-standard",
         "rich_text": "<p><strong>Pre-Order now and save 50%</strong></p>",
         "display_on_card": false,
