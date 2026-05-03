@@ -870,7 +870,7 @@
         "richtext": "<p>Last year, nearly <strong>47 million Americans</strong> — including <strong>14 million children</strong> — faced food insecurity. Over <strong>50 million</strong> people turned to food banks for help.<br/><br/>We’re proud to support food access in communities that need it the most, because snacks with soul should mean everyone eats.</p>",
         "text_alignment": "text-center",
         "button_link": "#lander-final-subscribe",
-        "button_label": "Join The Mission",
+        "button_label": "",
         "color_scheme": "scheme1",
         "use_gradient_background": false
       }
