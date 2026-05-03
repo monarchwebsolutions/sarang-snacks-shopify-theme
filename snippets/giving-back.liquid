@@ -71,14 +71,6 @@
   blob_type: blob_type
 -%}
 
-<style>
-  #shopify-section-{{ section_id }} .badge-img {
-    width: {{ trust_badge_image_size | default: 64 }}px;
-    max-width: 100%;
-    height: auto;
-  }
-</style>
-
 <div class="relative z-10 mx-auto max-w-site px-section">
   <div class="{% if display_on_card %}card{% endif %}">
     <div class="{% if display_on_card %}card__surface p-5 lg:p-10{% endif %} section-content text_alignment relative z-10 mx-auto">
