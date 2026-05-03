@@ -50,7 +50,11 @@
       heading_size: section.settings.heading_size,
       container_id: section.id,
       disable_media_style: section.settings.disable_media_style,
-      preload: preload
+      preload: preload,
+      trust_badge_image_1: section.settings.trust_badge_image_1,
+      trust_badge_image_2: section.settings.trust_badge_image_2,
+      trust_badge_image_3: section.settings.trust_badge_image_3,
+      trust_badge_image_4: section.settings.trust_badge_image_4
     -%}
   </div>
 
@@ -109,6 +113,30 @@
       "type": "checkbox",
       "id": "display_on_card",
       "label": "t:common.settings.display_on_card.label"
+    },
+    {
+      "type": "header",
+      "content": "Trust badges"
+    },
+    {
+      "type": "image_picker",
+      "id": "trust_badge_image_1",
+      "label": "Trust badge image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "trust_badge_image_2",
+      "label": "Trust badge image 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "trust_badge_image_3",
+      "label": "Trust badge image 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "trust_badge_image_4",
+      "label": "Trust badge image 4"
     },
     {
       "type": "header",

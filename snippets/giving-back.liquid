@@ -116,19 +116,51 @@
             </div>
             <div class="trust-badge-container">
                 <div class="trust-badge">
-                    <img class="badge-img" src="https://cdn.shopify.com/s/files/1/0757/7521/3801/files/food-access-badge-dark-purple.png?v=1754509457">
+                    {% if trust_badge_image_1 != blank %}
+                      {{
+                        trust_badge_image_1
+                        | image_url: width: 300
+                        | image_tag: class: 'badge-img', loading: 'lazy'
+                      }}
+                    {% else %}
+                      <img class="badge-img" src="https://cdn.shopify.com/s/files/1/0757/7521/3801/files/food-access-badge-dark-purple.png?v=1754509457">
+                    {% endif %}
                     <h3 class="badge-text">Supporting Food Access</h3>
                 </div>
                 <div class="trust-badge">
-                    <img class="badge-img" src="https://cdn.shopify.com/s/files/1/0757/7521/3801/files/clean-label-badge-dark-purple.png?v=1754509305">
+                    {% if trust_badge_image_2 != blank %}
+                      {{
+                        trust_badge_image_2
+                        | image_url: width: 300
+                        | image_tag: class: 'badge-img', loading: 'lazy'
+                      }}
+                    {% else %}
+                      <img class="badge-img" src="https://cdn.shopify.com/s/files/1/0757/7521/3801/files/clean-label-badge-dark-purple.png?v=1754509305">
+                    {% endif %}
                     <h3 class="badge-text">Clean<br>Label</h3>
                 </div>
                 <div class="trust-badge">
-                    <img class="badge-img" src="https://cdn.shopify.com/s/files/1/0757/7521/3801/files/purpose-driven-badge-dark-purple.png?v=1754509483">
+                    {% if trust_badge_image_3 != blank %}
+                      {{
+                        trust_badge_image_3
+                        | image_url: width: 300
+                        | image_tag: class: 'badge-img', loading: 'lazy'
+                      }}
+                    {% else %}
+                      <img class="badge-img" src="https://cdn.shopify.com/s/files/1/0757/7521/3801/files/purpose-driven-badge-dark-purple.png?v=1754509483">
+                    {% endif %}
                     <h3 class="badge-text">Purpose Driven Brand</h3>
                 </div>
                 <div class="trust-badge">
-                    <img class="badge-img" src="https://cdn.shopify.com/s/files/1/0757/7521/3801/files/friendship-badge-dark-purple.png?v=1754509305">
+                    {% if trust_badge_image_4 != blank %}
+                      {{
+                        trust_badge_image_4
+                        | image_url: width: 300
+                        | image_tag: class: 'badge-img', loading: 'lazy'
+                      }}
+                    {% else %}
+                      <img class="badge-img" src="https://cdn.shopify.com/s/files/1/0757/7521/3801/files/friendship-badge-dark-purple.png?v=1754509305">
+                    {% endif %}
                     <h3 class="badge-text">Built From Friendship</h3>
                 </div>
             </div>
