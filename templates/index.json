@@ -14,6 +14,7 @@
       "blocks": {
         "sticker_4VP3gw": {
           "type": "sticker",
+          "disabled": true,
           "settings": {
             "width": 180,
             "half_width_on_mobile": false,
@@ -222,6 +223,7 @@
       "blocks": {
         "sticker_8wkegc": {
           "type": "sticker",
+          "disabled": true,
           "settings": {
             "width": 170,
             "half_width_on_mobile": false,
