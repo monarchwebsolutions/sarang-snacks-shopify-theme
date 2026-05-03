@@ -35,6 +35,7 @@
         },
         "background_pattern_BRDbdG": {
           "type": "background_pattern",
+          "disabled": true,
           "settings": {
             "type": "chevrons_1",
             "color": "accent-1",
@@ -116,6 +117,12 @@
       "settings": {
         "display_on_card": false,
         "image": "shopify://shop_images/AdobeStock_459989806_Preview.jpg",
+        "background_image": "shopify://shop_images/sarang-bg-2.png",
+        "background_image_fit": "auto",
+        "background_image_repeat": "repeat",
+        "background_image_opacity": 15,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
         "mode": "preview",
         "playback": "inline",
         "crop": "",
@@ -174,6 +181,11 @@
       "settings": {
         "display_on_card": false,
         "image": "shopify://shop_images/AdobeStock_210948659.jpg",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
         "mode": "preview",
         "playback": "inline",
         "crop": "aspect-w-1 aspect-h-1",
@@ -719,6 +731,11 @@
       "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
         "video": "shopify://files/videos/AdobeStock_408758334_Video_HD_Preview.mov",
         "mode": "preview",
         "playback": "inline",
