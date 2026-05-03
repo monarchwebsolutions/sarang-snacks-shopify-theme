@@ -614,11 +614,14 @@
         "review_B4xrUc",
         "shape_divider_TatniF"
       ],
+      "custom_css": [
+        ".font-main p {font-size: 18px;}"
+      ],
       "name": "Featured reviews",
       "settings": {
         "title": "What Snackers Are Saying",
         "heading_size": "heading-standard",
-        "rich_text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+        "rich_text": "<p>First bites are in! Real feedback from people who’ve tried Sarang for the first time.</p>",
         "review_layout": "carousel",
         "desktop_columns": "2",
         "carousel_autoplay": true,
