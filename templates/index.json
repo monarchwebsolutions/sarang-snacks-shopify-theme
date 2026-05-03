@@ -820,7 +820,7 @@
     "giving_back_home_Q8x7Pn": {
       "type": "giving-back",
       "custom_css": [
-        "h3 {text-align: center; margin-top: 12px; font-size: 13px; font-weight: bold; text-transform: uppercase; font-family: \"Outfit\"; color: white;}",
+        "h3 {text-align: center; margin-top: 12px; font-size: 13px; font-weight: bold; text-transform: uppercase; font-family: \"Outfit\";}",
         ".trust-badge-container {display: flex; gap: 4px; max-width: 400px; margin: auto; padding: 24px 0 12px;}",
         ".badge-img {padding: 0 10px;}",
         "@media screen and (max-width: 679px) {h3 {font-size: 8px; } .trust-badge-container {gap: 2px; }}"
