@@ -63,6 +63,29 @@
             "show_gift_card_recipient": false
           }
         },
+        "icon-row": {
+          "type": "icon_row",
+          "disabled": true,
+          "settings": {
+            "display_on_card": false,
+            "uppercase_text": true,
+            "icon_alignment": "justify-between",
+            "icon_thickness": 1.5,
+            "background_color": "bg-transparent text-scheme-text",
+            "show_border": true,
+            "icon_size": "h-16 w-16",
+            "icon_1": "low_salt",
+            "text_1": "Low salt",
+            "icon_2": "no_additives",
+            "text_2": "No Bad Stuff",
+            "icon_3": "organic",
+            "text_3": "Organic",
+            "icon_4": "non_gmo",
+            "text_4": "Non-GMO",
+            "icon_5": "antioxidants",
+            "text_5": "Probiotic"
+          }
+        },
         "tabs": {
           "type": "tabs",
           "settings": {
@@ -83,12 +106,14 @@
         },
         "spacer": {
           "type": "spacer",
+          "disabled": true,
           "settings": {
             "height": 5
           }
         },
         "dot-rating": {
           "type": "dot_rating",
+          "disabled": true,
           "settings": {
             "display_on_card": false,
             "uppercase_text": true,
@@ -138,28 +163,6 @@
           "settings": {
             "height": 5
           }
-        },
-        "icon-row": {
-          "type": "icon_row",
-          "settings": {
-            "display_on_card": false,
-            "uppercase_text": true,
-            "icon_alignment": "justify-between",
-            "icon_thickness": 1.5,
-            "background_color": "bg-transparent text-scheme-text",
-            "show_border": true,
-            "icon_size": "h-16 w-16",
-            "icon_1": "low_salt",
-            "text_1": "Low salt",
-            "icon_2": "no_additives",
-            "text_2": "No Bad Stuff",
-            "icon_3": "organic",
-            "text_3": "Organic",
-            "icon_4": "non_gmo",
-            "text_4": "Non-GMO",
-            "icon_5": "antioxidants",
-            "text_5": "Probiotic"
-          }
         }
       },
       "block_order": [
@@ -170,12 +173,12 @@
         "variant-picker",
         "appstle_subscription_appstle_subscription_product_page_widget_D79Hdh",
         "buy-buttons",
+        "icon-row",
         "tabs",
         "spacer",
         "dot-rating",
         "sticker-main-0",
-        "spacer-1",
-        "icon-row"
+        "spacer-1"
       ],
       "settings": {
         "crop": "aspect-w-1 aspect-h-1",
