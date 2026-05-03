@@ -188,14 +188,14 @@
       "scheme5": {
         "settings": {
           "text": "#fbf9f6",
-          "text_contrast": "#353b44",
+          "text_contrast": "#fbf9f6",
           "background": "#7ddcf8",
           "gradient": "",
           "accent_1": "#7ddcf8",
-          "accent_1_contrast": "#1e1e1e",
+          "accent_1_contrast": "#fbf9f6",
           "accent_2": "#ff312f",
           "accent_2_contrast": "#ffffff",
-          "card_text": "#353b44",
+          "card_text": "#fbf9f6",
           "card": "#ff312f"
         }
       },

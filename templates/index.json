@@ -967,7 +967,7 @@
     "rich_text_RtkJ3Q": {
       "type": "rich-text",
       "custom_css": [
-        "p {font-size: 20px;}"
+        "p {font-size: 20px; color: white;}"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
