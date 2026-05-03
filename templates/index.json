@@ -820,8 +820,6 @@
     "giving_back_home_Q8x7Pn": {
       "type": "giving-back",
       "custom_css": [
-        ".card__surface {background-color: #2ed3c0;}",
-        "h2 {max-width: 500px; margin: auto;}",
         "h3 {text-align: center; margin-top: 12px; font-size: 13px; font-weight: bold; text-transform: uppercase; font-family: \"Outfit\"; color: white;}",
         ".trust-badge-container {display: flex; gap: 4px; max-width: 400px; margin: auto; padding: 24px 0 12px;}",
         ".badge-img {padding: 0 10px;}",
