@@ -790,9 +790,7 @@
         "shape_divider_aQPL86",
         "extra_text_LWmqM9"
       ],
-      "custom_css": [
-        ".push-btn__surface {background: #ff312f;}"
-      ],
+      "custom_css": [],
       "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
