@@ -24,6 +24,20 @@
         <span class="inline-block h-5 w-5">{% render 'icon-close' %}</span>
       </button>
     </div>
+    {% if section.settings.mobile_menu_logo != blank %}
+      {% capture mobile_menu_logo_style %}width: {{ section.settings.mobile_menu_logo_width }}px; max-width: 100%;{% endcapture %}
+      <div class="pb-5">
+        {{
+          section.settings.mobile_menu_logo
+          | image_url: width: 440
+          | image_tag:
+            widths: '80,120,160,220,320,440',
+            width: section.settings.mobile_menu_logo_width,
+            class: 'block h-auto',
+            style: mobile_menu_logo_style
+        }}
+      </div>
+    {% endif %}
     <ul class="mt-5">
       {%- liquid
         if section.settings.mobile_main_linklist != blank
