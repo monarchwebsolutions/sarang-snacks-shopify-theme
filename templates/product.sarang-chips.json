@@ -382,6 +382,7 @@
       "blocks": {
         "sticker_AMmgWD": {
           "type": "sticker",
+          "disabled": true,
           "settings": {
             "width": 300,
             "half_width_on_mobile": false,
@@ -403,6 +404,7 @@
         },
         "sticker_PMprP9": {
           "type": "sticker",
+          "disabled": true,
           "settings": {
             "width": 230,
             "half_width_on_mobile": false,
@@ -464,10 +466,22 @@
             "color_scheme": "scheme2",
             "color": "accent-1"
           }
+        },
+        "shape_divider_QGD3YT": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
         }
       },
       "block_order": [
-        "background_shape_EC3qyA"
+        "background_shape_EC3qyA",
+        "shape_divider_QGD3YT"
       ],
       "custom_css": [
         ".section-content {max-width: 800px; margin: auto; padding-top: 0; padding-bottom: 32px;}",
@@ -627,7 +641,7 @@
         "icon_thickness": 2,
         "background_color": "bg-scheme-card text-scheme-card-text",
         "show_border": true,
-        "color_scheme": "scheme6",
+        "color_scheme": "scheme2",
         "use_gradient_background": false
       }
     },
