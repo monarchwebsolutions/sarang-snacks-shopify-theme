@@ -832,6 +832,152 @@
         "use_gradient_background": false
       }
     },
+    "faq_8UDX3q": {
+      "type": "faq",
+      "blocks": {
+        "question_4QCpjF": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_B4T98d": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_C6MQtY": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_x4gfWC": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_XEhRN6": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_zEFheU": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_gjPyJ6": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "question_HMdNAm": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Frequently asked question",
+            "answer": "<p>Use this text to share the answer to the question with your customers.</p>"
+          }
+        },
+        "shape_divider_HbbcFe": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme3",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
+        }
+      },
+      "block_order": [
+        "question_4QCpjF",
+        "question_B4T98d",
+        "question_C6MQtY",
+        "question_x4gfWC",
+        "question_XEhRN6",
+        "question_zEFheU",
+        "question_gjPyJ6",
+        "question_HMdNAm",
+        "shape_divider_HbbcFe"
+      ],
+      "custom_css": [
+        ".font-main {font-size: 18px;}"
+      ],
+      "name": "t:sections.faq.name",
+      "settings": {
+        "display_on_card": true,
+        "heading_text_style": "heading",
+        "two_columns_desktop": true,
+        "title": "FAQ",
+        "richtext": "Still not sure about Sarang? Find ansers to all the most common questions below.",
+        "color_scheme": "scheme2",
+        "use_gradient_background": false
+      }
+    },
+    "rich_text_RtkJ3Q": {
+      "type": "rich-text",
+      "blocks": {
+        "shape_divider_dGfWTA": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_dGfWTA"
+      ],
+      "custom_css": [
+        "p {font-size: 20px;}"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "Ready to Crunch?",
+        "heading_size": "heading-standard",
+        "rich_text": "<p><strong>Pre-Order now and save 50%</strong></p>",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
+        "button_link": "shopify://products/sarang-chips",
+        "button_label": "Try Sarang",
+        "color_scheme": "scheme-2e9ad064-4664-4798-a820-22744228d263",
+        "use_gradient_background": false
+      }
+    },
     "1777785961a14ae200": {
       "type": "apps",
       "blocks": {
@@ -867,6 +1013,8 @@
     "rich_text_eeUTfc",
     "lander_comparison_WiQRrc",
     "rich_text_bQcKeC",
+    "faq_8UDX3q",
+    "rich_text_RtkJ3Q",
     "1777785961a14ae200"
   ]
 }
