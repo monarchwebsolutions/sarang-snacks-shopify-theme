@@ -100,6 +100,18 @@
                     {{ block.settings.tagline }}
                   </div>
                 {%- endif -%}
+                {%- if block.settings.social_logo_image != blank -%}
+                  <div class="mb-5">
+                    {{
+                      block.settings.social_logo_image
+                      | image_url: width: 600
+                      | image_tag:
+                        class: 'h-auto w-auto max-w-[12rem]',
+                        loading: 'lazy',
+                        alt: block.settings.social_logo_image.alt
+                    }}
+                  </div>
+                {%- endif -%}
                 {%- if block.settings.show_social_icons -%}
                   {%- render 'social-icons', list_class: social_class -%}
                 {%- endif -%}
@@ -388,6 +400,11 @@
         {
           "type": "header",
           "content": "t:sections.footer.blocks.tagline_and_social_links.settings.header_social_media_icons"
+        },
+        {
+          "type": "image_picker",
+          "id": "social_logo_image",
+          "label": "Logo image above social links"
         },
         {
           "type": "paragraph",
