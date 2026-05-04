@@ -341,6 +341,7 @@
       "name": "Custom image with text",
       "settings": {
         "display_on_card": true,
+        "anchor_id": "",
         "image": "shopify://shop_images/AdobeStock_516391760_Preview.jpg",
         "background_image": "shopify://shop_images/BrandPattern_Large_1.jpg",
         "background_image_fit": "cover",
@@ -653,6 +654,7 @@
         },
         "background_shape_Qbph77": {
           "type": "background_shape",
+          "disabled": true,
           "settings": {
             "shape": "scalloped_circle_6",
             "blob_type": 1,
@@ -709,7 +711,7 @@
         "icon_thickness": 2,
         "background_color": "bg-scheme-card text-scheme-card-text",
         "show_border": true,
-        "color_scheme": "scheme2",
+        "color_scheme": "scheme-9a85251c-aafc-48e9-8e04-83b404504832",
         "use_gradient_background": false
       }
     },

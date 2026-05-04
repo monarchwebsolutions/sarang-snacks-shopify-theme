@@ -255,9 +255,9 @@
         "settings": {
           "text": "#1e1e1e",
           "text_contrast": "#ffffff",
-          "background": "#fbf9f6",
+          "background": "#7ddcf8",
           "gradient": "",
-          "accent_1": "#a137d8",
+          "accent_1": "#ffcafa",
           "accent_1_contrast": "#1e1e1e",
           "accent_2": "#a137d8",
           "accent_2_contrast": "#1e1e1e",
