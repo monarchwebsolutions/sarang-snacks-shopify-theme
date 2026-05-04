@@ -692,7 +692,9 @@
         "background_shape_Qbph77",
         "shape_divider_QcWRn8"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "table.comparison-table tr td:nth-child(odd) svg{background:red; border-radius:99px;}"
+      ],
       "name": "Lander - Comparison Table",
       "settings": {
         "title": "",

@@ -18,6 +18,7 @@
           "type": "tagline_and_social_links",
           "settings": {
             "tagline": "",
+            "social_logo_image": "shopify://shop_images/Sarang.png",
             "show_social_icons": true
           }
         },
