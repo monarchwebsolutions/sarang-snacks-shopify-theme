@@ -313,7 +313,7 @@
         "extra_text_pg9fEU": {
           "type": "extra_text",
           "settings": {
-            "content": "<ul><li>Made with real Korean spices</li><li>No artificial flavors or colors</li><li>Light, crispy texture</li><li>Bold heat with real depth</li><li>A portion of every purchase gives back</li></ul>",
+            "content": "<ul><li>Made with real Korean spices</li><li>No artificial flavors or colors</li><li>Light, crispy texture</li><li>Bold heat</li><li>A portion of every purchase gives back</li></ul>",
             "font_size_mobile": 16,
             "font_size_desktop": 20,
             "font_weight": "400"
@@ -340,7 +340,7 @@
         "mode": "preview",
         "playback": "inline",
         "video_aspect_ratio": "original",
-        "crop": "",
+        "crop": "aspect-w-1 aspect-h-1",
         "image_shape": "default",
         "blob_type": 1,
         "rotate_image": 0,
@@ -356,8 +356,8 @@
         "text_alignment": "text-left",
         "image_vertical_alignment": "top",
         "content_vertical_alignment": "center",
-        "button_link": "",
-        "button_label": "Shop Now",
+        "button_link": "#",
+        "button_label": "Try It Now",
         "color_scheme": "scheme2",
         "text_color_override": "rgba(0,0,0,0)",
         "use_gradient_background": false
