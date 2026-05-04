@@ -5036,7 +5036,7 @@ shopify-payment-terms {
 }
 
 .shopify-policy__container {
-  padding-top: 120px;
+  padding-top: 120px;;
   padding-bottom: var(--section-vertical-spacing);
   line-height: 1.7;
 }
