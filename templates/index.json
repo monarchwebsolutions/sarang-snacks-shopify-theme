@@ -119,6 +119,7 @@
       "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
+        "anchor_id": "",
         "image": "shopify://shop_images/AdobeStock_459989806_Preview.jpg",
         "background_image": "shopify://shop_images/sarang-bg-2-60.png",
         "background_image_fit": "auto",
@@ -187,6 +188,7 @@
       "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
+        "anchor_id": "",
         "image": "shopify://shop_images/AdobeStock_210948659.jpg",
         "background_image_fit": "cover",
         "background_image_repeat": "no-repeat",
@@ -794,6 +796,7 @@
       "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
+        "anchor_id": "about",
         "background_image": "shopify://shop_images/sarang-bg-2-60.png",
         "background_image_fit": "cover",
         "background_image_repeat": "no-repeat",
