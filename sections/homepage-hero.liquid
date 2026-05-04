@@ -206,11 +206,12 @@
                       {%- case block.type -%}
                         {%- when 'extra_text' -%}
                           <div
-                            class="homepage-hero__extra-text rte"
+                            class="homepage-hero__extra-text homepage-hero__extra-text--{{ block.id }} rte"
                             style="
                               --homepage-hero-extra-text-size-mobile: {{ block.settings.font_size_mobile }}px;
                               --homepage-hero-extra-text-size-desktop: {{ block.settings.font_size_desktop }}px;
                               --homepage-hero-extra-text-weight: {{ block.settings.font_weight }};
+                              {% if block.settings.bullet_image != blank %}--homepage-hero-extra-bullet-image: url('{{ block.settings.bullet_image | image_url: width: 64 }}');{% endif %}
                             "
                             {{ block.shopify_attributes }}
                           >
@@ -341,6 +342,33 @@
     font-size: var(--homepage-hero-extra-text-size-mobile);
     font-weight: var(--homepage-hero-extra-text-weight);
     line-height: 1.4;
+  }
+
+  #shopify-section-{{ section.id }} .homepage-hero__extra-text ul {
+    padding-left: 1.25em;
+  }
+
+  #shopify-section-{{ section.id }} .homepage-hero__extra-text[style*='--homepage-hero-extra-bullet-image'] ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  #shopify-section-{{ section.id }} .homepage-hero__extra-text[style*='--homepage-hero-extra-bullet-image'] ul li {
+    position: relative;
+    padding-left: 28px;
+  }
+
+  #shopify-section-{{ section.id }} .homepage-hero__extra-text[style*='--homepage-hero-extra-bullet-image'] ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.2em;
+    width: 18px;
+    height: 18px;
+    background-image: var(--homepage-hero-extra-bullet-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
   }
 
   #shopify-section-{{ section.id }} .homepage-hero__extra-image-tag {
@@ -1240,6 +1268,11 @@
             { "value": "700", "label": "Bold 700" },
             { "value": "800", "label": "Extra bold 800" }
           ]
+        },
+        {
+          "type": "image_picker",
+          "id": "bullet_image",
+          "label": "Bullet image for lists"
         }
       ]
     },
