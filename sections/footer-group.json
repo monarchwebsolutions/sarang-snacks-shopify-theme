@@ -17,7 +17,7 @@
         "tagline-and-social-links": {
           "type": "tagline_and_social_links",
           "settings": {
-            "tagline": "This is a demo store.",
+            "tagline": "",
             "show_social_icons": true
           }
         },
