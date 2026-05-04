@@ -3583,6 +3583,12 @@
       },
       {
         "type": "checkbox",
+        "id": "cart_drawer_square_images",
+        "label": "Make cart drawer product images square",
+        "default": false
+      },
+      {
+        "type": "checkbox",
         "id": "open_modal_on_add_to_cart",
         "label": "t:settings_schema.cart.settings.open_modal_on_add_to_cart.label",
         "info": "t:settings_schema.cart.settings.open_modal_on_add_to_cart.info",

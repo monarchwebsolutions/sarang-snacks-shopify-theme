@@ -16,6 +16,14 @@
       else
         assign cart_item_grid_container = cart_item_grid_container | append: ' lg:grid-cols-5'
       endif
+
+      if template != 'cart' and settings.cart_drawer_square_images
+        assign cart_item_image_wrapper_class = 'aspect-w-1 aspect-h-1'
+        assign cart_item_image_class = 'media__styled-element object-cover'
+      else
+        assign cart_item_image_wrapper_class = ''
+        assign cart_item_image_class = 'media__styled-element'
+      endif
     -%}
     <form
       action="{{ routes.cart_url }}"
@@ -115,7 +123,7 @@
                 {%- if item.image != blank -%}
                   <a
                     href="{{ item.url }}"
-                    class="block"
+                    class="block {{ cart_item_image_wrapper_class }}"
                     aria-hidden="true"
                     tabindex="-1"
                   >
@@ -126,7 +134,7 @@
                         loading: 'eager',
                         alt: item.title,
                         sizes: '(min-width: 48em) 5rem, 3.5rem',
-                        class: 'media__styled-element'
+                        class: cart_item_image_class
                     }}
                   </a>
                 {%- endif -%}
