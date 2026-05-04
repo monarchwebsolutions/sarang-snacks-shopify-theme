@@ -149,7 +149,7 @@
         "text_alignment": "text-left",
         "image_vertical_alignment": "center",
         "content_vertical_alignment": "center",
-        "button_link": "shopify://products/test-product",
+        "button_link": "shopify://products/sarang-chips",
         "button_label": "Pre-Order for 50% Off",
         "color_scheme": "scheme1",
         "text_color_override": "rgba(0,0,0,0)",
