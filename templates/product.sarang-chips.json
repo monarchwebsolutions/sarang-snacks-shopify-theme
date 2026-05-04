@@ -386,7 +386,7 @@
           "settings": {
             "target_section": "below",
             "target_section_color_scheme": "scheme2",
-            "style": "waves-3-patterned_1200x84",
+            "style": "waves-2-patterned_1200x43",
             "flip_horizontal": false,
             "enable_animation": true,
             "animation_direction": ""
