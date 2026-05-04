@@ -24,8 +24,8 @@
         "menus": {
           "type": "menus",
           "settings": {
-            "show_menu_headings": false,
-            "linklist_1": "main-menu",
+            "show_menu_headings": true,
+            "linklist_1": "navigation",
             "linklist_2": "",
             "linklist_3": ""
           }
@@ -41,6 +41,9 @@
         "tagline-and-social-links",
         "menus",
         "newsletter"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Outfit\";}"
       ],
       "settings": {
         "show_payment_icons": true,
