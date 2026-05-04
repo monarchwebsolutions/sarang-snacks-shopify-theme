@@ -693,7 +693,7 @@
         "shape_divider_QcWRn8"
       ],
       "custom_css": [
-        "table.comparison-table tr td:nth-child(odd) svg{background:red; border-radius:99px;}"
+        "table.comparison-table tr td:nth-child(odd) svg {background: var(--sarang-brand-red); border-radius: 99px;}"
       ],
       "name": "Lander - Comparison Table",
       "settings": {
