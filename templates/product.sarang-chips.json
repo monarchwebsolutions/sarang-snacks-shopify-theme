@@ -377,6 +377,378 @@
         "use_gradient_background": false
       }
     },
+    "built_different_hQbykR": {
+      "type": "built-different",
+      "blocks": {
+        "sticker_AMmgWD": {
+          "type": "sticker",
+          "settings": {
+            "width": 300,
+            "half_width_on_mobile": false,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "image": "shopify://shop_images/Asset_2_F5E8FD_Corrected.svg",
+            "horizontal_position": 4,
+            "vertical_position": 100,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
+        "sticker_PMprP9": {
+          "type": "sticker",
+          "settings": {
+            "width": 230,
+            "half_width_on_mobile": false,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "image": "shopify://shop_images/Asset_5_F5E8FD.svg",
+            "horizontal_position": 98,
+            "vertical_position": 50,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        }
+      },
+      "block_order": [
+        "sticker_AMmgWD",
+        "sticker_PMprP9"
+      ],
+      "custom_css": [
+        "h2 {margin: 16px auto 40px; font-size: 60px; max-width: 700px;}",
+        ".section-content {padding-bottom: 32px;}"
+      ],
+      "name": "Built Different",
+      "settings": {
+        "title": "Built Different. Tastes Better.",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme6",
+        "use_gradient_background": false
+      }
+    },
+    "rich_text_eeUTfc": {
+      "type": "rich-text",
+      "blocks": {
+        "background_shape_EC3qyA": {
+          "type": "background_shape",
+          "disabled": true,
+          "settings": {
+            "shape": "flag",
+            "blob_type": 1,
+            "size": 55,
+            "opacity": 50,
+            "blur": 0,
+            "horizontal_position": 50,
+            "vertical_position": 50,
+            "rotate": 0,
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme2",
+            "color": "accent-1"
+          }
+        }
+      },
+      "block_order": [
+        "background_shape_EC3qyA"
+      ],
+      "custom_css": [
+        ".section-content {max-width: 800px; margin: auto; padding-top: 0; padding-bottom: 32px;}",
+        ".section-content p {font-size: 18px;}"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "",
+        "heading_size": "heading-standard",
+        "rich_text": "<p><em>We’re on a mission to bring </em><em><strong>bold Korean flavor, clean ingredients, and real joy</strong></em><em> into every bite. Here’s how we stack up:</em></p>",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "scheme6",
+        "use_gradient_background": false
+      }
+    },
+    "lander_comparison_WiQRrc": {
+      "type": "lander-comparison",
+      "blocks": {
+        "row_4DBetm": {
+          "type": "row",
+          "settings": {
+            "title": "Flavor",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>Bold Korean Heat</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "Generic Spice Blends",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "row_JhQCJ9": {
+          "type": "row",
+          "settings": {
+            "title": "Oil",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>Avocado Oil</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "Seed & Vegetable Oil",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "row_QMWxVQ": {
+          "type": "row",
+          "settings": {
+            "title": "Color",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>All Natural (no Red 40)</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "Artificial Dyes",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        },
+        "row_FEFVgz": {
+          "type": "row",
+          "settings": {
+            "title": "Ingredients",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>Clean & Simple</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "Long list of junk",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        },
+        "row_CCBqbp": {
+          "type": "row",
+          "settings": {
+            "title": "Sugar",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>Less than 2g</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "Up to 6g",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        },
+        "row_pTRCgC": {
+          "type": "row",
+          "settings": {
+            "title": "Mission",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>Purpose-driven snacks made with love</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "No real heart",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        },
+        "background_shape_Qbph77": {
+          "type": "background_shape",
+          "settings": {
+            "shape": "scalloped_circle_6",
+            "blob_type": 1,
+            "size": 135,
+            "opacity": 40,
+            "blur": 0,
+            "horizontal_position": 50,
+            "vertical_position": 50,
+            "rotate": 0,
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme5",
+            "color": "accent-1"
+          }
+        }
+      },
+      "block_order": [
+        "row_4DBetm",
+        "row_JhQCJ9",
+        "row_QMWxVQ",
+        "row_FEFVgz",
+        "row_CCBqbp",
+        "row_pTRCgC",
+        "background_shape_Qbph77"
+      ],
+      "custom_css": [],
+      "name": "Lander - Comparison Table",
+      "settings": {
+        "title": "",
+        "display_on_card": false,
+        "max_width": "",
+        "highlighted_column": "1",
+        "highlighted_column_color": "accent-1",
+        "show_scroll_left_to_right_on_mobile": true,
+        "column_1_title": "sarang",
+        "column_1_image": "shopify://shop_images/Sarang.png",
+        "column_2_title": "Other Brands",
+        "enable_column_3": false,
+        "column_3_title": "Column 3",
+        "enable_column_4": false,
+        "column_4_title": "Column 4",
+        "icon_thickness": 2,
+        "background_color": "bg-scheme-card text-scheme-card-text",
+        "show_border": true,
+        "color_scheme": "scheme6",
+        "use_gradient_background": false
+      }
+    },
+    "rich_text_bQcKeC": {
+      "type": "rich-text",
+      "blocks": {
+        "sticker_ptUkCy": {
+          "type": "sticker",
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": true,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "image": "shopify://shop_images/chip.png",
+            "horizontal_position": 21,
+            "vertical_position": 25,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
+        "sticker_XcUHwe": {
+          "type": "sticker",
+          "settings": {
+            "width": 180,
+            "half_width_on_mobile": true,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "image": "shopify://shop_images/chip.png",
+            "horizontal_position": 93,
+            "vertical_position": 22,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
+        "sticker_WLhmGG": {
+          "type": "sticker",
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": false,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "image": "shopify://shop_images/chili.png",
+            "horizontal_position": 3,
+            "vertical_position": 70,
+            "rotate": 90,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
+        "sticker_TRtRzc": {
+          "type": "sticker",
+          "settings": {
+            "width": 160,
+            "half_width_on_mobile": false,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "image": "shopify://shop_images/chili-2.png",
+            "horizontal_position": 81,
+            "vertical_position": 70,
+            "rotate": 30,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        }
+      },
+      "block_order": [
+        "sticker_ptUkCy",
+        "sticker_XcUHwe",
+        "sticker_WLhmGG",
+        "sticker_TRtRzc"
+      ],
+      "custom_css": [
+        "h2 {max-width: 500px; margin: auto;}"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "Snack More. Compromise Less.",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
+        "button_link": "#lander-final-subscribe",
+        "button_label": "CLAIM 20% OFF NOW",
+        "color_scheme": "scheme6",
+        "use_gradient_background": false
+      }
+    },
     "1777785961a14ae200": {
       "type": "apps",
       "blocks": {
@@ -407,6 +779,10 @@
     "main",
     "vertical_video_embeds_home_f8Wm2K",
     "homepage_hero_XPT6Gx",
+    "built_different_hQbykR",
+    "rich_text_eeUTfc",
+    "lander_comparison_WiQRrc",
+    "rich_text_bQcKeC",
     "1777785961a14ae200"
   ]
 }
