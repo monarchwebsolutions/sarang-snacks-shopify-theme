@@ -60,7 +60,9 @@
       endif
     -%}
 
-    {% if enable_payment_buttons %}
+    {% if enable_payment_buttons and is_feature %}
+      {% capture add_to_cart_class %}push-btn__surface w-full{% endcapture %}
+    {% elsif enable_payment_buttons %}
       {% capture add_to_cart_class %}push-btn__surface push-btn__surface--secondary w-full{% endcapture %}
     {% else %}
       {% capture add_to_cart_class %}push-btn__surface w-full{% endcapture %}
@@ -90,6 +92,15 @@
     >
       {% if enable_payment_buttons %}
         <style>
+          .dynamic-payment-buttons--secondary .shopify-payment-button__button--unbranded.shopify-payment-button__button--unbranded {
+            color: rgb(var(--color-scheme-secondary-text)) !important;
+          }
+
+          .dynamic-payment-buttons--secondary .shopify-payment-button__button--unbranded.shopify-payment-button__button--unbranded::before,
+          .dynamic-payment-buttons--secondary .shopify-payment-button__button--branded > *:first-child {
+            background-color: rgb(var(--color-scheme-secondary-background)) !important;
+          }
+
           .dynamic-payment-buttons .shopify-payment-button__button,
           .dynamic-payment-buttons .shopify-payment-button__button--branded div[role='button'],
           .dynamic-payment-buttons shopify-buy-it-now-button button {
@@ -107,7 +118,7 @@
           }
         </script>
         <div
-          class="dynamic-payment-buttons {% if settings.button_drop_shadow_size > 0 %}{{ settings.button_shadow_direction | replace: '_', ' ' }}{% endif %}"
+          class="dynamic-payment-buttons {% if is_feature %}dynamic-payment-buttons--secondary {% endif %}{% if settings.button_drop_shadow_size > 0 %}{{ settings.button_shadow_direction | replace: '_', ' ' }}{% endif %}"
           style="min-height: 0 !important; margin-bottom: 20px;"
         >
           {{ form | payment_button }}
