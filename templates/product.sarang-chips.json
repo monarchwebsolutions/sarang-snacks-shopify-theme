@@ -667,6 +667,17 @@
             "color_scheme": "scheme5",
             "color": "accent-1"
           }
+        },
+        "shape_divider_QcWRn8": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
         }
       },
       "block_order": [
@@ -676,7 +687,8 @@
         "row_FEFVgz",
         "row_CCBqbp",
         "row_pTRCgC",
-        "background_shape_Qbph77"
+        "background_shape_Qbph77",
+        "shape_divider_QcWRn8"
       ],
       "custom_css": [],
       "name": "Lander - Comparison Table",
@@ -795,6 +807,7 @@
         "sticker_WLhmGG",
         "sticker_TRtRzc"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {max-width: 500px; margin: auto;}"
       ],
