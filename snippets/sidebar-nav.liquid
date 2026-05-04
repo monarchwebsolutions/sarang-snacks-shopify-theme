@@ -1,6 +1,12 @@
 {%- assign base_font_class = base_font_class
   | replace: 'font-heading', 'font-main'
 %}
+<style>
+  #customer_login_link,
+  #customer_register_link {
+    display: none;
+  }
+</style>
 <template x-teleport="#left-drawer-slot">
   <div
     :data-modal-label="$store.modals.leftDrawer.contents === 'nav' ? '{{ section.settings.main_linklist.title }}' : false"
