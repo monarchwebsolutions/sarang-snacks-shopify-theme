@@ -99,6 +99,9 @@
 <section
   class="homepage-hero bg-scheme-background text-scheme-text {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %} relative overflow-hidden"
   data-color-scheme="{{ section.settings.color_scheme }}"
+  {% if section.settings.anchor_id != blank %}
+    id="{{ section.settings.anchor_id | escape }}"
+  {% endif %}
   style="
     --homepage-hero-heading-size-mobile: {{ section.settings.heading_size_mobile }}px;
     --homepage-hero-heading-size-desktop: {{ section.settings.heading_size_desktop }}px;
@@ -418,6 +421,12 @@
       "type": "checkbox",
       "id": "display_on_card",
       "label": "t:common.settings.display_on_card.label"
+    },
+    {
+      "type": "text",
+      "id": "anchor_id",
+      "label": "Section anchor ID",
+      "info": "Optional. Use this to jump to the section with a link like #your-anchor."
     },
     {
       "type": "header",
