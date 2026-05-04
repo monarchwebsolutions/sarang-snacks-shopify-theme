@@ -15,6 +15,9 @@
   {% if section.settings.mobile_menu_logo != blank %}
     {% capture mobile_menu_logo_style %}width: {{ section.settings.mobile_menu_logo_width }}px; max-width: 100%;{% endcapture %}
     <div class="pb-5">
+      {% if section.settings.mobile_menu_logo_link_home %}
+        <a href="{{ routes.root_url }}" class="inline-block">
+      {% endif %}
       {{
         section.settings.mobile_menu_logo
         | image_url: width: 440
@@ -24,6 +27,9 @@
           class: 'block h-auto',
           style: mobile_menu_logo_style
       }}
+      {% if section.settings.mobile_menu_logo_link_home %}
+        </a>
+      {% endif %}
     </div>
   {% endif %}
   <ul class="mt-5">
