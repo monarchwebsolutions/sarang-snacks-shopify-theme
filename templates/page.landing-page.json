@@ -348,6 +348,14 @@
         "rich_text": "<p><strong>sarang isn’t just better for you. It’s better tasting too! <br/><br/></strong>We’re on a mission to bring bold Korean flavor, clean ingredients, and real joy into every bite. Here’s how we stack up:</p>",
         "display_on_card": false,
         "content_width_desktop": "lg:w-2/3",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
         "button_link": "",
         "button_label": "Shop Now",
         "color_scheme": "scheme6",
@@ -457,8 +465,153 @@
         "rich_text": "<p><em>We’re on a mission to bring </em><em><strong>bold Korean flavor, clean ingredients, and real joy</strong></em><em> into every bite. Here’s how we stack up:</em></p>",
         "display_on_card": false,
         "content_width_desktop": "lg:w-2/3",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
         "button_link": "",
         "button_label": "Shop Now",
+        "color_scheme": "scheme6",
+        "use_gradient_background": false
+      }
+    },
+    "lander_comparison_WiQRrc": {
+      "type": "lander-comparison",
+      "blocks": {
+        "row_4DBetm": {
+          "type": "row",
+          "settings": {
+            "title": "Flavor",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>Bold Korean Heat</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "Generic Spice Blends",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "row_JhQCJ9": {
+          "type": "row",
+          "settings": {
+            "title": "Oil",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>Avocado Oil</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "Seed & Vegetable Oil",
+            "column_3_icon": "check_close",
+            "column_3_text": "",
+            "column_4_icon": "check_close",
+            "column_4_text": ""
+          }
+        },
+        "row_QMWxVQ": {
+          "type": "row",
+          "settings": {
+            "title": "Color",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>All Natural (no Red 40)</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "Artificial Dyes",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        },
+        "row_FEFVgz": {
+          "type": "row",
+          "settings": {
+            "title": "Ingredients",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>Clean & Simple</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "Long list of junk",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        },
+        "row_CCBqbp": {
+          "type": "row",
+          "settings": {
+            "title": "Sugar",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>Less than 2g</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "Up to 6g",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        },
+        "row_pTRCgC": {
+          "type": "row",
+          "settings": {
+            "title": "Mission",
+            "column_1_icon": "like",
+            "column_1_text": "<em><strong>Purpose-driven snacks made with love</strong></em>",
+            "column_2_icon": "check_close",
+            "column_2_text": "No real heart",
+            "column_3_icon": "",
+            "column_3_text": "",
+            "column_4_icon": "",
+            "column_4_text": ""
+          }
+        },
+        "background_shape_Qbph77": {
+          "type": "background_shape",
+          "settings": {
+            "shape": "scalloped_circle_6",
+            "blob_type": 1,
+            "size": 135,
+            "opacity": 40,
+            "blur": 0,
+            "horizontal_position": 50,
+            "vertical_position": 50,
+            "rotate": 0,
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme5",
+            "color": "accent-1"
+          }
+        }
+      },
+      "block_order": [
+        "row_4DBetm",
+        "row_JhQCJ9",
+        "row_QMWxVQ",
+        "row_FEFVgz",
+        "row_CCBqbp",
+        "row_pTRCgC",
+        "background_shape_Qbph77"
+      ],
+      "custom_css": [],
+      "name": "Lander - Comparison Table",
+      "settings": {
+        "title": "",
+        "display_on_card": false,
+        "max_width": "",
+        "highlighted_column": "1",
+        "highlighted_column_color": "accent-1",
+        "show_scroll_left_to_right_on_mobile": true,
+        "column_1_title": "sarang",
+        "column_1_image": "shopify://shop_images/Sarang.png",
+        "column_2_title": "Other Brands",
+        "enable_column_3": false,
+        "column_3_title": "Column 3",
+        "enable_column_4": false,
+        "column_4_title": "Column 4",
+        "icon_thickness": 2,
+        "background_color": "bg-scheme-card text-scheme-card-text",
+        "show_border": true,
         "color_scheme": "scheme6",
         "use_gradient_background": false
       }
@@ -608,143 +761,6 @@
         "use_gradient_background": false
       }
     },
-    "lander_comparison_WiQRrc": {
-      "type": "lander-comparison",
-      "blocks": {
-        "row_4DBetm": {
-          "type": "row",
-          "settings": {
-            "title": "Flavor",
-            "column_1_icon": "like",
-            "column_1_text": "<em><strong>Bold Korean Heat</strong></em>",
-            "column_2_icon": "check_close",
-            "column_2_text": "Generic Spice Blends",
-            "column_3_icon": "check_close",
-            "column_3_text": "",
-            "column_4_icon": "check_close",
-            "column_4_text": ""
-          }
-        },
-        "row_JhQCJ9": {
-          "type": "row",
-          "settings": {
-            "title": "Oil",
-            "column_1_icon": "like",
-            "column_1_text": "<em><strong>Avocado Oil</strong></em>",
-            "column_2_icon": "check_close",
-            "column_2_text": "Seed & Vegetable Oil",
-            "column_3_icon": "check_close",
-            "column_3_text": "",
-            "column_4_icon": "check_close",
-            "column_4_text": ""
-          }
-        },
-        "row_QMWxVQ": {
-          "type": "row",
-          "settings": {
-            "title": "Color",
-            "column_1_icon": "like",
-            "column_1_text": "<em><strong>All Natural (no Red 40)</strong></em>",
-            "column_2_icon": "check_close",
-            "column_2_text": "Artificial Dyes",
-            "column_3_icon": "",
-            "column_3_text": "",
-            "column_4_icon": "",
-            "column_4_text": ""
-          }
-        },
-        "row_FEFVgz": {
-          "type": "row",
-          "settings": {
-            "title": "Ingredients",
-            "column_1_icon": "like",
-            "column_1_text": "<em><strong>Clean & Simple</strong></em>",
-            "column_2_icon": "check_close",
-            "column_2_text": "Long list of junk",
-            "column_3_icon": "",
-            "column_3_text": "",
-            "column_4_icon": "",
-            "column_4_text": ""
-          }
-        },
-        "row_CCBqbp": {
-          "type": "row",
-          "settings": {
-            "title": "Sugar",
-            "column_1_icon": "like",
-            "column_1_text": "<em><strong>Less than 2g</strong></em>",
-            "column_2_icon": "check_close",
-            "column_2_text": "Up to 6g",
-            "column_3_icon": "",
-            "column_3_text": "",
-            "column_4_icon": "",
-            "column_4_text": ""
-          }
-        },
-        "row_pTRCgC": {
-          "type": "row",
-          "settings": {
-            "title": "Mission",
-            "column_1_icon": "like",
-            "column_1_text": "<em><strong>Purpose-driven snacks made with love</strong></em>",
-            "column_2_icon": "check_close",
-            "column_2_text": "No real heart",
-            "column_3_icon": "",
-            "column_3_text": "",
-            "column_4_icon": "",
-            "column_4_text": ""
-          }
-        },
-        "background_shape_Qbph77": {
-          "type": "background_shape",
-          "settings": {
-            "shape": "scalloped_circle_6",
-            "blob_type": 1,
-            "size": 135,
-            "opacity": 40,
-            "blur": 0,
-            "horizontal_position": 50,
-            "vertical_position": 50,
-            "rotate": 0,
-            "enable_parallax": false,
-            "parallax_speed": 3,
-            "color_scheme": "scheme5",
-            "color": "accent-1"
-          }
-        }
-      },
-      "block_order": [
-        "row_4DBetm",
-        "row_JhQCJ9",
-        "row_QMWxVQ",
-        "row_FEFVgz",
-        "row_CCBqbp",
-        "row_pTRCgC",
-        "background_shape_Qbph77"
-      ],
-      "custom_css": [],
-      "name": "Lander - Comparison Table",
-      "settings": {
-        "title": "",
-        "display_on_card": false,
-        "max_width": "",
-        "highlighted_column": "1",
-        "highlighted_column_color": "accent-1",
-        "show_scroll_left_to_right_on_mobile": true,
-        "column_1_title": "sarang",
-        "column_1_image": "shopify://shop_images/Sarang.png",
-        "column_2_title": "Other Brands",
-        "enable_column_3": false,
-        "column_3_title": "Column 3",
-        "enable_column_4": false,
-        "column_4_title": "Column 4",
-        "icon_thickness": 2,
-        "background_color": "bg-scheme-card text-scheme-card-text",
-        "show_border": true,
-        "color_scheme": "scheme6",
-        "use_gradient_background": false
-      }
-    },
     "rich_text_bQcKeC": {
       "type": "rich-text",
       "blocks": {
@@ -849,6 +865,14 @@
         "rich_text": "",
         "display_on_card": false,
         "content_width_desktop": "lg:w-2/3",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
         "button_link": "#lander-final-subscribe",
         "button_label": "CLAIM 20% OFF NOW",
         "color_scheme": "scheme6",
@@ -935,6 +959,16 @@
         "subheading": "Our co-founder Hochun asked people to try our chips and the reactions don’t lie.<strong> </strong>",
         "slideshow_focus": "center",
         "autoscroll_mode": "0",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
+        "button_link": "",
+        "button_label": "Shop now",
         "color_scheme": "scheme2",
         "use_gradient_background": true
       }
@@ -1003,6 +1037,14 @@
         "rich_text": "<p>sarang means love in Korean. That’s the energy behind every chip. Inspired by Korean flavors and engineered to delight your taste buds.We kept it clean. We made it craveable. And now we’re sharing it with you.</p>",
         "display_on_card": false,
         "content_width_desktop": "lg:w-2/3",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
         "button_link": "",
         "button_label": "Shop Now",
         "color_scheme": "scheme2",
@@ -1123,6 +1165,14 @@
       "settings": {
         "display_on_card": true,
         "image": "shopify://shop_images/photomania-81383d1f14271632d4855039263520d9.jpg",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
         "crop": "aspect-w-1 aspect-h-1",
         "image_shape": "default",
         "blob_type": 4,
@@ -1206,8 +1256,8 @@
     "rich_text_kVnbFj",
     "built_different_hQbykR",
     "rich_text_eeUTfc",
-    "comparison_table_TfJBxQ",
     "lander_comparison_WiQRrc",
+    "comparison_table_TfJBxQ",
     "rich_text_bQcKeC",
     "vertical_video_embeds_q8nENm",
     "rich_text_fy9jC7",
