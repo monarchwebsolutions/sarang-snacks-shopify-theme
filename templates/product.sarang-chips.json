@@ -290,8 +290,8 @@
         "background_image_opacity_right": 100,
         "background_image_enable_parallax": false,
         "background_image_parallax_speed": 3,
-        "button_link": "#",
-        "button_label": "Order Now",
+        "button_link": "",
+        "button_label": "",
         "color_scheme": "scheme2",
         "use_gradient_background": true
       }
@@ -319,11 +319,23 @@
             "font_weight": "400",
             "bullet_image": "shopify://shop_images/tortilla-chip.svg"
           }
+        },
+        "shape_divider_qzVcnJ": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": "reverse"
+          }
         }
       },
       "block_order": [
         "shape_divider_jkeMgR",
-        "extra_text_pg9fEU"
+        "extra_text_pg9fEU",
+        "shape_divider_qzVcnJ"
       ],
       "custom_css": [],
       "name": "Custom image with text",
@@ -359,7 +371,7 @@
         "image_vertical_alignment": "top",
         "content_vertical_alignment": "center",
         "button_link": "#",
-        "button_label": "Try It Now",
+        "button_label": "Order Now",
         "color_scheme": "scheme2",
         "text_color_override": "rgba(0,0,0,0)",
         "use_gradient_background": false
