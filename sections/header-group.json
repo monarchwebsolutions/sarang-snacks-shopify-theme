@@ -65,7 +65,7 @@
         "feature-desktop-link": {
           "type": "feature_desktop_link",
           "settings": {
-            "button_link": "shopify://products/test-product",
+            "button_link": "shopify://products/sarang-chips",
             "button_label": "Subscribe & Save",
             "position": "right_of_cart",
             "button_color": "bg-scheme-accent-2 text-scheme-accent-2-contrast",
