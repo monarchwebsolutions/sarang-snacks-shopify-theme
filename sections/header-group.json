@@ -108,6 +108,8 @@
         "color_scheme": "scheme2",
         "active_color_scheme": "scheme1",
         "mobile_main_linklist": "navigation",
+        "mobile_menu_logo": "shopify://shop_images/Sarang.png",
+        "mobile_menu_logo_width": 120,
         "sidebar_menu_font_size": "heading-secondary",
         "sidebar_show_footer_menu": false,
         "sidebar_show_social_icons": false
