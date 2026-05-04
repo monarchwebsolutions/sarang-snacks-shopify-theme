@@ -97,6 +97,56 @@
   }
 </style>
 
+<script>
+  (function () {
+    const params = new URLSearchParams(window.location.search);
+
+    if (params.get('preselect_subscription') !== '1') return;
+
+    const cleanupUrl = () => {
+      const nextParams = new URLSearchParams(window.location.search);
+      nextParams.delete('preselect_subscription');
+      const nextQuery = nextParams.toString();
+      const nextUrl = `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ''}${window.location.hash}`;
+      window.history.replaceState({}, '', nextUrl);
+    };
+
+    const trySelectAppstleSubscription = () => {
+      const widget = document.querySelector('.appstle_subscription_wrapper');
+      if (!widget) return false;
+
+      const subscriptionRadio = widget.querySelector(
+        'input[name="selling_plan"][value]:not([value=""])'
+      );
+
+      if (!subscriptionRadio) return false;
+
+      if (!subscriptionRadio.checked) {
+        subscriptionRadio.click();
+        subscriptionRadio.dispatchEvent(new Event('change', { bubbles: true }));
+      }
+
+      cleanupUrl();
+      return true;
+    };
+
+    if (trySelectAppstleSubscription()) return;
+
+    const observer = new MutationObserver(() => {
+      if (trySelectAppstleSubscription()) {
+        observer.disconnect();
+      }
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    window.setTimeout(() => {
+      observer.disconnect();
+      trySelectAppstleSubscription();
+    }, 10000);
+  })();
+</script>
+
 <data-island
   class="relative overflow-hidden bg-scheme-background text-scheme-text {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %}"
   data-color-scheme="{{ section_color }}"

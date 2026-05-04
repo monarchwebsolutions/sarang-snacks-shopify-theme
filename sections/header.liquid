@@ -139,11 +139,34 @@
     {%- liquid
       assign feature_desktop_link_position = block.settings.position
       assign hide_button_shadow = false
+      assign feature_desktop_link_url = block.settings.button_link
       if block.settings.hide_button_shadow
         assign hide_button_shadow = true
       endif
+      if block.settings.preselect_subscription and feature_desktop_link_url != blank
+        assign feature_desktop_link_hash = ''
+        assign feature_desktop_link_base = feature_desktop_link_url
+
+        if feature_desktop_link_url contains '#'
+          assign feature_desktop_link_parts = feature_desktop_link_url | split: '#'
+          assign feature_desktop_link_base = feature_desktop_link_parts | first
+          assign feature_desktop_link_hash = feature_desktop_link_parts | last
+        endif
+
+        if feature_desktop_link_base contains '?'
+          assign feature_desktop_link_base = feature_desktop_link_base | append: '&preselect_subscription=1'
+        else
+          assign feature_desktop_link_base = feature_desktop_link_base | append: '?preselect_subscription=1'
+        endif
+
+        if feature_desktop_link_hash != ''
+          assign feature_desktop_link_url = feature_desktop_link_base | append: '#' | append: feature_desktop_link_hash
+        else
+          assign feature_desktop_link_url = feature_desktop_link_base
+        endif
+      endif
     -%}
-    <a href="{{ block.settings.button_link }}" class="push-btn push-btn--pop inline-block {% if block.settings.hide_button_shadow %}push-btn--no-shadow{% endif %}">
+    <a href="{{ feature_desktop_link_url }}" class="push-btn push-btn--pop inline-block {% if block.settings.hide_button_shadow %}push-btn--no-shadow{% endif %}">
       <span class="push-btn__surface {{ block.settings.button_color }}">{{ block.settings.button_label }}</span>
     </a>
     {%- endfor -%}
@@ -1318,6 +1341,12 @@
           "type": "checkbox",
           "id": "hide_button_shadow",
           "label": "t:sections.header.blocks.feature_desktop_link.settings.hide_button_shadow.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "preselect_subscription",
+          "label": "Preselect subscribe & save on product page",
+          "info": "Adds a link flag that will auto-select the subscription option when the destination product page loads."
         }
       ]
     }
