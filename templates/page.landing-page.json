@@ -616,6 +616,124 @@
         "use_gradient_background": false
       }
     },
+    "rich_text_bQcKeC": {
+      "type": "rich-text",
+      "blocks": {
+        "sticker_ptUkCy": {
+          "type": "sticker",
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": true,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "image": "shopify://shop_images/chip.png",
+            "horizontal_position": 21,
+            "vertical_position": 25,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "rotate_when_scrolling",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
+        "sticker_XcUHwe": {
+          "type": "sticker",
+          "settings": {
+            "width": 180,
+            "half_width_on_mobile": true,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "image": "shopify://shop_images/chip.png",
+            "horizontal_position": 93,
+            "vertical_position": 22,
+            "rotate": 0,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "constantly_rotate",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
+        "sticker_WLhmGG": {
+          "type": "sticker",
+          "settings": {
+            "width": 150,
+            "half_width_on_mobile": false,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "image": "shopify://shop_images/chili.png",
+            "horizontal_position": 3,
+            "vertical_position": 70,
+            "rotate": 90,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        },
+        "sticker_TRtRzc": {
+          "type": "sticker",
+          "settings": {
+            "width": 160,
+            "half_width_on_mobile": false,
+            "text": "Sticker",
+            "shape": "star_1",
+            "sticker_font_size": "1.563rem",
+            "image": "shopify://shop_images/chili-2.png",
+            "horizontal_position": 81,
+            "vertical_position": 70,
+            "rotate": 30,
+            "show_sticker_on_mobile": false,
+            "show_sticker_on_desktop": true,
+            "rotation_animation": "none",
+            "enable_parallax": false,
+            "parallax_speed": 3,
+            "color_scheme": "scheme1",
+            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
+          }
+        }
+      },
+      "block_order": [
+        "sticker_ptUkCy",
+        "sticker_XcUHwe",
+        "sticker_WLhmGG",
+        "sticker_TRtRzc"
+      ],
+      "custom_css": [
+        "h2 {max-width: 500px; margin: auto;}"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "title": "Snack More. Compromise Less.",
+        "heading_size": "heading-standard",
+        "rich_text": "",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
+        "button_link": "#lander-final-subscribe",
+        "button_label": "CLAIM 20% OFF NOW",
+        "color_scheme": "scheme6",
+        "use_gradient_background": false
+      }
+    },
     "comparison_table_TfJBxQ": {
       "type": "comparison-table",
       "blocks": {
@@ -757,124 +875,6 @@
         "icon_thickness": 2,
         "background_color": "bg-scheme-card text-scheme-card-text",
         "show_border": true,
-        "color_scheme": "scheme6",
-        "use_gradient_background": false
-      }
-    },
-    "rich_text_bQcKeC": {
-      "type": "rich-text",
-      "blocks": {
-        "sticker_ptUkCy": {
-          "type": "sticker",
-          "settings": {
-            "width": 150,
-            "half_width_on_mobile": true,
-            "text": "Sticker",
-            "shape": "star_1",
-            "sticker_font_size": "1.563rem",
-            "image": "shopify://shop_images/chip.png",
-            "horizontal_position": 21,
-            "vertical_position": 25,
-            "rotate": 0,
-            "show_sticker_on_mobile": false,
-            "show_sticker_on_desktop": true,
-            "rotation_animation": "rotate_when_scrolling",
-            "enable_parallax": false,
-            "parallax_speed": 3,
-            "color_scheme": "scheme1",
-            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
-          }
-        },
-        "sticker_XcUHwe": {
-          "type": "sticker",
-          "settings": {
-            "width": 180,
-            "half_width_on_mobile": true,
-            "text": "Sticker",
-            "shape": "star_1",
-            "sticker_font_size": "1.563rem",
-            "image": "shopify://shop_images/chip.png",
-            "horizontal_position": 93,
-            "vertical_position": 22,
-            "rotate": 0,
-            "show_sticker_on_mobile": false,
-            "show_sticker_on_desktop": true,
-            "rotation_animation": "constantly_rotate",
-            "enable_parallax": false,
-            "parallax_speed": 3,
-            "color_scheme": "scheme1",
-            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
-          }
-        },
-        "sticker_WLhmGG": {
-          "type": "sticker",
-          "settings": {
-            "width": 150,
-            "half_width_on_mobile": false,
-            "text": "Sticker",
-            "shape": "star_1",
-            "sticker_font_size": "1.563rem",
-            "image": "shopify://shop_images/chili.png",
-            "horizontal_position": 3,
-            "vertical_position": 70,
-            "rotate": 90,
-            "show_sticker_on_mobile": false,
-            "show_sticker_on_desktop": true,
-            "rotation_animation": "none",
-            "enable_parallax": false,
-            "parallax_speed": 3,
-            "color_scheme": "scheme1",
-            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
-          }
-        },
-        "sticker_TRtRzc": {
-          "type": "sticker",
-          "settings": {
-            "width": 160,
-            "half_width_on_mobile": false,
-            "text": "Sticker",
-            "shape": "star_1",
-            "sticker_font_size": "1.563rem",
-            "image": "shopify://shop_images/chili-2.png",
-            "horizontal_position": 81,
-            "vertical_position": 70,
-            "rotate": 30,
-            "show_sticker_on_mobile": false,
-            "show_sticker_on_desktop": true,
-            "rotation_animation": "none",
-            "enable_parallax": false,
-            "parallax_speed": 3,
-            "color_scheme": "scheme1",
-            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
-          }
-        }
-      },
-      "block_order": [
-        "sticker_ptUkCy",
-        "sticker_XcUHwe",
-        "sticker_WLhmGG",
-        "sticker_TRtRzc"
-      ],
-      "custom_css": [
-        "h2 {max-width: 500px; margin: auto;}"
-      ],
-      "name": "t:sections.rich_text.name",
-      "settings": {
-        "title": "Snack More. Compromise Less.",
-        "heading_size": "heading-standard",
-        "rich_text": "",
-        "display_on_card": false,
-        "content_width_desktop": "lg:w-2/3",
-        "background_image_fit": "cover",
-        "background_image_repeat": "no-repeat",
-        "background_image_opacity_mode": "single",
-        "background_image_opacity": 100,
-        "background_image_opacity_left": 100,
-        "background_image_opacity_right": 100,
-        "background_image_enable_parallax": false,
-        "background_image_parallax_speed": 3,
-        "button_link": "#lander-final-subscribe",
-        "button_label": "CLAIM 20% OFF NOW",
         "color_scheme": "scheme6",
         "use_gradient_background": false
       }
@@ -1257,8 +1257,8 @@
     "built_different_hQbykR",
     "rich_text_eeUTfc",
     "lander_comparison_WiQRrc",
-    "comparison_table_TfJBxQ",
     "rich_text_bQcKeC",
+    "comparison_table_TfJBxQ",
     "vertical_video_embeds_q8nENm",
     "rich_text_fy9jC7",
     "image_with_text_4jjq9a",
