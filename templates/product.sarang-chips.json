@@ -832,9 +832,45 @@
         "use_gradient_background": false
       }
     },
+    "1777785961a14ae200": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_fqjYcK": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_fqjYcK"
+      ],
+      "settings": {
+        "apply_vertical_spacing": true,
+        "apply_horizontal_spacing": true,
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-full",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
     "faq_8UDX3q": {
       "type": "faq",
       "blocks": {
+        "shape_divider_L7qfGC": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "above",
+            "target_section_color_scheme": "scheme1",
+            "style": "waves-2-patterned_1200x43",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        },
         "question_4QCpjF": {
           "type": "question",
           "settings": {
@@ -912,6 +948,7 @@
         }
       },
       "block_order": [
+        "shape_divider_L7qfGC",
         "question_4QCpjF",
         "question_B4T98d",
         "question_C6MQtY",
@@ -977,31 +1014,6 @@
         "color_scheme": "scheme-2e9ad064-4664-4798-a820-22744228d263",
         "use_gradient_background": false
       }
-    },
-    "1777785961a14ae200": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_fqjYcK": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_fqjYcK"
-      ],
-      "settings": {
-        "apply_vertical_spacing": true,
-        "apply_horizontal_spacing": true,
-        "display_on_card": false,
-        "content_width_desktop": "lg:w-full",
-        "color_scheme": "",
-        "use_gradient_background": false
-      }
     }
   },
   "order": [
@@ -1013,8 +1025,8 @@
     "rich_text_eeUTfc",
     "lander_comparison_WiQRrc",
     "rich_text_bQcKeC",
+    "1777785961a14ae200",
     "faq_8UDX3q",
-    "rich_text_RtkJ3Q",
-    "1777785961a14ae200"
+    "rich_text_RtkJ3Q"
   ]
 }
