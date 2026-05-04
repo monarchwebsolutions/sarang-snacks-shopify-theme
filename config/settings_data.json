@@ -92,7 +92,7 @@
     "social_tiktok_link": "https://instagram.com/shopify",
     "social_youtube_link": "https://www.youtube.com/user/shopify",
     "social_whatsapp_link": "https://wa.me/",
-    "cart_icon": "bag",
+    "cart_icon": "cart",
     "navigation_font": "font-main",
     "navigation_uppercase": false,
     "product_tiles_quick_buy": true,
@@ -199,7 +199,7 @@
         "settings": {
           "text": "#fbf9f6",
           "text_contrast": "#fbf9f6",
-          "background": "#ffcafa",
+          "background": "#353b44",
           "gradient": "",
           "accent_1": "#7ddcf8",
           "accent_1_contrast": "#fbf9f6",
