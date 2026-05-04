@@ -377,6 +377,60 @@
         "use_gradient_background": false
       }
     },
+    "custom_rich_text_FRkWcp": {
+      "type": "custom-rich-text",
+      "blocks": {
+        "shape_divider_j6qRAB": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": true,
+            "animation_direction": ""
+          }
+        },
+        "extra_text_7zjbEK": {
+          "type": "extra_text",
+          "settings": {
+            "content": "<p><em>We’re on a mission to bring </em><em><strong>bold Korean flavor, clean ingredients, and real joy</strong></em><em> into every bite. Here’s how we stack up:</em></p>",
+            "font_size_mobile": 16,
+            "font_size_desktop": 18,
+            "font_weight": "400"
+          }
+        }
+      },
+      "block_order": [
+        "shape_divider_j6qRAB",
+        "extra_text_7zjbEK"
+      ],
+      "name": "Custom rich text",
+      "settings": {
+        "title": "Built Different. Tastes Better.",
+        "heading_size_mobile": 44,
+        "heading_size_desktop": 60,
+        "heading_weight": "700",
+        "rich_text": "<p>sarang isn’t just better for you.<br/>It’s better tasting too!</p>",
+        "text_size_mobile": 16,
+        "text_size_desktop": 24,
+        "text_weight": "400",
+        "display_on_card": false,
+        "content_width_desktop": "lg:w-2/3",
+        "background_image_fit": "cover",
+        "background_image_repeat": "no-repeat",
+        "background_image_opacity_mode": "single",
+        "background_image_opacity": 100,
+        "background_image_opacity_left": 100,
+        "background_image_opacity_right": 100,
+        "background_image_enable_parallax": false,
+        "background_image_parallax_speed": 3,
+        "button_link": "",
+        "button_label": "Shop Now",
+        "color_scheme": "",
+        "use_gradient_background": false
+      }
+    },
     "built_different_hQbykR": {
       "type": "built-different",
       "blocks": {
@@ -429,6 +483,7 @@
         "sticker_AMmgWD",
         "sticker_PMprP9"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {margin: 16px auto 40px; font-size: 60px; max-width: 700px;}",
         ".section-content {padding-bottom: 32px;}"
@@ -483,6 +538,7 @@
         "background_shape_EC3qyA",
         "shape_divider_QGD3YT"
       ],
+      "disabled": true,
       "custom_css": [
         ".section-content {max-width: 800px; margin: auto; padding-top: 0; padding-bottom: 32px;}",
         ".section-content p {font-size: 18px;}"
@@ -793,6 +849,7 @@
     "main",
     "vertical_video_embeds_home_f8Wm2K",
     "homepage_hero_XPT6Gx",
+    "custom_rich_text_FRkWcp",
     "built_different_hQbykR",
     "rich_text_eeUTfc",
     "lander_comparison_WiQRrc",
