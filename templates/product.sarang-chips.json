@@ -316,7 +316,8 @@
             "content": "<ul><li>Made with real Korean spices</li><li>No artificial flavors or colors</li><li>Light, crispy texture</li><li>Bold heat</li><li>A portion of every purchase gives back</li></ul>",
             "font_size_mobile": 16,
             "font_size_desktop": 20,
-            "font_weight": "400"
+            "font_weight": "400",
+            "bullet_image": "shopify://shop_images/tortilla-chip.svg"
           }
         }
       },
