@@ -313,7 +313,7 @@
         "extra_text_pg9fEU": {
           "type": "extra_text",
           "settings": {
-            "content": "<p>Add extra text below the CTA.</p>",
+            "content": "<ul><li>Made with real Korean spices</li><li>No artificial flavors or colors</li><li>Light, crispy texture</li><li>Bold heat with real depth</li><li>A portion of every purchase gives back</li></ul>",
             "font_size_mobile": 16,
             "font_size_desktop": 20,
             "font_weight": "400"
@@ -327,11 +327,12 @@
       "name": "Custom image with text",
       "settings": {
         "display_on_card": true,
+        "image": "shopify://shop_images/AdobeStock_516391760_Preview.jpg",
         "background_image": "shopify://shop_images/BrandPattern_Large_1.jpg",
-        "background_image_fit": "contain",
+        "background_image_fit": "cover",
         "background_image_repeat": "repeat",
         "background_image_opacity_mode": "single",
-        "background_image_opacity": 100,
+        "background_image_opacity": 90,
         "background_image_opacity_left": 100,
         "background_image_opacity_right": 100,
         "background_image_enable_parallax": false,
@@ -346,9 +347,9 @@
         "image_position": "right",
         "image_size": "half",
         "disable_media_style": false,
-        "title": "Custom image with text",
-        "heading_size_mobile": 44,
-        "heading_size_desktop": 72,
+        "title": "Why People Love Sarang",
+        "heading_size_mobile": 40,
+        "heading_size_desktop": 60,
         "richtext": "",
         "subheading_size_mobile": 16,
         "subheading_size_desktop": 20,
@@ -357,7 +358,7 @@
         "content_vertical_alignment": "center",
         "button_link": "",
         "button_label": "Shop Now",
-        "color_scheme": "scheme6",
+        "color_scheme": "scheme2",
         "text_color_override": "rgba(0,0,0,0)",
         "use_gradient_background": false
       }
