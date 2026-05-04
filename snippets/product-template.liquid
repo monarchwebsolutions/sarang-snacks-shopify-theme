@@ -121,6 +121,15 @@
       </h2>
     {% endif %}
 
+    <style>
+      @media (min-width: 990px) {
+        #shopify-section-{{ section.id }} .product-media__sticky {
+          position: sticky;
+          top: 20px;
+        }
+      }
+    </style>
+
     <div class="{% if is_feature %}{% if section.settings.title != '' %}section-content-top-margin{% endif %}{% endif %}">
       <div class="grid grid-cols-1 gap-10 lg:grid-cols-12">
         <div class="product-media col-span-full {{ media_desktop_width }}">
@@ -140,7 +149,7 @@
                 assign preload = false
               endif
             %}
-            <div class="px-section lg:px-0">
+            <div class="product-media__sticky px-section lg:px-0">
               <div
                 {% if first_media.media_type == 'image'
                   and section.settings.enable_image_zoom
@@ -181,7 +190,7 @@
               </div>
             </div>
           {% elsif product.media.size > 1 %}
-            <div>
+            <div class="product-media__sticky">
               <div class="relative grid grid-cols-1 gap-5 lg:grid-cols-12">
                 <div class="{% if section.settings.thumbnails_position == 'left' %}{% if section.settings.thumbnail_size == 'standard' %}col-span-2{% else %}col-span-3{% endif %}{% else %}col-span-full{% endif %} hidden lg:block">
                   {%- assign thumbnails_id = 'thumbnails-'
