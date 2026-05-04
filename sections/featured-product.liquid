@@ -1,6 +1,24 @@
 {%- liquid
   assign product = all_products[section.settings.product]
   assign product_block_classes = 'product-block mt-5 first:mt-0'
+
+  case section.settings.media_vertical_alignment
+    when 'center'
+      assign media_vertical_alignment_class = 'lg:items-center'
+    when 'bottom'
+      assign media_vertical_alignment_class = 'lg:items-end'
+    else
+      assign media_vertical_alignment_class = 'lg:items-start'
+  endcase
+
+  case section.settings.content_vertical_alignment
+    when 'top'
+      assign content_vertical_alignment_class = 'lg:items-start'
+    when 'bottom'
+      assign content_vertical_alignment_class = 'lg:items-end'
+    else
+      assign content_vertical_alignment_class = 'lg:items-center'
+  endcase
 -%}
 
 {%- if product != blank -%}
@@ -37,8 +55,8 @@
 
       <div class="{% if section.settings.title != '' %}section-content-top-margin{% endif %}">
         <div class="grid grid-cols-1 gap-10 lg:grid-cols-12 {{ section.settings.section_desktop_width }}">
-          <div class="product-media col-span-full {{ media_desktop_width }} px-section lg:px-0">
-            <div>
+          <div class="product-media col-span-full {{ media_desktop_width }} px-section lg:flex {{ media_vertical_alignment_class }} lg:px-0">
+            <div class="w-full">
               {%- render 'media-image-placeholder',
                 shape_id: section.id,
                 container_id: section.id,
@@ -48,7 +66,7 @@
               -%}
             </div>
           </div>
-          <div class="product-content col-span-full {{ content_desktop_width }} px-section lg:flex lg:items-center lg:px-0">
+          <div class="product-content col-span-full {{ content_desktop_width }} px-section lg:flex {{ content_vertical_alignment_class }} lg:px-0">
             <div class="product-block-container w-full max-w-full xl:grid xl:grid-cols-12">
               <div class="relative xl:col-span-10 xl:col-start-2">
                 <div class="{{ product_block_classes }} product-block-title">
@@ -562,6 +580,46 @@
         }
       ],
       "default": "lg:col-span-6_lg:col-span-6"
+    },
+    {
+      "type": "select",
+      "id": "media_vertical_alignment",
+      "label": "Image vertical alignment",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "top"
+    },
+    {
+      "type": "select",
+      "id": "content_vertical_alignment",
+      "label": "Content vertical alignment",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center"
     },
     {
       "type": "checkbox",
