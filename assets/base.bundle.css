@@ -5038,6 +5038,7 @@ shopify-payment-terms {
 .shopify-policy__container {
   padding-top: var(--section-vertical-spacing);
   padding-bottom: var(--section-vertical-spacing);
+  line-height: 1.7;
 }
 
 .shopify-policy__container h1 {
@@ -5048,6 +5049,42 @@ shopify-payment-terms {
   letter-spacing: var(--heading-letterspacing);
   line-height: var(--heading-line-height);
   font-size: var(--feature-heading-size);
+  margin-bottom: 24px;
+}
+
+.shopify-policy__container h2,
+.shopify-policy__container h3,
+.shopify-policy__container h4,
+.shopify-policy__container h5,
+.shopify-policy__container h6 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.shopify-policy__container p,
+.shopify-policy__container ul,
+.shopify-policy__container ol,
+.shopify-policy__container blockquote,
+.shopify-policy__container table {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.shopify-policy__container ul,
+.shopify-policy__container ol {
+  padding-left: 24px;
+}
+
+.shopify-policy__container li + li {
+  margin-top: 8px;
+}
+
+.shopify-policy__container a {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 @media only screen and (max-width: 767px) {
