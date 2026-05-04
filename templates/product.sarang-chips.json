@@ -336,7 +336,7 @@
         "background_image_opacity_left": 100,
         "background_image_opacity_right": 100,
         "background_image_enable_parallax": true,
-        "background_image_parallax_speed": 4,
+        "background_image_parallax_speed": 3,
         "mode": "preview",
         "playback": "inline",
         "video_aspect_ratio": "original",
