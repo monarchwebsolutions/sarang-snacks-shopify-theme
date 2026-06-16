@@ -62,13 +62,13 @@
         ".homepage-hero__extra-image {margin-top: 6px;}",
         "h2 {font-weight: 900;}",
         ".push-btn__surface {background: none; color: var(--sarang-brand-red); border: 2px solid var(--sarang-brand-red); font-weight: 700;}",
-        ".media__svg{display: none;}"
+        ".media__svg {display: none;}"
       ],
       "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
         "anchor_id": "",
-        "image": "shopify://shop_images/AdobeStock_459989806_Preview.jpg",
+        "image": "shopify://shop_images/r2_Sarang_Launch_v1_May_260184__1_-removebg.png",
         "background_image_fit": "cover",
         "background_image_repeat": "repeat",
         "background_image_opacity_mode": "single",
