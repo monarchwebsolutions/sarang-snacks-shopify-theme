@@ -46,8 +46,8 @@
       ],
       "name": "Announcement bar",
       "settings": {
-        "background_color": "#7DDCF8",
-        "foreground_color": "#2c55df",
+        "background_color": "#75C1F0",
+        "foreground_color": "#FFFFFF",
         "arrow_weight": 3,
         "arrow_size_mobile": 16,
         "arrow_size_desktop": 20,
