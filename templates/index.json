@@ -12,42 +12,9 @@
     "homepage_hero_LRzPqD": {
       "type": "homepage-hero",
       "blocks": {
-        "sticker_4VP3gw": {
-          "type": "sticker",
-          "disabled": true,
-          "settings": {
-            "width": 180,
-            "half_width_on_mobile": false,
-            "text": "Sticker",
-            "shape": "star_1",
-            "sticker_font_size": "1.563rem",
-            "image": "shopify://shop_images/chip.png",
-            "horizontal_position": 92,
-            "vertical_position": 92,
-            "rotate": 0,
-            "show_sticker_on_mobile": false,
-            "show_sticker_on_desktop": true,
-            "rotation_animation": "rotate_when_scrolling",
-            "enable_parallax": false,
-            "parallax_speed": 3,
-            "color_scheme": "scheme1",
-            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
-          }
-        },
-        "background_pattern_BRDbdG": {
-          "type": "background_pattern",
-          "disabled": true,
-          "settings": {
-            "type": "chevrons_1",
-            "color": "accent-1",
-            "size": 80,
-            "opacity": 15,
-            "enable_parallax": true,
-            "parallax_speed": 8
-          }
-        },
         "extra_image_MfXE9W": {
           "type": "extra_image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/hero-badges-small-min_1024x_1.webp",
             "width_mobile": 160,
@@ -56,6 +23,7 @@
         },
         "extra_text_K9QA4i": {
           "type": "extra_text",
+          "disabled": true,
           "settings": {
             "content": "<p>5 STARS FROM ALL OUR FIRST CUSTOMERS</p>",
             "font_size_mobile": 16,
@@ -65,54 +33,18 @@
         },
         "extra_image_XJCCqt": {
           "type": "extra_image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/stars_blue_ad25a431-4978-405b-8ecc-72586d914cd2.svg",
             "width_mobile": 160,
             "width_desktop": 130
           }
-        },
-        "sticker_B7k6cj": {
-          "type": "sticker",
-          "disabled": true,
-          "settings": {
-            "width": 150,
-            "half_width_on_mobile": false,
-            "text": "Sticker",
-            "shape": "rounded_pentagon",
-            "sticker_font_size": "1.953rem",
-            "horizontal_position": 50,
-            "vertical_position": 22,
-            "rotate": 0,
-            "show_sticker_on_mobile": false,
-            "show_sticker_on_desktop": false,
-            "rotation_animation": "none",
-            "enable_parallax": false,
-            "parallax_speed": 3,
-            "color_scheme": "scheme3",
-            "color": "bg-scheme-accent-1 text-scheme-accent-1-contrast"
-          }
-        },
-        "shape_divider_GiXbTw": {
-          "type": "shape_divider",
-          "disabled": true,
-          "settings": {
-            "target_section": "below",
-            "target_section_color_scheme": "scheme2",
-            "style": "waves-3-patterned_1200x84",
-            "flip_horizontal": false,
-            "enable_animation": true,
-            "animation_direction": ""
-          }
         }
       },
       "block_order": [
-        "sticker_4VP3gw",
-        "background_pattern_BRDbdG",
         "extra_image_MfXE9W",
         "extra_text_K9QA4i",
-        "extra_image_XJCCqt",
-        "sticker_B7k6cj",
-        "shape_divider_GiXbTw"
+        "extra_image_XJCCqt"
       ],
       "custom_css": [
         ".homepage-hero__extra-image {margin-top: 6px;}"
