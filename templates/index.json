@@ -62,7 +62,7 @@
       "custom_css": [
         ".homepage-hero__extra-image {margin-top: 6px;}",
         "h2 {font-weight: 900; font-family: Nicko;}",
-        "img {background: none;}",
+        "img {background: none; object-fit: contain;}",
         ".push-btn__surface {background: none; color: var(--sarang-brand-red); border: 2px solid var(--sarang-brand-red); font-weight: 700;}",
         ".media__svg {display: none;}"
       ],
@@ -70,7 +70,7 @@
       "settings": {
         "display_on_card": false,
         "anchor_id": "",
-        "image": "shopify://shop_images/sarang-hero-img.png",
+        "image": "shopify://shop_images/sarang-hero-img_19467beb-0d90-4909-b863-2b0e125df582.png",
         "background_image_fit": "cover",
         "background_image_repeat": "repeat",
         "background_image_opacity_mode": "single",
