@@ -42,6 +42,7 @@
         },
         "shape_divider_YghPEr": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "below",
             "target_section_color_scheme": "scheme1",
@@ -61,7 +62,7 @@
       "custom_css": [
         ".homepage-hero__extra-image {margin-top: 6px;}",
         "h2 {font-weight: 900;}",
-        "img{background: none;}",
+        "img {background: none;}",
         ".push-btn__surface {background: none; color: var(--sarang-brand-red); border: 2px solid var(--sarang-brand-red); font-weight: 700;}",
         ".media__svg {display: none;}"
       ],
