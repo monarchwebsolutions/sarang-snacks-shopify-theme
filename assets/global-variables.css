@@ -16,7 +16,7 @@
   --font-heading: serif;
   --font-subheading: serif;
   --font-body: serif;
-  --font-button:serif;
+  --font-btn: serif;
   --font-accent: serif;
   --comparison-radius: 8px;
   --heading-font-stack: var(--font-heading);
@@ -60,4 +60,8 @@ h6,
 .sticker__fit-to-text,
 .sticker--fit-to-test {
   font-family: var(--font-accent) !important;
+}
+
+.push-btn__surface{
+  font-family: var(--font-btn) !important;
 }
