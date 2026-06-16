@@ -44,7 +44,7 @@
           "type": "shape_divider",
           "settings": {
             "target_section": "below",
-            "target_section_color_scheme": "scheme2",
+            "target_section_color_scheme": "scheme1",
             "style": "waves-3-patterned_1200x84",
             "flip_horizontal": false,
             "enable_animation": false,
@@ -165,7 +165,7 @@
         "content_vertical_alignment": "center",
         "button_link": "shopify://products/sarang-chips",
         "button_label": "Try It Now",
-        "color_scheme": "scheme2",
+        "color_scheme": "scheme1",
         "text_color_override": "rgba(0,0,0,0)",
         "use_gradient_background": false
       }
