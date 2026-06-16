@@ -39,12 +39,24 @@
             "width_mobile": 160,
             "width_desktop": 130
           }
+        },
+        "shape_divider_YghPEr": {
+          "type": "shape_divider",
+          "settings": {
+            "target_section": "below",
+            "target_section_color_scheme": "scheme2",
+            "style": "waves-3-patterned_1200x84",
+            "flip_horizontal": false,
+            "enable_animation": false,
+            "animation_direction": ""
+          }
         }
       },
       "block_order": [
         "extra_image_MfXE9W",
         "extra_text_K9QA4i",
-        "extra_image_XJCCqt"
+        "extra_image_XJCCqt",
+        "shape_divider_YghPEr"
       ],
       "custom_css": [
         ".homepage-hero__extra-image {margin-top: 6px;}"
