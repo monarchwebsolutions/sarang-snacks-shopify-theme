@@ -60,7 +60,7 @@
       ],
       "custom_css": [
         ".homepage-hero__extra-image {margin-top: 6px;}",
-        "h2{font-weight: 900;}"
+        "h2 {font-weight: 900;}"
       ],
       "name": "Custom image with text",
       "settings": {
