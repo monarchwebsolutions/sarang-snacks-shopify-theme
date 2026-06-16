@@ -11,7 +11,7 @@
   "current": {
     "base_font_size": 16,
     "base_line_height": 1.4,
-    "type_heading_font": "outfit_n8",
+    "type_heading_font": "mono",
     "heading_uppercase": false,
     "heading_letterspacing": 0,
     "heading_line_height": 0.9,
@@ -21,7 +21,7 @@
     "desktop_feature_heading_scale": 10,
     "mobile_secondary_heading_scale": 2,
     "desktop_secondary_heading_scale": 2,
-    "type_main_font": "inter_n5",
+    "type_main_font": "abril_fatface_n4",
     "header_font": "font-main",
     "header_uppercase": true,
     "button_font": "heading",
