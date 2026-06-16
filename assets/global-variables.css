@@ -15,10 +15,10 @@
   --sarang-grey: #f2f2f2;
   --sarang-black: #1e1e1e;
   --font-heading: "Manrope", serif;
-  --font-subheading: serif;
-  --font-body: serif;
-  --font-btn: serif;
-  --font-accent: serif;
+  --font-subheading: "Manrope", serif;
+  --font-body:  "Manrope", serif;
+  --font-btn: "Manrope", serif;
+  --font-accent: "Manrope", serif;
   --comparison-radius: 8px;
   --heading-font-stack: var(--font-heading);
   --heading-font-weight: 400;
