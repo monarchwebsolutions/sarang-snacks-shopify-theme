@@ -404,7 +404,7 @@
             "shape": "ellipse",
             "sticker_font_size": "1.563rem",
             "horizontal_position": 20,
-            "vertical_position": 45,
+            "vertical_position": 40,
             "rotate": 20,
             "show_sticker_on_mobile": true,
             "show_sticker_on_desktop": false,
@@ -487,7 +487,7 @@
       "name": "t:sections.featured_product.name",
       "settings": {
         "title": "Pre-Order Now",
-        "heading_size_mobile": 46,
+        "heading_size_mobile": 28,
         "heading_size_desktop": 36,
         "product": "sarang-chips",
         "crop": "aspect-w-1 aspect-h-1",
