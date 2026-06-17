@@ -785,7 +785,7 @@
       ],
       "custom_css": [
         "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue);}",
-        ".media--css-only:before{display:none;}"
+        ".media--css-only:before,.media--css-only:after{display: none;}"
       ],
       "name": "Custom image with text",
       "settings": {
