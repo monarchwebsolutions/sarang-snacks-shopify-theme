@@ -338,7 +338,7 @@
         "highlight_JFYw9G"
       ],
       "custom_css": [
-        "h2 {font-weight: 500; color: var(--sarang-brand-dark-blue);}",
+        "h2 {font-weight: 500; color: var(--sarang-brand-dark-blue); text-transform: uppercase;}",
         ".card__surface h2 {font-weight: 600;}",
         "img {border-radius: 16px;}",
         ".inline-rte {font-weight: 500;}",
