@@ -481,7 +481,7 @@
         "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue);}",
         ".product-block h2 {font-size: 48px; color: var(--sarang-brand-dark-blue);}",
         ".media--css-only:before,.media--css-only:after {display: none;}",
-        ".sticker__text {font-weight:600;}"
+        ".sticker__text {font-weight: 500;}"
       ],
       "name": "t:sections.featured_product.name",
       "settings": {
