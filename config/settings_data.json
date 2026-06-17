@@ -199,8 +199,8 @@
         "settings": {
           "text": "#fbf9f6",
           "text_contrast": "#fbf9f6",
-          "background": "#ff312f",
-          "gradient": "",
+          "background": "#7DDCF8",
+          "gradient": "linear-gradient(0deg, rgba(251, 249, 246, 1), rgba(125, 220, 248, 1) 20%, rgba(125, 220, 248, 1) 80%, rgba(251, 249, 246, 1) 100%)",
           "accent_1": "#7ddcf8",
           "accent_1_contrast": "#fbf9f6",
           "accent_2": "#ff312f",
