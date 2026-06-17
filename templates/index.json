@@ -134,7 +134,7 @@
         "extra_text_QTPgNg"
       ],
       "custom_css": [
-        "h2{font-weight: 700;}"
+        "h2 {font-weight: 700;}"
       ],
       "name": "Custom image with text",
       "settings": {
@@ -158,7 +158,7 @@
         "rotate_image": 0,
         "image_position": "left",
         "image_size": "half",
-        "disable_media_style": false,
+        "disable_media_style": true,
         "title": "What Is Sarang?",
         "heading_size_mobile": 44,
         "heading_size_desktop": 64,
