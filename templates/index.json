@@ -972,7 +972,8 @@
         "shape_divider_HbbcFe"
       ],
       "custom_css": [
-        ".font-main {font-size: 18px;}"
+        ".font-main {font-size: 18px;}",
+        "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue);}"
       ],
       "name": "t:sections.faq.name",
       "settings": {
@@ -983,7 +984,7 @@
         "heading_size_mobile": 36,
         "heading_size_desktop": 48,
         "richtext": "Still not sure about Sarang? Find ansers to all the most common questions below.",
-        "color_scheme": "scheme2",
+        "color_scheme": "scheme1",
         "use_gradient_background": false
       }
     },
