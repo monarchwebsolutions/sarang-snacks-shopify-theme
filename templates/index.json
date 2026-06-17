@@ -135,7 +135,7 @@
       ],
       "custom_css": [
         "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue); text-transform: uppercase;}",
-        "img {border-radius: 16px;}"
+        "img {border-radius: 6px;}"
       ],
       "name": "Custom image with text",
       "settings": {
