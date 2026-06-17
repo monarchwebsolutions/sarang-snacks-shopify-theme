@@ -478,7 +478,8 @@
         ".add-to-cart-btn .push-btn__surface {background: var(--sarang-brand-red);}",
         ".sticker__text {font-family: var(--font-subheading);}",
         ".inline-heading-rte {}",
-        "h2 {font-weight: 600;}"
+        "h2 {font-weight: 600;}",
+        ".product-block h2 {font-size: 48px;}"
       ],
       "name": "t:sections.featured_product.name",
       "settings": {
