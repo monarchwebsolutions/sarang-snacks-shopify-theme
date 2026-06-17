@@ -341,12 +341,13 @@
         "h2 {font-weight: 500; color: var(--sarang-brand-dark-blue);}",
         ".card__surface h2 {font-weight: 600;}",
         "img {border-radius: 16px;}",
-        ".inline-rte{font-weight: 500;}"
+        ".inline-rte {font-weight: 500;}",
+        ".card:after {display: none;}"
       ],
       "name": "t:sections.image_with_highlights.name",
       "settings": {
         "title": "Not Your Average Chip",
-        "block_alignment_on_desktop": "justify-between",
+        "block_alignment_on_desktop": "justify-center",
         "display_on_card": true,
         "slideshow_on_mobile": true,
         "slideshow_focus": "center",
