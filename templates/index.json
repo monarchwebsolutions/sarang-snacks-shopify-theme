@@ -135,7 +135,7 @@
       ],
       "custom_css": [
         "h2 {font-weight: 700;}",
-        "img{border-radius:16px}"
+        "img {border-radius: 16px;}"
       ],
       "name": "Custom image with text",
       "settings": {
@@ -203,6 +203,7 @@
         },
         "shape_divider_ErBXWU": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "above",
             "target_section_color_scheme": "scheme2",
@@ -226,6 +227,7 @@
         },
         "background_shape_k9948A": {
           "type": "background_shape",
+          "disabled": true,
           "settings": {
             "shape": "abstract_star_1",
             "blob_type": 1,
@@ -334,6 +336,9 @@
         "highlight_R9cHE3",
         "highlight_JFYw9G"
       ],
+      "custom_css": [
+        "h2{font-weight: 700;}"
+      ],
       "name": "t:sections.image_with_highlights.name",
       "settings": {
         "title": "Not Your Average Chip",
@@ -341,9 +346,7 @@
         "display_on_card": true,
         "slideshow_on_mobile": true,
         "slideshow_focus": "center",
-        "image": "shopify://shop_images/AdobeStock_2000988454_Preview.png",
         "max_width": 500,
-        "background_image": "shopify://shop_images/sarang-bg-2-60.png",
         "background_image_fit": "auto",
         "background_image_repeat": "repeat",
         "background_image_opacity_mode": "single",

@@ -1271,7 +1271,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".push-btn__surface{font-weight: 700;}"
+      ".push-btn__surface {font-weight: 700;}"
     ]
   }
 }
