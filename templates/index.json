@@ -60,7 +60,7 @@
       ],
       "custom_css": [
         ".homepage-hero__extra-image {margin-top: 6px;}",
-        "h2 {font-weight: 900; font-family: Nicko;}",
+        "h2 {font-weight: 900; font-family: Nicko; text-transform: unset !important;}",
         "img {background: none; object-fit: contain;}",
         ".push-btn__surface {background: none; color: var(--sarang-brand-red); border: 2px solid var(--sarang-brand-red); font-weight: 700;}",
         ".media__svg {display: none;}"
