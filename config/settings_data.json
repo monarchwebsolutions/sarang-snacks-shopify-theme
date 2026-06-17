@@ -197,10 +197,10 @@
       },
       "scheme5": {
         "settings": {
-          "text": "#fbf9f6",
+          "text": "#353B44",
           "text_contrast": "#fbf9f6",
           "background": "#7DDCF8",
-          "gradient": "linear-gradient(0deg, rgba(251, 249, 246, 1), rgba(125, 220, 248, 1) 20%, rgba(125, 220, 248, 1) 80%, rgba(251, 249, 246, 1) 100%)",
+          "gradient": "linear-gradient(180deg, rgba(251, 249, 246, 1), rgba(218, 246, 253, 1) 50%, rgba(218, 246, 253, 1) 100%)",
           "accent_1": "#7ddcf8",
           "accent_1_contrast": "#fbf9f6",
           "accent_2": "#ff312f",
