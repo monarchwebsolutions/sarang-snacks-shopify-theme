@@ -19,6 +19,10 @@
 <section
   class="relative overflow-hidden bg-scheme-background  text-scheme-text {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %} overflow-hidden"
   data-color-scheme="{{ section.settings.color_scheme }}"
+  style="
+    --vertical-video-embeds-heading-size-mobile: {{ section.settings.heading_size_mobile }}px;
+    --vertical-video-embeds-heading-size-desktop: {{ section.settings.heading_size_desktop }}px;
+  "
 >
   {%- if section.settings.background_image != blank -%}
     <div
@@ -44,7 +48,7 @@
   {%- endif -%}
   <div class="section-content relative z-10 py-section-vertical-spacing">
     {% if section.settings.title != '' %}
-      <h2 class="inline-heading-rte font-heading heading-standard  heading-style break-words text-center {{ settings.heading_drop_shadow_style }}">
+      <h2 class="vertical-video-embeds__heading inline-heading-rte font-heading heading-standard heading-style break-words text-center {{ settings.heading_drop_shadow_style }}">
         {{ section.settings.title }}
       </h2>
     {% endif %}
@@ -73,6 +77,17 @@
   </div>
 
   <style>
+    #shopify-section-{{ section.id }} .vertical-video-embeds__heading {
+      font-size: var(--vertical-video-embeds-heading-size-mobile);
+      line-height: 1;
+    }
+
+    @media (min-width: 990px) {
+      #shopify-section-{{ section.id }} .vertical-video-embeds__heading {
+        font-size: var(--vertical-video-embeds-heading-size-desktop);
+      }
+    }
+
     #shopify-section-{{ section.id }} .section-background-image__image {
       opacity: {% if section.settings.background_image_opacity_mode == 'directional' %}1{% else %}{{ section.settings.background_image_opacity | divided_by: 100.0 }}{% endif %};
       position: relative;
@@ -128,6 +143,26 @@
       "id": "title",
       "label": "t:sections.featured_collection.settings.title.label",
       "default": "t:sections.vertical_video_embeds.name"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "min": 20,
+      "max": 120,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile heading size",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "min": 24,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop heading size",
+      "default": 48
     },
     {
       "id": "subheading",

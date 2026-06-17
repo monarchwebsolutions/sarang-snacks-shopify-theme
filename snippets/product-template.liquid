@@ -95,6 +95,17 @@
     --largest-media-aspect-ratio: {{ tallest_media_aspect_ratio }};
     --thumbnails-height:  calc(var(--feature-media-width) / var(--largest-media-aspect-ratio));
   }
+
+  #shopify-section-{{ section.id }} .featured-product__heading {
+    font-size: {{ section.settings.heading_size_mobile }}px;
+    line-height: 1;
+  }
+
+  @media (min-width: 990px) {
+    #shopify-section-{{ section.id }} .featured-product__heading {
+      font-size: {{ section.settings.heading_size_desktop }}px;
+    }
+  }
 </style>
 
 <script>
@@ -166,7 +177,7 @@
 >
   <div class="section-content relative z-10 mx-auto max-w-site py-section-vertical-spacing lg:px-section">
     {% if section.settings.title != '' %}
-      <h2 class="inline-heading-rte font-heading heading-standard  heading-style break-words text-center {{ settings.heading_drop_shadow_style }}">
+      <h2 class="featured-product__heading inline-heading-rte font-heading heading-standard heading-style break-words text-center {{ settings.heading_drop_shadow_style }}">
         {{ section.settings.title }}
       </h2>
     {% endif %}

@@ -25,6 +25,10 @@
 <section
   class="relative overflow-hidden bg-scheme-background text-scheme-text {% if section.settings.use_gradient_background %}bg-scheme-gradient{% endif %}"
   data-color-scheme="{{ section.settings.color_scheme }}"
+  style="
+    --featured-reviews-heading-size-mobile: {{ section.settings.heading_size_mobile }}px;
+    --featured-reviews-heading-size-desktop: {{ section.settings.heading_size_desktop }}px;
+  "
 >
   {%- if section.settings.background_image != blank -%}
     <div
@@ -52,7 +56,7 @@
     <div class="mx-auto max-w-site {{ section.settings.content_width_desktop }} {% if section.settings.display_on_card %}card{% endif %}">
       <div class="{% if section.settings.display_on_card %}card__surface p-5 lg:p-10{% endif %} relative z-shape-divider mx-auto text-center">
         {% if section.settings.title != '' %}
-          <h2 class="inline-heading-rte font-heading {{ section.settings.heading_size }} heading-style break-words {{ settings.heading_drop_shadow_style }}">
+          <h2 class="featured-reviews__section-heading inline-heading-rte font-heading {{ section.settings.heading_size }} heading-style break-words {{ settings.heading_drop_shadow_style }}">
             {{ section.settings.title }}
           </h2>
         {% endif %}
@@ -178,6 +182,11 @@
   </div>
 
   <style>
+    #shopify-section-{{ section.id }} .featured-reviews__section-heading {
+      font-size: var(--featured-reviews-heading-size-mobile);
+      line-height: 1;
+    }
+
     #shopify-section-{{ section.id }} .section-background-image__image {
       opacity: {% if section.settings.background_image_opacity_mode == 'directional' %}1{% else %}{{ section.settings.background_image_opacity | divided_by: 100.0 }}{% endif %};
       position: relative;
@@ -244,6 +253,10 @@
     {% endif %}
 
     @media (min-width: 990px) {
+      #shopify-section-{{ section.id }} .featured-reviews__section-heading {
+        font-size: var(--featured-reviews-heading-size-desktop);
+      }
+
       #shopify-section-{{ section.id }} .featured-reviews__photo {
         width: {{ section.settings.photo_size_desktop }}px;
         height: {{ section.settings.photo_size_desktop }}px;
@@ -306,6 +319,26 @@
       "id": "title",
       "label": "t:common.settings.title.label",
       "default": "Heading"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "min": 20,
+      "max": 120,
+      "step": 1,
+      "unit": "px",
+      "label": "Mobile heading size",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "min": 24,
+      "max": 180,
+      "step": 2,
+      "unit": "px",
+      "label": "Desktop heading size",
+      "default": 48
     },
     {
       "type": "select",
