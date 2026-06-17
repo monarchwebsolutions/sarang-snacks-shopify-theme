@@ -16,7 +16,7 @@
           "type": "extra_image",
           "settings": {
             "image": "shopify://shop_images/hero-badges-small-min_1024x_1.webp",
-            "width_mobile": 160,
+            "width_mobile": 240,
             "width_desktop": 280
           }
         },
