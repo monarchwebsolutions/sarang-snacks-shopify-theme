@@ -607,7 +607,7 @@
       ],
       "custom_css": [
         ".font-main p {font-size: 18px;}",
-        "h2 {font-weight: 600;}",
+        "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue);}",
         "h3 {text-transform: uppercase; font-weight: 600; font-size: 18px;}",
         ".card::after,.card::before {display: none;}",
         ".featured-reviews__card-surface {border-width: 2px;}"
@@ -615,7 +615,7 @@
       "name": "Featured reviews",
       "settings": {
         "title": "What Snackers Are Saying",
-        "heading_size_mobile": 36,
+        "heading_size_mobile": 28,
         "heading_size_desktop": 42,
         "heading_size": "heading-standard",
         "rich_text": "<p>First bites are in! Real feedback from people who’ve tried Sarang for the first time.</p>",
