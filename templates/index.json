@@ -88,7 +88,7 @@
         "image_position": "right",
         "image_size": "half",
         "disable_media_style": false,
-        "title": "<span style=\"color: #ff312f;\">Spicy</span>\n<span style=\"color: #7ddcf8;\">Crunchy</span>\nGone.",
+        "title": "<span style=\"color:var(--sarang-brand-red);\">Spicy</span>\n<span style=\"color:var(--sarang-brand-cream);\">Crunchy</span>\n<span style=\"color:var(--sarang-brand-dark-blue);\">Gone.</span>",
         "heading_size_mobile": 52,
         "heading_size_desktop": 80,
         "richtext": "A bold Korean-inspired corn chip made with clean ingredients, loud flavor, and zero apologies.",
@@ -99,7 +99,7 @@
         "content_vertical_alignment": "center",
         "button_link": "shopify://products/sarang-chips",
         "button_label": "Pre-Order for 50% Off",
-        "color_scheme": "scheme1",
+        "color_scheme": "scheme4",
         "text_color_override": "rgba(0,0,0,0)",
         "use_gradient_background": true
       }
