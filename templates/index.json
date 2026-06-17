@@ -347,7 +347,7 @@
       "name": "t:sections.image_with_highlights.name",
       "settings": {
         "title": "Not Your Average Chip",
-        "heading_size_mobile": 36,
+        "heading_size_mobile": 28,
         "heading_size_desktop": 42,
         "block_alignment_on_desktop": "justify-center",
         "display_on_card": true,
