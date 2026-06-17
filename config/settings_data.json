@@ -1272,7 +1272,7 @@
   "platform_customizations": {
     "custom_css": [
       ".push-btn__surface {font-weight: 700;}",
-      "h2 {/* text-transform: uppercase !important; */}"
+      "h2 {text-transform: uppercase !important;}"
     ]
   }
 }
