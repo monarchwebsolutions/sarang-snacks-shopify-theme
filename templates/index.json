@@ -607,7 +607,8 @@
       ],
       "custom_css": [
         ".font-main p {font-size: 18px;}",
-        "h2 {font-weight: 600;}"
+        "h2 {font-weight: 600;}",
+        "h3 {text-transform: uppercase; font-weight: 600; font-size: 18px;}"
       ],
       "name": "Featured reviews",
       "settings": {
@@ -645,10 +646,10 @@
         "date_size_desktop": 15,
         "star_size_mobile": 18,
         "star_size_desktop": 20,
-        "review_title_size_mobile": 22,
-        "review_title_size_desktop": 24,
+        "review_title_size_mobile": 16,
+        "review_title_size_desktop": 18,
         "review_text_size_mobile": 16,
-        "review_text_size_desktop": 18,
+        "review_text_size_desktop": 16,
         "color_scheme": "scheme1",
         "use_gradient_background": false
       }
