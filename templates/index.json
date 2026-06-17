@@ -725,7 +725,7 @@
       ],
       "custom_css": [
         ".splide__slide iframe {border-radius: 8px;}",
-        "h2 {font-size: 60px; max-width: 600px; margin: auto; font-weight: 600;}",
+        "h2 {font-size: 60px; max-width: 600px; margin: auto; font-weight: 600; color: var(--sarang-brand-dark-blue);}",
         "h3 {font-family: \"Outfit\"; font-size: 20px; font-weight: 400;}",
         "@media screen and (max-width: 679px) {h2 {font-size: 48px !important; } h3 {font-size: 18px; padding: 0 20px; }}",
         "@media screen and (max-width: 500px) {h2 {font-size: 32px !important; }}"
@@ -781,7 +781,9 @@
         "shape_divider_aQPL86",
         "extra_text_LWmqM9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue);}"
+      ],
       "name": "Custom image with text",
       "settings": {
         "display_on_card": false,
