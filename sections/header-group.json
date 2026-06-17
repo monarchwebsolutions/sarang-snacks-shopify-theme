@@ -46,8 +46,8 @@
       ],
       "name": "Announcement bar",
       "settings": {
-        "background_color": "#75C1F0",
-        "foreground_color": "#FFFFFF",
+        "background_color": "#FF312F",
+        "foreground_color": "#ffffff",
         "arrow_weight": 3,
         "arrow_size_mobile": 16,
         "arrow_size_desktop": 20,
@@ -81,7 +81,7 @@
       "custom_css": [
         "#headerBorderWrap {background: white;}",
         ".push-btn {border: 2px solid var(--sarang-brand-red); border-radius: 100px;}",
-        ".push-btn span {background: none; font-size: 16px; border: 2px solid var(--sarang-red); color:var(--sarang-brand-red); font-weight:700}",
+        ".push-btn span {background: none; font-size: 16px; border: 2px solid var(--sarang-red); color: var(--sarang-brand-red); font-weight: 700;}",
         ".logo-image {top: 2px; position: relative;}",
         "nav a {font-weight: bold;}"
       ],
