@@ -200,7 +200,7 @@
           "text": "#353b44",
           "text_contrast": "#fbf9f6",
           "background": "#7DDCF8",
-          "gradient": "linear-gradient(180deg, rgba(251, 249, 246, 1), rgba(218, 246, 253, 1) 50%, rgba(218, 246, 253, 1) 100%)",
+          "gradient": "linear-gradient(180deg, rgba(251, 249, 246, 1), rgba(161, 228, 253, 1) 100%)",
           "accent_1": "#7ddcf8",
           "accent_1_contrast": "#fbf9f6",
           "accent_2": "#ff312f",
