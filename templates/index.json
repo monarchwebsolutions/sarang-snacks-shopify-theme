@@ -721,7 +721,7 @@
       ],
       "custom_css": [
         ".splide__slide iframe {border-radius: 8px;}",
-        "h2 {font-size: 60px; max-width: 500px; margin: auto;}",
+        "h2 {font-size: 60px; max-width: 600px; margin: auto; font-weight: 600;}",
         "h3 {font-family: \"Outfit\"; font-size: 20px; font-weight: 400;}",
         "@media screen and (max-width: 679px) {h2 {font-size: 48px !important; } h3 {font-size: 18px; padding: 0 20px; }}",
         "@media screen and (max-width: 500px) {h2 {font-size: 32px !important; }}"
@@ -729,8 +729,8 @@
       "name": "t:sections.vertical_video_embeds.name",
       "settings": {
         "title": "Already Making Noise",
-        "heading_size_mobile": 36,
-        "heading_size_desktop": 48,
+        "heading_size_mobile": 26,
+        "heading_size_desktop": 42,
         "subheading": "Our co-founder Hochun asked people to try our chips and the reactions don’t lie.<strong> </strong>",
         "slideshow_focus": "center",
         "autoscroll_mode": "0",
@@ -744,8 +744,8 @@
         "background_image_parallax_speed": 3,
         "button_link": "shopify://products/sarang-chips",
         "button_label": "Shop now",
-        "color_scheme": "scheme5",
-        "use_gradient_background": false
+        "color_scheme": "scheme4",
+        "use_gradient_background": true
       }
     },
     "homepage_hero_LxGbKD": {

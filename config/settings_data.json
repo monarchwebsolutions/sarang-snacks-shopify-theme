@@ -150,7 +150,7 @@
           "accent_2": "#ff312f",
           "accent_2_contrast": "#1e1e1e",
           "card_text": "#353b44",
-          "card": "#7ddcf8"
+          "card": "#A1E4FD"
         }
       },
       "scheme2": {
@@ -186,7 +186,7 @@
           "text": "#353b44",
           "text_contrast": "#ffffff",
           "background": "#fbf9f6",
-          "gradient": "linear-gradient(136deg, rgba(92, 15, 143, 1) 3%, rgba(162, 20, 255, 1) 99%)",
+          "gradient": "linear-gradient(180deg, rgba(161, 228, 253, 1) 3%, rgba(251, 249, 246, 1) 99%)",
           "accent_1": "#7ddcf8",
           "accent_1_contrast": "#1e1e1e",
           "accent_2": "#ffffff",
