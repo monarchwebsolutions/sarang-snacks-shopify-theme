@@ -850,6 +850,7 @@
         "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue);}",
         ".trust-badge-container {display: flex; gap: 4px; max-width: 400px; margin: auto; padding: 24px 0 12px;}",
         ".badge-img {padding: 0 6px;}",
+        ".card::after,.card::before {display: none;}",
         "@media screen and (max-width: 679px) {h3 {font-size: 8px; } .trust-badge-container {gap: 2px; }}"
       ],
       "name": "Lander - Giving Back",
