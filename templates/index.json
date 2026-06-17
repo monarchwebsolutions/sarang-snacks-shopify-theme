@@ -879,8 +879,8 @@
         "heading_size": "heading-standard",
         "richtext": "<p>Last year, nearly <strong>47 million Americans</strong> — including <strong>14 million children</strong> — faced food insecurity. Over <strong>50 million</strong> people turned to food banks for help.<br/><br/>We’re proud to support food access in communities that need it the most, because snacks with soul should mean everyone eats.</p>",
         "text_alignment": "text-center",
-        "button_link": "#lander-final-subscribe",
-        "button_label": "",
+        "button_link": "shopify://products/sarang-chips",
+        "button_label": "Join The Mission",
         "color_scheme": "scheme-2e9ad064-4664-4798-a820-22744228d263",
         "use_gradient_background": false
       }
