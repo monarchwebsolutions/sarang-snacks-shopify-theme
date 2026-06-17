@@ -339,7 +339,9 @@
       ],
       "custom_css": [
         "h2 {font-weight: 500; color: var(--sarang-brand-dark-blue);}",
-        "img {border-radius: 16px;}"
+        ".card__surface h2 {font-weight: 600;}",
+        "img {border-radius: 16px;}",
+        ".inline-rte{font-weight: 500;}"
       ],
       "name": "t:sections.image_with_highlights.name",
       "settings": {
