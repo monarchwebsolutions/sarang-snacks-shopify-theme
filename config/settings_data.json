@@ -227,14 +227,14 @@
         "settings": {
           "text": "#353b44",
           "text_contrast": "#1e1e1e",
-          "background": "#ffcafa",
+          "background": "#FBF9F6",
           "gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
           "accent_1": "#ff312f",
           "accent_1_contrast": "#1e1e1e",
           "accent_2": "#e6c6fa",
           "accent_2_contrast": "#1e1e1e",
           "card_text": "#353b44",
-          "card": "#ff312f"
+          "card": "#A1E4FD"
         }
       },
       "scheme-3db00ab1-bac0-430a-a9bb-0991f3e9ee16": {
