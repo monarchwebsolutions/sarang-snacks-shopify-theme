@@ -477,7 +477,8 @@
       "custom_css": [
         ".add-to-cart-btn .push-btn__surface {background: var(--sarang-brand-red);}",
         ".sticker__text {font-family: var(--font-subheading);}",
-        ".inline-heading-rte {}"
+        ".inline-heading-rte {}",
+        "h2 {font-weight: 600;}"
       ],
       "name": "t:sections.featured_product.name",
       "settings": {
