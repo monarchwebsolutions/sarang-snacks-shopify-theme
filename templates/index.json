@@ -479,7 +479,8 @@
         ".sticker__text {font-family: var(--font-subheading);}",
         ".inline-heading-rte {}",
         "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue);}",
-        ".product-block h2 {font-size: 48px; color: var(--sarang-brand-dark-blue);}"
+        ".product-block h2 {font-size: 48px; color: var(--sarang-brand-dark-blue);}",
+        ".media--css-only:before,.media--css-only:after {display: none;}"
       ],
       "name": "t:sections.featured_product.name",
       "settings": {
