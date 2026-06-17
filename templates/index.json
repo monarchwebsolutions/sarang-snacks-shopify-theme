@@ -584,6 +584,7 @@
         },
         "shape_divider_TatniF": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "below",
             "target_section_color_scheme": "scheme2",
@@ -755,6 +756,7 @@
       "blocks": {
         "shape_divider_aQPL86": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "above",
             "target_section_color_scheme": "scheme2",
@@ -783,7 +785,6 @@
       "settings": {
         "display_on_card": false,
         "anchor_id": "about",
-        "background_image": "shopify://shop_images/sarang-bg-2-60.png",
         "background_image_fit": "cover",
         "background_image_repeat": "no-repeat",
         "background_image_opacity_mode": "directional",
@@ -814,7 +815,7 @@
         "content_vertical_alignment": "center",
         "button_link": "",
         "button_label": "Shop Now",
-        "color_scheme": "scheme6",
+        "color_scheme": "scheme1",
         "text_color_override": "rgba(0,0,0,0)",
         "use_gradient_background": false
       }
