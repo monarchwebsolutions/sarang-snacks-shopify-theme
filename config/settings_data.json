@@ -214,7 +214,7 @@
           "text": "#1e1e1e",
           "text_contrast": "#fbf9f6",
           "background": "#FF312F",
-          "gradient": "linear-gradient(135deg, rgba(246, 230, 255, 1), rgba(208, 135, 250, 1) 100%)",
+          "gradient": "linear-gradient(0deg, rgba(251, 249, 246, 1), rgba(255, 49, 47, 1) 100%)",
           "accent_1": "#7DDCF8",
           "accent_1_contrast": "#1e1e1e",
           "accent_2": "#fbf9f6",
