@@ -134,7 +134,7 @@
         "extra_text_QTPgNg"
       ],
       "custom_css": [
-        "h2 {font-weight: 700;}",
+        "h2 {font-weight: 700; color: var(--sarang-brand-dark-blue);}",
         "img {border-radius: 16px;}"
       ],
       "name": "Custom image with text",
@@ -338,7 +338,7 @@
         "highlight_JFYw9G"
       ],
       "custom_css": [
-        "h2 {font-weight: 700;}"
+        "h2 {font-weight: 700; color:var(--sarang-brand-dark-blue)}"
       ],
       "name": "t:sections.image_with_highlights.name",
       "settings": {
