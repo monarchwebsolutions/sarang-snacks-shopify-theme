@@ -1006,7 +1006,8 @@
         "shape_divider_dGfWTA"
       ],
       "custom_css": [
-        "p {font-size: 20px;}"
+        "p {font-size: 20px;}",
+        "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue);}"
       ],
       "name": "t:sections.rich_text.name",
       "settings": {
@@ -1027,7 +1028,7 @@
         "background_image_parallax_speed": 3,
         "button_link": "shopify://products/sarang-chips",
         "button_label": "Try Sarang",
-        "color_scheme": "scheme-2e9ad064-4664-4798-a820-22744228d263",
+        "color_scheme": "scheme6",
         "use_gradient_background": false
       }
     }
