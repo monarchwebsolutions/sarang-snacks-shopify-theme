@@ -43,9 +43,7 @@
         "menus",
         "newsletter"
       ],
-      "custom_css": [
-        "h2 {font-family: \"Outfit\";}"
-      ],
+      "custom_css": [],
       "settings": {
         "show_payment_icons": true,
         "show_country_selector": true,
