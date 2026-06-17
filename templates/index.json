@@ -347,6 +347,8 @@
       "name": "t:sections.image_with_highlights.name",
       "settings": {
         "title": "Not Your Average Chip",
+        "heading_size_mobile": 36,
+        "heading_size_desktop": 48,
         "block_alignment_on_desktop": "justify-center",
         "display_on_card": true,
         "slideshow_on_mobile": true,
@@ -480,6 +482,8 @@
       "name": "t:sections.featured_product.name",
       "settings": {
         "title": "Pre-Order Now",
+        "heading_size_mobile": 46,
+        "heading_size_desktop": 36,
         "product": "sarang-chips",
         "crop": "aspect-w-1 aspect-h-1",
         "image_shape": "default",
@@ -601,6 +605,8 @@
       "name": "Featured reviews",
       "settings": {
         "title": "What Snackers Are Saying",
+        "heading_size_mobile": 36,
+        "heading_size_desktop": 48,
         "heading_size": "heading-standard",
         "rich_text": "<p>First bites are in! Real feedback from people who’ve tried Sarang for the first time.</p>",
         "review_layout": "carousel",
@@ -625,7 +631,7 @@
         "review_card_text_color": "#353b44",
         "enable_review_card_background_override": false,
         "review_card_background_color": "#fbf9f6",
-        "slider_button_background_color": "#FF312F",
+        "slider_button_background_color": "#ff312f",
         "photo_size_mobile": 72,
         "photo_size_desktop": 88,
         "date_size_mobile": 14,
@@ -718,6 +724,8 @@
       "name": "t:sections.vertical_video_embeds.name",
       "settings": {
         "title": "Already Making Noise",
+        "heading_size_mobile": 36,
+        "heading_size_desktop": 48,
         "subheading": "Our co-founder Hochun asked people to try our chips and the reactions don’t lie.<strong> </strong>",
         "slideshow_focus": "center",
         "autoscroll_mode": "0",
@@ -961,6 +969,8 @@
         "heading_text_style": "heading",
         "two_columns_desktop": true,
         "title": "FAQ",
+        "heading_size_mobile": 36,
+        "heading_size_desktop": 48,
         "richtext": "Still not sure about Sarang? Find ansers to all the most common questions below.",
         "color_scheme": "scheme2",
         "use_gradient_background": false
@@ -990,6 +1000,8 @@
       "name": "t:sections.rich_text.name",
       "settings": {
         "title": "Ready to Crunch?",
+        "heading_size_mobile": 36,
+        "heading_size_desktop": 48,
         "heading_size": "heading-standard",
         "rich_text": "<p><strong>Pre-Order now and save 50%</strong></p>",
         "display_on_card": false,
