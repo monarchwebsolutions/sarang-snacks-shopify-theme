@@ -134,7 +134,7 @@
         "extra_text_QTPgNg"
       ],
       "custom_css": [
-        "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue);}",
+        "h2 {font-weight: 500; color: var(--sarang-brand-dark-blue);}",
         "img {border-radius: 16px;}"
       ],
       "name": "Custom image with text",
@@ -162,7 +162,7 @@
         "disable_media_style": true,
         "title": "What Is Sarang?",
         "heading_size_mobile": 44,
-        "heading_size_desktop": 64,
+        "heading_size_desktop": 56,
         "richtext": "Real Korean ingredients. No artificial flavors. Just seriously good chips.",
         "subheading_size_mobile": 16,
         "subheading_size_desktop": 22,
@@ -338,7 +338,7 @@
         "highlight_JFYw9G"
       ],
       "custom_css": [
-        "h2 {font-weight: 700; color: var(--sarang-brand-dark-blue);}"
+        "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue);}"
       ],
       "name": "t:sections.image_with_highlights.name",
       "settings": {
