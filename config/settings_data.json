@@ -141,7 +141,7 @@
     "color_schemes": {
       "scheme1": {
         "settings": {
-          "text": "#7DDCF8",
+          "text": "#353B44",
           "text_contrast": "#ffffff",
           "background": "#fbf9f6",
           "gradient": "linear-gradient(360deg, rgba(255, 255, 255, 1), rgba(218, 246, 253, 1) 50%)",
@@ -155,7 +155,7 @@
       },
       "scheme2": {
         "settings": {
-          "text": "#353b44",
+          "text": "#7DDCF8",
           "text_contrast": "#fbf9f6",
           "background": "#7ddcf8",
           "gradient": "",
