@@ -496,6 +496,7 @@
       "blocks": {
         "shape_divider_GkQntr": {
           "type": "shape_divider",
+          "disabled": true,
           "settings": {
             "target_section": "above",
             "target_section_color_scheme": "scheme3",
