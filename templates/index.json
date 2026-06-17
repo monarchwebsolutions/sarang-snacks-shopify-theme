@@ -338,7 +338,8 @@
         "highlight_JFYw9G"
       ],
       "custom_css": [
-        "h2 {font-weight: 600; color: var(--sarang-brand-dark-blue);}"
+        "h2 {font-weight: 500; color: var(--sarang-brand-dark-blue);}",
+        "img {border-radius: 16px;}"
       ],
       "name": "t:sections.image_with_highlights.name",
       "settings": {
@@ -348,7 +349,7 @@
         "slideshow_on_mobile": true,
         "slideshow_focus": "center",
         "image": "shopify://shop_images/sarang-product-highlight-img.png",
-        "max_width": 490,
+        "max_width": 450,
         "background_image_fit": "cover",
         "background_image_repeat": "repeat",
         "background_image_opacity_mode": "single",
