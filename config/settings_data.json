@@ -169,12 +169,12 @@
       },
       "scheme3": {
         "settings": {
-          "text": "#1e1e1e",
+          "text": "#353B44",
           "text_contrast": "#ffffff",
-          "background": "#ffcafa",
+          "background": "#FBF9F6",
           "gradient": "",
           "accent_1": "#7ddcf8",
-          "accent_1_contrast": "#1e1e1e",
+          "accent_1_contrast": "#FBF9F6",
           "accent_2": "#a137d8",
           "accent_2_contrast": "#1e1e1e",
           "card_text": "#1e1e1e",
@@ -1270,6 +1270,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".push-btn__surface{font-weight: 700;}"
+    ]
   }
 }
