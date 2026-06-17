@@ -141,7 +141,7 @@
     "color_schemes": {
       "scheme1": {
         "settings": {
-          "text": "#353B44",
+          "text": "#353b44",
           "text_contrast": "#ffffff",
           "background": "#fbf9f6",
           "gradient": "linear-gradient(360deg, rgba(251, 249, 246, 1), rgba(218, 246, 253, 1) 50%)",
@@ -155,9 +155,9 @@
       },
       "scheme2": {
         "settings": {
-          "text": "#3BC5EE",
+          "text": "#3bc5ee",
           "text_contrast": "#fbf9f6",
-          "background": "#FBF9F6",
+          "background": "#fbf9f6",
           "gradient": "",
           "accent_1": "#ffcafa",
           "accent_1_contrast": "#353b44",
@@ -169,12 +169,12 @@
       },
       "scheme3": {
         "settings": {
-          "text": "#353B44",
+          "text": "#353b44",
           "text_contrast": "#ffffff",
-          "background": "#FBF9F6",
+          "background": "#fbf9f6",
           "gradient": "",
           "accent_1": "#7ddcf8",
-          "accent_1_contrast": "#FBF9F6",
+          "accent_1_contrast": "#fbf9f6",
           "accent_2": "#a137d8",
           "accent_2_contrast": "#1e1e1e",
           "card_text": "#1e1e1e",
@@ -197,9 +197,9 @@
       },
       "scheme5": {
         "settings": {
-          "text": "#353B44",
+          "text": "#353b44",
           "text_contrast": "#fbf9f6",
-          "background": "#7DDCF8",
+          "background": "#7ddcf8",
           "gradient": "linear-gradient(180deg, rgba(251, 249, 246, 1), rgba(218, 246, 253, 1) 50%, rgba(218, 246, 253, 1) 100%)",
           "accent_1": "#7ddcf8",
           "accent_1_contrast": "#fbf9f6",
@@ -1271,7 +1271,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".push-btn__surface {font-weight: 700;}"
+      ".push-btn__surface {font-weight: 700;}",
+      "h2 {text-transform: uppercase !important;}"
     ]
   }
 }
