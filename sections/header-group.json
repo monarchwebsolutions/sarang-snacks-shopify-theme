@@ -46,7 +46,7 @@
       ],
       "name": "Announcement bar",
       "settings": {
-        "background_color": "#FF312F",
+        "background_color": "#ff312f",
         "foreground_color": "#ffffff",
         "arrow_weight": 3,
         "arrow_size_mobile": 16,
@@ -83,7 +83,7 @@
         ".push-btn {border: 2px solid var(--sarang-brand-red); border-radius: 100px;}",
         ".push-btn span {background: none; font-size: 16px; border: 2px solid var(--sarang-red); color: var(--sarang-brand-red); font-weight: 700;}",
         ".logo-image {top: 2px; position: relative;}",
-        "nav a {font-weight: bold;}"
+        "nav a {font-weight: 600; font-family: \"Playpen Sans\";}"
       ],
       "settings": {
         "logo": "shopify://shop_images/Sarang_Red_430x_73995d26-3e0f-4950-9817-8af645b36673.png",
