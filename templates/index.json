@@ -609,7 +609,8 @@
         ".font-main p {font-size: 18px;}",
         "h2 {font-weight: 600;}",
         "h3 {text-transform: uppercase; font-weight: 600; font-size: 18px;}",
-        ".card::after,.card::before {display: none;}"
+        ".card::after,.card::before {display: none;}",
+        ".featured-reviews__card-surface{border-width: 2px;}"
       ],
       "name": "Featured reviews",
       "settings": {
