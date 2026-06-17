@@ -14,11 +14,10 @@
       "blocks": {
         "extra_image_MfXE9W": {
           "type": "extra_image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/hero-badges-small-min_1024x_1.webp",
             "width_mobile": 160,
-            "width_desktop": 340
+            "width_desktop": 280
           }
         },
         "extra_text_K9QA4i": {
