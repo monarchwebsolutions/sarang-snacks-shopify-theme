@@ -79,7 +79,7 @@
         "feature-desktop-link"
       ],
       "custom_css": [
-        "#headerBorderWrap {background: white;}",
+        "#headerBorderWrap {background: var(--sarang-brand-cream);}",
         ".push-btn {border: 2px solid var(--sarang-brand-red); border-radius: 100px;}",
         ".push-btn span {background: none; font-size: 16px; border: 2px solid var(--sarang-red); color: var(--sarang-brand-red); font-weight: 700;}",
         ".logo-image {top: 2px; position: relative;}",
