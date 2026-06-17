@@ -342,7 +342,7 @@
         ".card__surface h2 {font-weight: 600;}",
         "img {border-radius: 16px;}",
         ".inline-rte {font-weight: 500;}",
-        ".card:after,.card:before{display: none;}"
+        ".card:after,.card:before {display: none;}"
       ],
       "name": "t:sections.image_with_highlights.name",
       "settings": {
@@ -474,7 +474,8 @@
       ],
       "custom_css": [
         ".add-to-cart-btn .push-btn__surface {background: var(--sarang-brand-red);}",
-        ".sticker__text {font-family: var(--font-subheading);}"
+        ".sticker__text {font-family: var(--font-subheading);}",
+        ".inline-heading-rte {}"
       ],
       "name": "t:sections.featured_product.name",
       "settings": {
