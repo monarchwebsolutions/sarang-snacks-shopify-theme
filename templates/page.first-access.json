@@ -1,0 +1,57 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "fa_hero": {
+      "type": "feature-text",
+      "settings": {
+        "rich_text": "Launching October 1st.",
+        "mobile_text_scale": 4,
+        "desktop_text_scale": 9,
+        "display_on_card": false,
+        "apply_effects": false,
+        "content_width_desktop": "lg:w-full",
+        "button_link": "",
+        "button_label": "",
+        "color_scheme": "scheme6",
+        "use_gradient_background": false
+      }
+    },
+    "fa_sub": {
+      "type": "feature-text",
+      "settings": {
+        "rich_text": "Seoul Heat — Korean-inspired tortilla chips, fried in avocado oil. Pre-sale opens October 1st and ships November 1st. The list gets first access.",
+        "mobile_text_scale": 2,
+        "desktop_text_scale": 4,
+        "display_on_card": false,
+        "apply_effects": false,
+        "content_width_desktop": "lg:w-2/3",
+        "button_link": "",
+        "button_label": "",
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
+    },
+    "fa_capture": {
+      "type": "custom-liquid",
+      "settings": {
+        "title": "",
+        "custom_liquid": "<div id=\"capture\" style=\"max-width:640px;margin:0 auto;padding:64px 20px;text-align:center;\">\n  <h2 class=\"font-heading\" style=\"font-size:clamp(34px,3.4vw,48px);line-height:.95;margin-bottom:12px;color:var(--sarang-brand-charcoal);\">Get First Access</h2>\n  <p class=\"font-subheading\" style=\"font-size:18px;max-width:38ch;margin:0 auto 24px;color:var(--sarang-brand-charcoal);\">Pre-sale opens October 1st. The first 1,000 orders get 20% off — the list gets first access. Ships November 1st.</p>\n  <div class=\"klaviyo-form-VBCbcf\"></div>\n</div>",
+        "full_width": false,
+        "color_scheme": "scheme3"
+      }
+    }
+  },
+  "order": [
+    "fa_hero",
+    "fa_sub",
+    "fa_capture"
+  ]
+}
