@@ -24,21 +24,6 @@
         "use_gradient_background": false
       }
     },
-    "fa_sub": {
-      "type": "feature-text",
-      "settings": {
-        "rich_text": "Seoul Heat — Korean-inspired tortilla chips, fried in avocado oil. Pre-sale opens October 1st and ships November 1st. The list gets first access.",
-        "mobile_text_scale": 2,
-        "desktop_text_scale": 4,
-        "display_on_card": false,
-        "apply_effects": false,
-        "content_width_desktop": "lg:w-2/3",
-        "button_link": "",
-        "button_label": "",
-        "color_scheme": "scheme1",
-        "use_gradient_background": false
-      }
-    },
     "fa_capture": {
       "type": "custom-liquid",
       "settings": {
@@ -51,7 +36,6 @@
   },
   "order": [
     "fa_hero",
-    "fa_sub",
     "fa_capture"
   ]
 }
