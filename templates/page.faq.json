@@ -1,0 +1,98 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "faq",
+      "blocks": {
+        "q_1": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "How spicy is Seoul Heat?",
+            "answer": "<p>Real gochugaru warmth that builds without wrecking you. Heat you feel, flavor you remember. If you can handle a good kimchi jjigae, you’re fine.</p>"
+          }
+        },
+        "q_2": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "What about allergens?",
+            "answer": "<p><strong>Contains soy and sesame.</strong> Gluten-free, Non-GMO, and certified Kosher.</p>"
+          }
+        },
+        "q_3": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Really fried in avocado oil?",
+            "answer": "<p>Yes. We fry in avocado oil. It costs more and it’s worth it.</p>"
+          }
+        },
+        "q_4": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "Is Sarang kosher?",
+            "answer": "<p>Yes. Certified Kosher.</p>"
+          }
+        },
+        "q_5": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "When do orders ship, and where?",
+            "answer": "<p>US only at launch. Pre-sale orders ship starting November 1st. You’ll get tracking the moment your order moves.</p>"
+          }
+        },
+        "q_6": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "What’s your return policy?",
+            "answer": "<p>Food is final sale. If your order shows up damaged or wrong, we’ll replace it or refund you. Just send a photo.</p>"
+          }
+        },
+        "q_7": {
+          "type": "question",
+          "settings": {
+            "icon": "none",
+            "title": "When can I get it?",
+            "answer": "<p>Pre-sale opens <strong>October 1st</strong>. Orders are charged at purchase and ship when launch inventory lands <strong>November 1st</strong>. Full launch November 1st. <a href=\"/#capture\">Join the list</a> for first access.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q_1",
+        "q_2",
+        "q_3",
+        "q_4",
+        "q_5",
+        "q_6",
+        "q_7"
+      ],
+      "custom_css": [
+        ".font-main {font-size: 18px;}"
+      ],
+      "settings": {
+        "display_on_card": true,
+        "heading_text_style": "heading",
+        "two_columns_desktop": false,
+        "title": "FAQ",
+        "richtext": "Everything people actually ask us.",
+        "color_scheme": "scheme1",
+        "use_gradient_background": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
