@@ -132,7 +132,7 @@
 
               {% if enable_slider %}
                 <div class="splide__arrows mt-5 flex items-center justify-between px-section">
-                  {%- render 'splide-navigation', autoplay: section.settings.review_layout == 'carousel' and section.settings.carousel_autoplay -%}
+                  {%- render 'splide-navigation', autoplay: section.settings.review_layout -%}
                 </div>
 
                 <script class="slideshow-options" type="application/json">
@@ -2268,3 +2268,14 @@
   }
 }
 {% endschema %}
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render 'splide-navigation', autoplay: section.settings.review_layout
+    == 'carousel' and section.settings.carousel_autoplay -%}"
+  to: "{%- render 'splide-navigation', autoplay: section.settings.review_layout -%}"
+  position: 6777..6853
+{% endcomment %}
